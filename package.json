@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
-    "@nuxtjs/composition-api": "^0.13.1",
+    "@nuxtjs/composition-api": "^0.13.2",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6"
   },
