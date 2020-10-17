@@ -1,9 +1,17 @@
 <template>
   <div>
+    <AppHeader />
     <Nuxt />
   </div>
 </template>
-
+<script>
+import AppHeader from '@/components/AppHeader.vue'
+export default {
+  components: {
+    AppHeader,
+  },
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
