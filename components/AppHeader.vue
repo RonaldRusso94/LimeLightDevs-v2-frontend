@@ -15,7 +15,8 @@
             href="#pablo"
           >
             <svg
-              width="222"
+              class="logo"
+              width="140"
               height="30"
               viewBox="0 0 222 48"
               fill="none"
@@ -27,8 +28,8 @@
               />
             </svg>
             <span
-              :style="{ marginLeft: '-30px', color: '#4DFF64' }"
-              class="text-sm inline-block font-thin"
+              :style="{ color: '#4DFF64' }"
+              class="dev text-sm inline-block font-thin ml-2"
               >dev</span
             >
           </a>
@@ -160,7 +161,7 @@ export default {
   position: fixed;
   top: 0;
   right: 0;
-  background: rgb(77, 58, 58, 0.8) !important;
+  background: rgba(40, 44, 53, 0.9) !important;
   height: 100vh;
   width: 50%;
   align-items: center;
@@ -172,6 +173,12 @@ export default {
     background: none !important;
     position: static;
     @apply h-full flex flex-grow;
+  }
+  .logo {
+    width: 222px;
+  }
+  .dev {
+    margin-left: -30px;
   }
 }
 </style>
