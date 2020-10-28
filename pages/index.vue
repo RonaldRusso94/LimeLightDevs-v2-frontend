@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import packages from '@/components/packages.vue'
+import Packages from '@/components/Packages.vue'
 export default {
   components: {
-    packages,
+    Packages,
   },
   setup() {
     const name = 'Limelight Devs'

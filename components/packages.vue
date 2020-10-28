@@ -1,17 +1,17 @@
 <template>
-  <div class="w-9/10">
+  <div class="w-11/12">
     <h3
-      class="text-2xl lg:text-4xl font-semibold mb-3 lg:mb-0 text-left tracking-wide"
+      class="text-4xl lg:text-6xl font-semibold mb-3 lg:mb-0 text-left tracking-wide"
     >
       Our Packages
     </h3>
     <ul
-      class="hidden lg:flex text-sm list-none flex-no-wrap justify-end space-x-12 mr-2 mb-3"
+      class="flex space-x-4 lg:flex text-sm lg:text-lg list-none flex-no-wrap justify-end lg:space-x-12 mr-2 mb-3"
     >
-      <li>extra</li>
-      <li>Figma</li>
-      <li class="text-app-green-1 underline">e-commerce</li>
-      <li>Basic</li>
+      <li><a href="#"> extra</a></li>
+      <li><a href="#"> figma</a></li>
+      <li class="text-app-green-1 underline"><a href="#">e-commerce</a></li>
+      <li><a href="#">basic</a></li>
     </ul>
 
     <div class="w-full lg:rounded-2xl lg:shadow-2xl overflow-x-auto">
@@ -21,16 +21,18 @@
           :key="id"
           class="package px-6 py-4 flex lg:min-w-0 flex-col items-center rounded-3xl lg:rounded-none mx-2 lg:m-0 border-r-2 bg-app-gray-2 min-w-3/4 text-sm border-app-gray-1 shadow-2xl lg:shadow-none h-auto"
         >
-          <img class="my-4" :src="'/packages/' + item.img" alt="pack" />
+          <img class="my-2 lg:my-4" :src="'/packages/' + item.img" alt="pack" />
           <!-- <img src="/packages/Edit4.png" alt=""> -->
-          <h4 class="text-xl mb-2 font-medium">{{ item.package }}</h4>
-          <p class="mb-4">{{ item.desc }}</p>
+          <h4 class="text-xl leading-none mb-2 font-medium">
+            {{ item.package }}
+          </h4>
+          <p class="mb-2 lg:mb-4 leading-4">{{ item.desc }}</p>
           <p><span class="font-bold">3</span> App pages</p>
           <p><span class="font-bold">5</span> Stock images</p>
           <p><span class="font-bold">2</span> Design revision</p>
           <p><span class="font-bold">1</span> Development revision</p>
           <p>Unlimited Contact</p>
-          <p class="mt-4">
+          <p class="mt-2 lg:mt-4">
             <span class="mr-2 text-sm line-through"
               >${{ item.slashedPrice }}</span
             >
@@ -49,11 +51,11 @@
 </template>
 
 <script>
-import buttonComp from '@/components/misc/buttonComp.vue'
+import ButtonComp from '@/components/misc/ButtonComp.vue'
 export default {
   name: 'Packages',
   components: {
-    buttonComp,
+    ButtonComp,
   },
   data() {
     return {
