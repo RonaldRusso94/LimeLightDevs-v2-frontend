@@ -42,7 +42,7 @@
           </p>
           <ButtonComp />
           <p class="mt-2">
-            Edit request? <span class="font-medium">ContactUs</span>
+            Edit request? <span class="font-medium">contactus</span>
           </p>
         </div>
       </div>
