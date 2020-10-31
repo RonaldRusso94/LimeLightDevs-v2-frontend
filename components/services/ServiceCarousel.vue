@@ -6,13 +6,13 @@
       @beforeChange="indexChange"
     >
       <div
-        v-for="serviceSlide in serviceSlides"
-        :key="serviceSlide.title"
-        class="relative h-96 focus:outline-none"
-      v-bind="settings"
-      ref="carousel"
-      @beforeChange="indexChange"
-    >
+          v-for="serviceSlide in serviceSlides"
+          :key="serviceSlide.title"
+          class="relative h-96 focus:outline-none"
+        v-bind="settings"
+        ref="carousel"
+        @beforeChange="indexChange"
+      >
       <div
         class="relative h-96 focus:outline-none"
         v-for="serviceSlide in serviceSlides"
@@ -29,6 +29,7 @@
             >{{ serviceSlide.name }}</span
           >
         </div>
+      </div>
       </div>
     </VueSlickCarousel>
 
