@@ -17,10 +17,10 @@
       </a>
     </div>
 
-    <img class="hidden md:block absolute -top-16 right-0 w-1/3 h-auto z-0" src="/packages/vector 4.svg" alt="omo">
-    <img class=" hidden md:block absolute -top-16 left-0 w-3/4 h-auto z-0" src="/packages/vector 5.svg" alt="omo">
-    <img class=" hidden md:block absolute top-16 right-0 w-auto h-auto z-0" src="/packages/vector 7.svg" alt="omo">
-    <img class="md:hidden absolute top-0 right-0 w-auto h-auto z-0" src="/packages/vector 11.svg" alt="omo">
+    <img class="hidden md:block absolute -top-16 right-0 w-1/3 h-auto z-0" src="/packages/vector4.svg" alt="omo">
+    <img class=" hidden md:block absolute -top-16 left-0 w-3/4 h-auto z-0" src="/packages/vector5.svg" alt="omo">
+    <img class=" hidden md:block absolute top-16 right-0 w-auto h-auto z-0" src="/packages/vector7.svg" alt="omo">
+    <img class="md:hidden absolute top-0 right-0 w-auto h-auto z-0" src="/packages/vector11.svg" alt="omo">
     </div>
 </template>
 
