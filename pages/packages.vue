@@ -37,6 +37,7 @@
       src="/packages/vector11.svg"
       alt="omo"
     />
+    <Packages />
   </div>
 </template>
 
