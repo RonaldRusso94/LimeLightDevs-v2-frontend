@@ -29,9 +29,6 @@
 
         :image-url="serviceItem.imageUrl"
         :image-left-side="serviceItem.imageLeftSide"
-        :imageUrl="serviceItem.imageUrl"
-        :imageLeftSide="serviceItem.imageLeftSide"
-
       />
     </div>
   </div>
@@ -70,5 +67,5 @@ export default {
 
 </script>
 
-</script>
+
 
