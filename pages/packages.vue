@@ -18,24 +18,24 @@
     </div>
 
     <img
-      class="hidden md:block absolute -top-16 right-0 w-1/3 h-auto z-0"
+      draggable="false"
       src="/packages/vector4.png"
-      alt="omo"
+      class="hidden md:block absolute -top-16 right-0 w-1/3 h-auto select-none"
     />
     <img
-      class="hidden md:block absolute -top-16 left-0 w-1/2 h-auto z-0"
+      draggable="false"
       src="/packages/vector5.png"
-      alt="omo"
+      class="hidden md:block absolute -top-16 left-0 w-1/2 h-auto select-none"
     />
     <img
-      class="hidden md:block absolute top-16 right-0 w-auto h-auto z-0"
+      draggable="false"
       src="/packages/vector7.png"
-      alt="omo"
+      class="hidden md:block absolute top-16 right-0 w-auto h-auto select-none"
     />
     <img
-      class="md:hidden absolute top-0 right-0 w-auto h-auto z-0"
+      draggable="false"
       src="/packages/vector11.png"
-      alt="omo"
+      class="md:hidden absolute top-0 right-0 w-auto h-auto select-none"
     />
     <Packages />
   </div>
