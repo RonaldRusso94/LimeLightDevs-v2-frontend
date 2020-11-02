@@ -15,6 +15,10 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      inset: {
+            '-16': '-4rem',
+      },
+        
       spacing: {
         96: '24rem',
         128: '32rem',

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full z-20 relative">
+  <div class="w-full z-40">
     <div
       class="text-white w-full lg:w-5/12 flex flex-col items-center lg:items-start lg:ml-56 mt-12 mb-48 text-center lg:text-left"
     >
@@ -11,7 +11,7 @@
       </p>
       <a
         href="#services"
-        class="px-8 md:px-16 py-3 tracking-wider font-bold text-2xl text-app-green-1 border-4 border-app-green-1 rounded-full cursor-pointer focus:outline-none"
+        class="px-8 md:px-16 py-3 tracking-wider font-bold text-2xl hover:bg-app-green-1 hover:text-white text-app-green-1 border-4 border-app-green-1 rounded-full cursor-pointer focus:outline-none"
       >
         Check our Packages
       </a>
