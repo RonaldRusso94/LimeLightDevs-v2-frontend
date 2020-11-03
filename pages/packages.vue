@@ -41,22 +41,3 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      screen: null,
-    }
-  },
-  computed: {
-    checkScreenSize() {
-      const myScreen = window.screen.width
-      this.screen = myScreen
-      console.log(myscreen)
-      return myScreen
-    },
-  },
-}
-</script>
-
-<style scoped></style>
