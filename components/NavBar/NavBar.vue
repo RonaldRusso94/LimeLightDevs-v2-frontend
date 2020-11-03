@@ -18,7 +18,7 @@ export default {
       },
       packages: {
         name: 'Packages',
-        href: '#packages',
+        href: '/packages',
       },
       works: {
         name: 'Works',
