@@ -19,22 +19,22 @@
 
     <img
       draggable="false"
-      src="/packagesfolder/vector4.png"
+      src="/contact/vector4.png"
       class="hidden md:block absolute -top-16 right-0 w-1/3 h-auto select-none"
     />
     <img
       draggable="false"
-      src="/packagesfolder/vector5.png"
+      src="/contact/vector5.png"
       class="hidden md:block absolute -top-16 left-0 w-1/2 h-auto select-none"
     />
     <img
       draggable="false"
-      src="/packagesfolder/vector7.png"
+      src="/contact/vector7.png"
       class="hidden md:block absolute top-16 right-0 w-auto h-auto select-none"
     />
     <img
       draggable="false"
-      src="/packagesfolder/vector11.png"
+      src="/contact/vector11.png"
       class="md:hidden absolute top-0 right-0 w-auto h-auto select-none"
     />
     <PackagesComponent />
