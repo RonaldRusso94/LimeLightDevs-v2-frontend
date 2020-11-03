@@ -11,7 +11,7 @@
       </p>
       <a
         href="#services"
-        class="px-8 md:px-16 py-3 tracking-wider font-bold text-2xl hover:bg-app-green-1 hover:text-white text-app-green-1 border-4 border-app-green-1 rounded-full cursor-pointer focus:outline-none"
+        class="px-5 md:px-8 py-2 tracking-wider font-bold text-xl text-app-green-1 border-2 border-app-green-1 rounded-full cursor-pointer focus:outline-none hover:text-white hover:bg-app-green-1"
       >
         Check our Packages
       </a>
