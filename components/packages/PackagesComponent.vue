@@ -24,7 +24,7 @@
           >
             <img
               class="my-2 lg:my-4"
-              :src="'/packagesfolder/' + item.img"
+              :src="'/packages/' + item.img"
               alt="pack"
             />
             <!-- <img src="/packages/Edit4.png" alt=""> -->

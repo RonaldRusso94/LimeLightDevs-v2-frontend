@@ -19,22 +19,22 @@
 
     <img
       draggable="false"
-      src="/packagesfolder/toprightblob.png"
+      src="/packages/toprightblob.png"
       class="hidden md:block absolute -top-16 right-0 w-1/3 h-auto select-none"
     />
     <img
       draggable="false"
-      src="/packagesfolder/topleftblob.png"
+      src="/packages/topleftblob.png"
       class="hidden md:block absolute -top-16 left-0 w-1/2 h-auto select-none"
     />
     <img
       draggable="false"
-      src="/packagesfolder/middleblob.png"
+      src="/packages/middleblob.png"
       class="hidden md:block absolute top-16 right-0 w-auto h-auto select-none"
     />
     <img
       draggable="false"
-      src="/packagesfolder/mobileblob.png"
+      src="/packages/mobileblob.png"
       class="md:hidden absolute top-0 right-0 w-auto h-auto select-none"
     />
     <PackagesComponent />
