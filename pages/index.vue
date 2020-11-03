@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Packages />
+    <PackagesComponent />
   </div>
 </template>
 

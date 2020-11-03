@@ -37,7 +37,7 @@
       src="/packagesfolder/vector11.png"
       class="md:hidden absolute top-0 right-0 w-auto h-auto select-none"
     />
-    <Packages />
+    <PackagesComponent />
   </div>
 </template>
 
