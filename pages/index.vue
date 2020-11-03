@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Hero />
     <PackagesComponent />
   </div>
 </template>

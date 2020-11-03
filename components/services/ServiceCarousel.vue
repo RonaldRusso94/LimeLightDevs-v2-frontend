@@ -25,7 +25,7 @@
         />
         <div class="absolute bottom-0 py-2 w-full flex flex-col items-center">
           <span
-            class="font-bold text-3xl md:text-4xl px-4 md:px-0 mb-2 text-center"
+            class="font-bold text-2xl md:text-3xl px-4 md:px-0 mb-2 text-center"
             >{{ serviceSlide.name }}</span
           >
         </div>
