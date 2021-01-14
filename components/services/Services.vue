@@ -34,7 +34,6 @@
 </template>
 
 <script>
-
 export default {
   setup() {
     // wasn't sure if there we gonna be more of the service items eventually added, but implemented so there could be more anyways

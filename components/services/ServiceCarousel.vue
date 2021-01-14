@@ -72,15 +72,15 @@ export default {
     const currentIndex = ref(0)
 
     function indexChange(oldIndex, newIndex) {
-      currentIndex.value = newIndex;
+      currentIndex.value = newIndex
     }
 
     function changeIndex(direction) {
-      this.$refs.carousel[direction]();
+      this.$refs.carousel[direction]()
     }
 
     function goToIndex(newIndex) {
-      this.$refs.carousel.goTo(newIndex);
+      this.$refs.carousel.goTo(newIndex)
     }
 
     // carousel settings
