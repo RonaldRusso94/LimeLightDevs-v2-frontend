@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="w-full flex justify-center">
-    <Container class="relative z-10">
+    <div class="relative mx-auto my-16 w-11/12 z-10">
       <div
         class="relative font-bold z-20 text-6xl mb-10 text-center lg:text-left"
       >
@@ -61,18 +61,14 @@
           </div>
         </form>
       </div>
-    </Container>
+    </div>
   </div>
 </template>
 
 <script>
 import { reactive } from '@nuxtjs/composition-api'
-import Container from './Container'
 
 export default {
-  components: {
-    Container,
-  },
   setup() {
     const form = reactive({
       fullname: '',

@@ -1,20 +1,20 @@
 <template>
-  <Container>
-    <div class="flex justify-center">
-      <div class="z-10 w-full text-center">
-        <h3
-          class="mb-3 text-4xl font-semibold tracking-wide text-left 2xl:text-5xl lg:mb-0"
-        >
-          Our Packages
-        </h3>
-        <ul
-          class="flex flex-no-wrap justify-end font-bold mb-3 mr-2 space-x-4 text-md lg:space-x-12"
-        >
-          <li><a href="#"> extra</a></li>
-          <li><a href="#"> figma</a></li>
-          <li class="underline text-app-green-1"><a href="#">e-commerce</a></li>
-          <li><a href="#">basic</a></li>
-        </ul>
+  <div class="flex justify-center w-11/12 m-auto mt-16 mb-40">
+    <div class="z-10 w-full text-center">
+      <h3
+        class="mb-3 text-4xl font-semibold tracking-wide text-left 2xl:text-5xl lg:mb-0"
+      >
+        Our Packages
+      </h3>
+      <ul
+        class="flex flex-no-wrap justify-end font-bold mb-3 mr-2 space-x-4 text-md lg:space-x-12"
+      >
+        <li><a href="#"> extra</a></li>
+        <li><a href="#"> figma</a></li>
+        <li class="underline text-app-green-1"><a href="#">e-commerce</a></li>
+        <li><a href="#">basic</a></li>
+      </ul>
+
       <div class="w-full overflow-x-auto lg:rounded-2xl lg:shadow-2xl">
         <div class="flex w-full">
           <div
@@ -56,11 +56,10 @@
         </div>
       </div>
     </div>
-  </Container>
+  </div>
 </template>
 
 <script>
-
 import Button from '../common/Button.vue'
 export default {
   components: { Button },

@@ -1,5 +1,5 @@
 <template>
-  <Container>
+  <div class="relative w-full flex justify-center">
     <div
       class="z-10 w-5/6 h-auto lg:h-128 bg-app-gray-2 rounded-2xl shadow-2xl mb-24 lg:mb-40 flex flex-col items-center"
       :class="imageLeftSide ? 'lg:flex-row' : 'lg:flex-row-reverse'"
@@ -27,15 +27,11 @@
         </p>
       </div>
     </div>
-  </Container>
+  </div>
 </template>
 
 <script>
-import Container from '../Container'
 export default {
-  components: {
-    Container,
-  },
   props: {
     title: {
       type: String,
