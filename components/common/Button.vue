@@ -8,8 +8,8 @@
       variant === 'inverse'
         ? 'px-5 py-1 text-app-gray-1 bg-app-green-1 hover:text-app-green-1 hover:bg-app-gray-1 border-app-green-1'
         : '',
-      variant === 'hero'
-        ? 'px-5 md:px-8 py-2 tracking-wider font-bold text-xl text-app-green-1 border-2 transition duration-200 border-app-green-1 rounded-full cursor-pointer focus:outline-none hover:text-white hover:bg-app-green-1'
+      variant === 'variant1'
+        ? 'px-5 md:px-8 py-2 tracking-wider text-xl text-app-green-1 border-app-green-1 cursor-pointer hover:text-white hover:bg-app-green-1'
         : '',
     ]"
     class="rounded-full font-bold transition duration-300 border-2 outline-none"
