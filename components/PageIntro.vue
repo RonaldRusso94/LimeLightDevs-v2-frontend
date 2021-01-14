@@ -14,20 +14,6 @@
       <p class="text-md lg:text-lg w-5/6 mb-8">
         {{ desc }}
       </p>
-      <PageIntroButton
-        :class="[title === 'Welcome!' ? 'block' : 'hidden']"
-        button-text="Contact Us"
-      />
-      <PageIntroButton
-        :class="[
-          title === 'Services' || title === 'Works' ? 'block' : 'hidden',
-        ]"
-        button-text="Check our packages"
-      />
-      <PageIntroButton
-        :class="[title === 'Our Packages' ? 'block' : 'hidden']"
-        button-text="Check our packages"
-      />
       <div
         class="flex h-full items-center justify-center mt-8 lg:mt-0 lg:absolute lg:left-0 pointer-events-none"
       >
@@ -42,11 +28,8 @@
 </template>
 
 <script>
-import PageIntroButton from './PageIntroButton'
+
 export default {
-  components: {
-    PageIntroButton,
-  },
   props: {
     title: String,
     desc: String,

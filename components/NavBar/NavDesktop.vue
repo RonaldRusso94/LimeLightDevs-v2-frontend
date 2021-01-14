@@ -9,19 +9,18 @@
           class="font-bold text-white hover:text-app-green-1 transition ease-in-out duration-300"
           >{{ link.name }}</a
         >
-        <button
-          v-else
-          class="px-5 py-1 rounded-full font-bold text-app-gray-1 bg-app-green-1 hover:text-app-green-1 hover:bg-app-gray-1 border-2 border-app-green-1 transition duration-200 focus:outline-none"
-        >
+        <Button v-else variant="inverse">
           <a :href="link.href">{{ link.name }}</a>
-        </button>
+        </Button>
       </li>
     </ul>
   </nav>
 </template>
 <script>
+import Button from '../common/Button.vue'
 export default {
   props: {
+    Button,
     navLinks: {
       type: Object,
       default: () => {
