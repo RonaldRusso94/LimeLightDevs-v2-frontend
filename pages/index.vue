@@ -1,6 +1,7 @@
 <template>
   <div>
     <Hero />
+    <Works />
     <Packages />
     <OurProcess />
   </div>
