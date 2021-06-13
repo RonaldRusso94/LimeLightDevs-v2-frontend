@@ -1,55 +1,47 @@
 <template>
-  <VueSlickCarousel v-bind="settings">
-    <div
-      v-for="(workSlide, index) in workSlides"
-      :key="index"
-      class="relative px-3 py-2 focus:outline-none"
-    >
-      <img
-        :src="workSlide.imageUrl"
-        class="w-full object-cover rounded-xl"
-        draggable="false"
-      />
-    </div>
-  </VueSlickCarousel>
+  <div v-if="loading"><loading-spinner /></div>
+  <div v-else>
+    <VueSlickCarousel v-bind="settings">
+      <div
+        v-for="(project, index) in projects"
+        :key="index"
+        class="relative px-3 py-2 focus:outline-none"
+      >
+        <img
+          :src="project.imageUrl"
+          class="w-full object-cover rounded-xl"
+          draggable="false"
+        />
+      </div>
+    </VueSlickCarousel>
+  </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import LoadingSpinner from '../common/LoadingSpinner.vue'
 
 export default {
   name: 'MyComponent',
-  components: { VueSlickCarousel },
+  components: { LoadingSpinner, VueSlickCarousel },
+  computed: {
+    ...mapState({
+      loading: (state) => state.works.loading,
+      projects: (state) => state.works.projects,
+    }),
+  },
+  created() {
+    this.$store.dispatch('works/getProjects')
+  },
+  methods: {
+    selectProject(projectId) {
+      this.$store.commit('works/selectProject', projectId)
+    },
+  },
   setup() {
-    const workSlides = [
-      {
-        name: 'Lorem ipsum dolor sit amet',
-        imageUrl: '/works/2.jpg',
-      },
-      {
-        name: 'consectetur adipiscing elit',
-        imageUrl: '/works/3.jpg',
-      },
-      {
-        name: 'something really really cool!',
-        imageUrl: '/works/4.jpg',
-      },
-      {
-        name: 'Lorem ipsum dolor sit amet',
-        imageUrl: '/works/2.jpg',
-      },
-      {
-        name: 'consectetur adipiscing elit',
-        imageUrl: '/works/3.jpg',
-      },
-      {
-        name: 'something really really cool!',
-        imageUrl: '/works/4.jpg',
-      },
-    ]
-
     const settings = {
       dots: false,
       arrows: false,
@@ -66,7 +58,6 @@ export default {
     }
 
     return {
-      workSlides,
       settings,
     }
   },
