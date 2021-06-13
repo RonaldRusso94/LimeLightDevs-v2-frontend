@@ -28,6 +28,7 @@
               <label class="text-lg mb-2">Email</label>
               <input
                 v-model="form.email"
+                required
                 class="bg-app-gray-1 p-4 text-lg rounded-xl text-app-gray-3 placeholder-app-gray-3 font-bold outline-none border-2 border-transparent focus:border-app-green-1"
                 placeholder="Write your email here"
               />
