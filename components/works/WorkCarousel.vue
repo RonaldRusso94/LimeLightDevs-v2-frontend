@@ -2,16 +2,8 @@
   <div v-if="loading"><loading-spinner /></div>
   <div v-else>
     <VueSlickCarousel v-bind="settings">
-      <div
-        v-for="(project, index) in projects"
-        :key="index"
-        class="relative px-3 py-2 focus:outline-none"
-      >
-        <img
-          :src="project.imageUrl"
-          class="w-full object-cover rounded-xl"
-          draggable="false"
-        />
+      <div v-for="(project, index) in projects" :key="index" class="relative px-3 py-2 focus:outline-none">
+        <img :src="'/works/3.jpg'" class="w-full object-cover rounded-xl" draggable="false" />
       </div>
     </VueSlickCarousel>
   </div>
@@ -50,7 +42,6 @@ export default {
       slidesToShow: 1,
       slidesToScroll: 1,
       adaptiveHeight: false,
-      rows: 2,
       autoplay: true,
       autoplaySpeed: 4000,
       pauseOnFocus: true,
