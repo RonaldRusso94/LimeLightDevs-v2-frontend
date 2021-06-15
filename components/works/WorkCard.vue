@@ -1,12 +1,6 @@
 <template>
   <div class="relative cursor-pointer h-full">
-    <img
-      :src="work.image"
-      :alt="work.image"
-      draggable="false"
-      class="w-full h-full object-cover"
-      :class="roundedStyle"
-    />
+    <img :src="'/works/3.jpg'" :alt="'/works/3.jpg'" draggable="false" class="w-full h-full object-cover" :class="roundedStyle" />
     <div
       class="
         bg-opacity-0
@@ -30,8 +24,8 @@
       "
       :class="roundedStyle"
     >
-      <p class="text-black text-3xl hover:underline">{{ work.name }}</p>
-      <p class="text-black text-xl mt-4 mb-16">{{ work.description }}</p>
+      <p class="text-black text-3xl hover:underline">{{ work.title }}</p>
+      <!-- <p class="text-black text-xl mt-4 mb-16">{{ work.title }}</p> -->
       <icon name="rightArrow" />
     </div>
   </div>
