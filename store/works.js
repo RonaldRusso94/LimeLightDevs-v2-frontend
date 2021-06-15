@@ -14,44 +14,10 @@ const actions = {
   async getProjects({ commit }) {
     commit('setLoading')
     try {
-      const { data } = await this.$axios.get('/services')
-      console.log(data)
-
-      const projects = [
-        {
-          id: 1,
-          name: 'Lorem ipsum dolor sit amet',
-          imageUrl: '/works/2.jpg',
-        },
-        {
-          id: 2,
-          name: 'consectetur adipiscing elit',
-          imageUrl: '/works/3.jpg',
-        },
-        {
-          id: 3,
-          name: 'something really really cool!',
-          imageUrl: '/works/4.jpg',
-        },
-        {
-          id: 4,
-          name: 'Lorem ipsum dolor sit amet',
-          imageUrl: '/works/2.jpg',
-        },
-        {
-          id: 5,
-          name: 'consectetur adipiscing elit',
-          imageUrl: '/works/3.jpg',
-        },
-        {
-          id: 6,
-          name: 'something really really cool!',
-          imageUrl: '/works/4.jpg',
-        },
-      ]
+      const { data } = await this.$axios.get('/projects')
 
       // Success 🎉
-      commit('setProjects', projects)
+      commit('setProjects', data)
     } catch (error) {
       // Error 😨
       commit('getProjectsError', 'Error while fetching projects!')
