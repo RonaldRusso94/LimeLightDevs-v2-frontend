@@ -31,7 +31,6 @@ const mutations = {
   setProjects(state, projects) {
     state.projects = projects
     state.loading = false
-    console.log(state.projects)
   },
   selectProject(state, projectId) {
     state.selectedProject = projectId
