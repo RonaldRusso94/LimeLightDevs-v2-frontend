@@ -18,24 +18,25 @@
         h-full
         border-black
         z-50
-        bg-white
+        bg-black bg-opacity-50
         transition
         duration-300
       "
       :class="roundedStyle"
     >
-      <p class="text-black text-3xl hover:underline">{{ work.title }}</p>
+      <h2 class="mb-4 text-3xl font-bold">{{ work.title }}</h2>
       <!-- <p class="text-black text-xl mt-4 mb-16">{{ work.title }}</p> -->
-      <icon name="rightArrow" />
+      <!-- <icon name="rightArrow" /> -->
+      <a href="#" class="bg-white py-2 px-5 text-black rounded-md hover:text-white hover:bg-app-green-1 duration-150 ease-in-out"> Visit site </a>
     </div>
   </div>
 </template>
 
 <script>
-import Icon from '~/components/misc/Icon'
+// import Icon from '~/components/misc/Icon'
 export default {
   components: {
-    Icon,
+    // Icon,
   },
   props: {
     work: {
@@ -48,9 +49,4 @@ export default {
     },
   },
 }
-
-// :class="[
-//   index === 0 ? 'rounded-tl-2xl' : '',
-//   index === images.length - 1 ? 'rounded-tr-2xl' : '',
-// ]"
 </script>
