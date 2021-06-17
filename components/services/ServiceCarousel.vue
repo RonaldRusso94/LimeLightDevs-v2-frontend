@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-96">
+  <div class="relative h-80">
     <VueSlickCarousel
       ref="carousel"
       v-bind="settings"
@@ -8,7 +8,7 @@
       <div
         v-for="serviceSlide in serviceSlides"
         :key="serviceSlide.title"
-        class="relative h-96 focus:outline-none"
+        class="relative h-80 focus:outline-none"
       >
         <img
           :src="serviceSlide.imageUrl"
@@ -17,30 +17,38 @@
         />
         <div class="absolute bottom-0 py-2 w-full flex flex-col items-center">
           <span
-            class="font-bold text-2xl md:text-3xl px-4 md:px-0 mb-2 text-center"
+            class="font-bold text-2xl md:text-3xl px-4 md:px-0 mb-6 text-center"
             >{{ serviceSlide.name }}</span
           >
         </div>
       </div>
     </VueSlickCarousel>
 
-    <div class="w-full flex justify-center absolute top-0 mt-6">
+    <div class="w-full flex justify-center absolute bottom-2">
       <button
         v-for="(serviceSlide, index) in serviceSlides"
         :key="index"
-        class="rounded-full w-3 h-3 focus:outline-none mx-2 hover:bg-white transition duration-500"
+        class="
+          rounded-full
+          w-3
+          h-3
+          focus:outline-none
+          mx-2
+          hover:bg-white
+          transition
+          duration-500
+        "
         :class="currentIndex === index ? 'bg-white' : 'border-2 border-white'"
         @click="goToIndex(index)"
       />
     </div>
-    <ServiceCarouselButton direction="prev" @change-index="changeIndex" />
-    <ServiceCarouselButton direction="next" @change-index="changeIndex" />
   </div>
 </template>
 
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import { ref } from '@nuxtjs/composition-api'
 
 export default {
