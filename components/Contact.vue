@@ -81,7 +81,6 @@
               px-8
             "
           >
-
             <div class="flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4">
               <label class="text-lg mb-2">Name & Last Name</label>
               <input
