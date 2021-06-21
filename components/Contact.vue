@@ -81,6 +81,7 @@
               px-8
             "
           >
+
             <div class="flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4">
               <label class="text-lg mb-2">Name & Last Name</label>
               <input
@@ -117,6 +118,23 @@
                   focus:border-app-green-1
                 "
                 placeholder="Write your reason"
+              />
+            </div>
+            <div class="flex flex-col py-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4">
+              <label class="text-lg mb-2">Email</label>
+              <input
+                v-model="form.email"
+                required
+                class="bg-app-gray-1 p-4 text-lg rounded-xl text-app-gray-3 placeholder-app-gray-3 font-bold outline-none border-2 border-transparent focus:border-app-green-1"
+                placeholder="Write your email here"
+              />
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2 lg:pl-4">
+              <label class="text-lg font-bold mb-2">Phone Number</label>
+              <input
+                v-model="form.phone"
+                class="bg-app-gray-1 p-4 text-lg rounded-xl text-app-gray-3 placeholder-app-gray-3 font-bold outline-none border-2 border-transparent focus:border-app-green-1"
+                placeholder="Write your Phone Number"
               />
             </div>
           </div>
@@ -178,11 +196,13 @@ export default {
     const form = reactive({
       fullname: '',
       reason: '',
+      email: '',
+      phone: '',
       message: '',
     })
 
     function submit(e) {
-      console.log(form.fullname, form.reason, form.message)
+      console.log(form.fullname, form.reason, form.message, form.email, form.phone)
 
       // clear form values (tried using e.target.reset(), but it doesn't update reactive form values)
       Object.keys(form).forEach((key, value) => (form[key] = ''))
