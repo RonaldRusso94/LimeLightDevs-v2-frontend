@@ -14,30 +14,6 @@ import OurProcess from '~/components/process/OurProcess.vue'
 import WorksComponent from '~/components/works/WorksComponent.vue'
 export default {
   components: { OurProcess, Packages, WorksComponent },
-  data() {
-    return {
-      apiData: null,
-      loading: true,
-      error: false,
-    }
-  },
-  mounted() {
-    this.test()
-  },
-  methods: {
-    async getData() {
-      try {
-        const { data } = await this.$axios(`/services`)
-        this.loading = false
-        this.apiData = data
-      } catch (error) {
-        this.error = error
-      }
-    },
-    test() {
-      this.$store.dispatch('getServices')
-    },
-  },
 }
 </script>
 
