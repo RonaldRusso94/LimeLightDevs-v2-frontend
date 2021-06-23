@@ -30,9 +30,9 @@
           v-for="(item, index) in getActiveServices.packages"
           :key="item.id"
           :service="item"
-          :isFirstItem="index === 0"
-          :isLastItem="index === getActiveServices.packages.length - 1"
-          :isCarousel="false"
+          :is-first-item="index === 0"
+          :is-last-item="index === getActiveServices.packages.length - 1"
+          :is-carousel="false"
         />
       </div>
     </div>
