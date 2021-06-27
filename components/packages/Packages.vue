@@ -5,20 +5,53 @@
         class="text-4xl font-semibold tracking-wide text-left 2xl:text-5xl"
         >Our Packages</section-title
       >
-      <!-- TABS -->
-      <div class="md:w-1/2">
-        <VueSlickCarousel v-if="services" v-bind="settings">
-          <span
-            v-for="item in services"
-            :key="item.id"
-            class="cursor-pointer mx-4"
-            @click="activeService = item.title"
-          >
-            {{ item.title }}
-          </span>
-        </VueSlickCarousel>
+      <div class="hidden sm:block">
+        <!-- TABS -->
+        <ul
+          v-if="services"
+          class="
+            flex
+            justify-end
+            items-center
+            text-center
+            font-bold
+            mr-4
+            space-x-4
+            text-md
+            lg:space-x-12
+          "
+        >
+          <li v-for="item in services" :key="item.id">
+            <a
+              class="cursor-pointer text-lg"
+              :class="[
+                getActiveServices.title === item.title
+                  ? 'text-app-green-1'
+                  : '',
+              ]"
+              @click="activeService = item.title"
+              >{{ item.title }}
+            </a>
+          </li>
+        </ul>
+        <!-- END TABS -->
       </div>
-      <!-- END TABS -->
+      <div class="sm:hidden">
+        <!-- TABS -->
+        <div class="md:w-1/2">
+          <VueSlickCarousel v-if="services" v-bind="settings">
+            <span
+              v-for="item in services"
+              :key="item.id"
+              class="cursor-pointer mx-4"
+              @click="activeService = item.title"
+            >
+              {{ item.title }}
+            </span>
+          </VueSlickCarousel>
+        </div>
+        <!-- END TABS -->
+      </div>
     </div>
 
     <div v-if="getActiveServices != null" class="">
