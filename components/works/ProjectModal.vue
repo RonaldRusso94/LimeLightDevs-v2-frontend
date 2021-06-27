@@ -6,7 +6,7 @@
       </template>
 
       <template v-if="project" v-slot:body>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-14 px-8">
           <div class="left-side">
             <div>
               <h2
@@ -59,8 +59,8 @@
               class="relative px-3 py-2 focus:outline-none"
             >
               <img
-                :src="'/works/3.jpg'"
-                class="object-cover rounded-xl h-60 mx-auto"
+                :src="'/works/6.jpg'"
+                class="object-cover rounded-xl h-70 mx-auto"
                 draggable="false"
               />
             </div>
@@ -113,8 +113,8 @@ export default {
   components: { VueSlickCarousel, Modal },
   data() {
     const settings = {
-      dots: true,
-      arrows: false,
+      dots: false,
+      arrows: true,
       infinite: true,
       speed: 750,
       slidesToShow: 1,

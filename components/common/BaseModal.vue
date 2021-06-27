@@ -2,7 +2,7 @@
   <transition name="modal-fade">
     <div class="modal-backdrop z-20">
       <div
-        class="modal bg-app-gray-1 rounded-md lg:w-1/2 p-3 h-full md:h-auto"
+        class="modal bg-app-gray-1 rounded-md lg:w-2/3 p-3 h-full md:h-auto"
         role="dialog"
         aria-labelledby="modalTitle"
         aria-describedby="modalDescription"
