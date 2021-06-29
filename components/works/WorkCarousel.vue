@@ -22,7 +22,7 @@ export default {
   data() {
     const settings = {
       dots: false,
-      arrows: false,
+      arrows: true,
       infinite: true,
       speed: 750,
       slidesToShow: 1,
