@@ -37,7 +37,7 @@ export default {
   setup() {
     const settings = {
       dots: false,
-      arrows: false,
+      arrows: true,
       infinite: false,
       speed: 750,
       slidesToShow: 1,
