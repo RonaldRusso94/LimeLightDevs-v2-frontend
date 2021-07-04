@@ -37,7 +37,7 @@
     <Button variant="two">Order Package</Button>
     <p class="mt-4">
       Edit request?
-      <a class="font-medium text-app-green-1" href="/#contact">Contact us</a>
+      <a class="font-medium text-app-green-1" href="#contact">Contact us</a>
     </p>
   </div>
 </template>
