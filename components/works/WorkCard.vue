@@ -1,8 +1,8 @@
 <template>
   <div class="relative cursor-pointer h-full">
     <img
-      :src="'/works/3.jpg'"
-      :alt="'/works/3.jpg'"
+      :src="'/works/6.jpg'"
+      :alt="'/works/6.jpg'"
       draggable="false"
       class="w-full h-full object-cover"
       :class="{ 'rounded-lg': roundedStyle }"
