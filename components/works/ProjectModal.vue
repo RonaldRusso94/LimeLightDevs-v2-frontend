@@ -1,10 +1,6 @@
 <template>
   <div>
     <Modal v-show="isModalVisible" @close="closeModal">
-      <template v-slot:header>
-        <h1 class="text-2xl">Project Detail</h1>
-      </template>
-
       <template v-if="project" v-slot:body>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-14 px-8">
           <div class="left-side">
@@ -17,18 +13,49 @@
                   sm:text-2xl
                   sm:leading-7
                   md:text-3xl
-                  mb-3
+                  mb-4
                 "
               >
                 {{ project.title }}
               </h2>
-              <p class="text-center text-base mb-5">
+              <p class="text-base mb-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </p>
-              <div class="text-right">
+              <div class="mt-8">
+                <h2 class="text-xl font-semibold text-white sm:leading-7 mb-3">
+                  Technologies
+                </h2>
+                <div>
+                  <button
+                    v-for="item in project.technologies"
+                    :key="item._id"
+                    class="
+                      m-1
+                      px-3
+                      md:px-3
+                      py-1
+                      tracking-wider
+                      font-bold
+                      text-sm text-app-green-1
+                      border-2
+                      transition
+                      duration-200
+                      border-app-green-1
+                      rounded-lg
+                      cursor-pointer
+                      focus:outline-none
+                      hover:text-white
+                      hover:bg-app-green-1
+                    "
+                  >
+                    {{ item.technology }}
+                  </button>
+                </div>
+              </div>
+              <div class="mt-20 absolute bottom-8">
                 <a
                   href="/"
                   target="_blank"
@@ -36,15 +63,14 @@
                     px-3
                     py-1
                     font-bold
-                    text-md text-app-green-1
-                    border-2
+                    text-md
+                    border-b-2
                     transition
                     duration-200
                     border-app-green-1
-                    rounded-full
                     cursor-pointer
                     focus:outline-none
-                    hover:bg-app-green-1 hover:bg-opacity-5
+                    hover:bg-app-green-1
                   "
                 >
                   Visit Website
@@ -65,37 +91,6 @@
               />
             </div>
           </VueSlickCarousel>
-        </div>
-        <div class="mt-8">
-          <h2 class="text-xl font-semibold text-white sm:leading-7 mb-3">
-            Technologies
-          </h2>
-          <div>
-            <button
-              v-for="item in project.technologies"
-              :key="item._id"
-              class="
-                m-1
-                px-3
-                md:px-3
-                py-1
-                tracking-wider
-                font-bold
-                text-sm text-app-green-1
-                border-2
-                transition
-                duration-200
-                border-app-green-1
-                rounded-lg
-                cursor-pointer
-                focus:outline-none
-                hover:text-white
-                hover:bg-app-green-1
-              "
-            >
-              {{ item.technology }}
-            </button>
-          </div>
         </div>
       </template>
     </Modal>

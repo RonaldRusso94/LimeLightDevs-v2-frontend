@@ -2,13 +2,12 @@
   <transition name="modal-fade">
     <div class="modal-backdrop z-20">
       <div
-        class="modal bg-app-gray-1 rounded-md lg:w-2/3 p-3 h-full md:h-auto"
+        class="modal bg-app-gray-1 rounded-md lg:w-5/6 p-3 h-full md:h-auto"
         role="dialog"
         aria-labelledby="modalTitle"
         aria-describedby="modalDescription"
       >
         <header id="modalTitle" class="modal-header">
-          <slot name="header"> This is the default title! </slot>
           <button
             type="button"
             class="btn-close"
