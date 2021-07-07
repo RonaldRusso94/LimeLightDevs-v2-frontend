@@ -17,6 +17,7 @@
     <!-- Navigation drawer -->
     <aside
       :class="isHamburgerActive ? 'translate-x-0' : 'translate-x-full'"
+      v-click-outside="onClickOutside"
       class="
         transform
         top-0
@@ -95,6 +96,7 @@
       <span
         class="block bg-white w-6 h-1 my-1 mx-auto ease-in-out duration-300"
         :class="{ 'transform -translate-y-2 -rotate-45': isHamburgerActive }"
+        id="close-button"
       ></span>
     </div>
   </nav>
@@ -141,6 +143,12 @@ export default {
         el.classList.add(className)
       } else {
         el.classList.remove(className)
+      }
+    },
+    onClickOutside(event) {
+      if (event.target.id !== 'close-button') {
+        this.isHamburgerActive = false
+        this.toggleBodyClass(this.isHamburgerActive, 'overflow-hidden')
       }
     },
   },

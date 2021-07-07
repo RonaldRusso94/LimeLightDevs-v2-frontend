@@ -6,6 +6,7 @@
         role="dialog"
         aria-labelledby="modalTitle"
         aria-describedby="modalDescription"
+        v-click-outside="onClickOutside"
       >
         <header id="modalTitle" class="modal-header">
           <slot name="header"> This is the default title! </slot>
@@ -30,9 +31,22 @@
 <script>
 export default {
   name: 'Modal',
+  computed: {
+    isModalVisible: {
+      get() {
+        return this.$store.state.works.isModalVisible
+      },
+      set(isModalVisible) {
+        this.$store.commit('works/setModalVisible', isModalVisible)
+      },
+    },
+  },
   methods: {
     close() {
       this.$emit('close')
+    },
+    onClickOutside(event) {
+      if (event.target.type !== 'submit') this.$emit('close')
     },
   },
 }

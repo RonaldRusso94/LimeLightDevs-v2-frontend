@@ -1,11 +1,11 @@
 <template>
   <div class="w-full text-white flex mb-32 lg:mb-[24rem]">
     <img
-      src="greenblob01.png"
+      src="/greenblob01.png"
       class="absolute top-0 right-0 w-full lg:w-2/3 h-auto"
     />
     <img
-      src="projects.png"
+      src="/projects.png"
       class="hidden lg:block absolute right-0 w-full lg:w-2/5 h-auto"
     />
     <!-- probably be best to just include one image rather than style a bunch on top of each other -->

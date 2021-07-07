@@ -87,7 +87,7 @@
                 v-model="form.fullname"
                 class="
                   bg-app-gray-1
-                  p-4
+                  p-3
                   text-lg
                   rounded-xl
                   text-app-gray-3
@@ -101,12 +101,12 @@
               />
             </div>
             <div class="flex flex-col w-full lg:w-1/2 lg:pl-4">
-              <label class="text-lg font-bold mb-2">Reason:</label>
+              <label class="text-lg mb-2">Reason:</label>
               <input
                 v-model="form.reason"
                 class="
                   bg-app-gray-1
-                  p-4
+                  p-3
                   text-lg
                   rounded-xl
                   text-app-gray-3
@@ -126,7 +126,7 @@
                 required
                 class="
                   bg-app-gray-1
-                  p-4
+                  p-3
                   text-lg
                   rounded-xl
                   text-app-gray-3
@@ -140,12 +140,12 @@
               />
             </div>
             <div class="flex flex-col w-full lg:w-1/2 lg:pl-4">
-              <label class="text-lg font-bold mb-2">Phone Number</label>
+              <label class="text-lg mb-2">Phone Number</label>
               <input
                 v-model="form.phone"
                 class="
                   bg-app-gray-1
-                  p-4
+                  p-3
                   text-lg
                   rounded-xl
                   text-app-gray-3
@@ -165,7 +165,7 @@
               v-model="form.message"
               class="
                 bg-app-gray-1
-                p-4
+                p-3
                 text-lg
                 rounded-xl
                 text-app-gray-3
