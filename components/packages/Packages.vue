@@ -2,10 +2,10 @@
   <section-container :default-margins="false">
     <div class="md:flex justify-between items-center">
       <section-title
-        class="text-4xl font-semibold tracking-wide text-left 2xl:text-5xl"
+        class="text-4xl md:text-6xl font-semibold tracking-wide text-left px-4"
         >Our Packages</section-title
       >
-      <div class="hidden sm:block">
+      <div class="hidden sm:block z-10">
         <!-- TABS -->
         <ul
           v-if="services"
@@ -36,7 +36,7 @@
         </ul>
         <!-- END TABS -->
       </div>
-      <div class="sm:hidden">
+      <div class="sm:hidden mb-4">
         <!-- TABS -->
         <div class="md:w-1/2">
           <VueSlickCarousel v-if="services" v-bind="settings">
@@ -98,7 +98,10 @@ export default {
     const settings = {
       dots: false,
       arrows: false,
-      infinite: false,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 4000,
       variableWidth: true,
       slidesToScroll: 1,
     }

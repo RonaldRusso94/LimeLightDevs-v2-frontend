@@ -1,11 +1,38 @@
 <template>
   <div>
     <div class="absolute right-0 top-28 w-7/12 md:w-5/12 lg:w-2/6">
-      <img class="block w-full h-full transform" src="/greenblob02.png" alt="" />
+      <img
+        class="block w-full h-full transform"
+        src="/greenblob02.png"
+        alt=""
+      />
     </div>
-    <div class="text-white w-full md:w-9/12 lg:w-5/12 flex flex-col items-start lg:items-start lg:ml-48 mt-12 mb-14 lg:mb-28 text-left lg:text-left">
-      <span class="text-4xl md:text-5xl font-hibana px-8 lg:px-0">{{ pageTitle }}</span>
-      <p class="text-lg px-8 lg:px-0 mt-2 mb-10 tracking-wide">
+    <div
+      class="
+        text-white
+        w-full
+        md:w-9/12
+        lg:w-5/12
+        flex flex-col
+        items-center
+        lg:items-start
+        mt-12
+        mb-14
+        lg:mb-28
+        text-center
+        lg:text-left
+        ml-0
+        lg:ml-16
+        pl-0
+        lg:pl-10
+        xl:pl-8
+        2xl:pl-24
+      "
+    >
+      <span class="text-4xl md:text-5xl font-hibana px-8 lg:px-0 z-20">{{
+        pageTitle
+      }}</span>
+      <p class="text-lg px-8 lg:px-0 mt-2 mb-10 tracking-wide z-20">
         {{ description }}
       </p>
       <nuxt-link

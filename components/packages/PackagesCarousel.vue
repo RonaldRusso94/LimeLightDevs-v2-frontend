@@ -1,21 +1,14 @@
 <template>
-  <section-container :defaultMargins="false">
-    <VueSlickCarousel v-bind="settings" ref="carousel">
-      <service-card
-        v-for="(item, index) in services"
-        :key="item.id"
-        :service="item"
-        :isFirstItem="index === 0"
-        :isLastItem="index === services.length - 1"
-        :isCarousel="true"
-      />
-    </VueSlickCarousel>
-    <!-- <VueSlickCarousel v-if="services.length > 0">
-      <div v-for="item in services" :key="item.id">
-        {{ item.title }}
-      </div>
-    </VueSlickCarousel> -->
-  </section-container>
+  <VueSlickCarousel v-bind="settings" ref="carousel">
+    <service-card
+      v-for="(item, index) in services"
+      :key="item.id"
+      :service="item"
+      :isFirstItem="index === 0"
+      :isLastItem="index === services.length - 1"
+      :isCarousel="true"
+    />
+  </VueSlickCarousel>
 </template>
 
 <script>
@@ -27,7 +20,11 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import ServiceCard from './ServiceCard.vue'
 
 export default {
-  components: { SectionContainer, VueSlickCarousel, ServiceCard },
+  components: {
+    SectionContainer,
+    VueSlickCarousel,
+    ServiceCard,
+  },
   props: {
     services: {
       type: Array,
@@ -37,20 +34,31 @@ export default {
   setup() {
     const settings = {
       dots: false,
-      arrows: true,
-      infinite: false,
+      arrows: false,
+      infinite: true,
       speed: 750,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 2000,
       pauseOnFocus: true,
       pauseOnHover: true,
     }
 
     return {
       settings,
+      carouselKey: 0,
     }
+  },
+  watch: {
+    services() {
+      this.forceRerender()
+    },
+  },
+  methods: {
+    forceRerender() {
+      this.carouselKey += 1
+    },
   },
 }
 </script>

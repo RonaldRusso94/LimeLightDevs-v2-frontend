@@ -16,6 +16,7 @@
       2xl:px-10
       py-8
       shadow-2xl
+      z-10
     "
   >
     <img class="mb-6 mx-auto" src="/packages/desktop.png" alt="desktop.png" />
