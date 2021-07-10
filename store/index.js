@@ -1,5 +1,9 @@
 export const state = () => ({
   services: null,
+  contact: {
+    reason: '',
+    message: '',
+  },
   // loading: false,
 })
 // Getters
@@ -30,6 +34,10 @@ export const mutations = {
     // console.log(`state.services`, state.services)
     // state.services.push({ ...payload })
     state.services = payload
+  },
+  setContact(state, { message, reason }) {
+    state.contact.message = message
+    state.contact.reason = reason
   },
   // setLoading(state, payload) {
   //   state.loading = payload
