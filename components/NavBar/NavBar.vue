@@ -88,6 +88,7 @@ export default {
   transform: translateY(0%);
 }
 .navbar--unpinned {
+  z-index: 100;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 0rem;
