@@ -33,7 +33,7 @@ export default {
         button: true,
       },
     },
-    limitPosition: 100,
+    limitPosition: 20,
     scrolled: false,
     lastPosition: 0,
   }),
@@ -63,7 +63,7 @@ export default {
   padding-right: 4%;
   padding-left: 4%;
   max-width: 100%;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
 }
 .navbar--pinned {
   transform: translateY(0%);
