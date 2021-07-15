@@ -16,8 +16,8 @@
     ></div>
     <!-- Navigation drawer -->
     <aside
-      :class="isHamburgerActive ? 'translate-x-0' : 'translate-x-full'"
       v-click-outside="onClickOutside"
+      :class="isHamburgerActive ? 'translate-x-0' : 'translate-x-full'"
       class="
         transform
         top-0
@@ -47,6 +47,7 @@
               transition
               duration-200
             "
+            @click.native="onClickHandler"
           >
             {{ link.name }}
           </nuxt-link>
@@ -67,6 +68,7 @@
               duration-200
               focus:outline-none
             "
+            @click="onClickHandler"
           >
             <a :href="link.href">{{ link.name }}</a>
           </button>
@@ -94,9 +96,9 @@
         :class="{ 'opacity-0': isHamburgerActive }"
       ></span>
       <span
+        id="close-button"
         class="block bg-white w-6 h-1 my-1 mx-auto ease-in-out duration-300"
         :class="{ 'transform -translate-y-2 -rotate-45': isHamburgerActive }"
-        id="close-button"
       ></span>
     </div>
   </nav>
@@ -150,6 +152,10 @@ export default {
         this.isHamburgerActive = false
         this.toggleBodyClass(this.isHamburgerActive, 'overflow-hidden')
       }
+    },
+    onClickHandler(event) {
+      this.isHamburgerActive = false
+      this.toggleBodyClass(this.isHamburgerActive, 'overflow-hidden')
     },
   },
 }

@@ -8,12 +8,12 @@
           :to="link.href"
           class="
             font-bold
-            text-white
             hover:text-app-green-1
             transition
             ease-in-out
             duration-300
           "
+          active-class="text-app-green-1"
           >{{ link.name }}</nuxt-link
         >
         <Button
@@ -21,7 +21,7 @@
           class="
             px-5
             py-1
-            text-xl text-app-gray-1
+            text-app-gray-1
             font-bold
             rounded-full
             bg-app-green-1
