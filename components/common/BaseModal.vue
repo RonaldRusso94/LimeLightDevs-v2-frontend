@@ -1,6 +1,6 @@
 <template>
   <transition name="modal-fade">
-    <div class="modal-backdrop z-20">
+    <div class="modal-backdrop z-30">
       <div
         class="modal bg-app-gray-1 rounded-md lg:w-5/6 p-3 h-full md:h-auto"
         role="dialog"

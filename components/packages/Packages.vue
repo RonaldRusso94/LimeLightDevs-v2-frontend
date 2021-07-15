@@ -22,16 +22,25 @@
           "
         >
           <li v-for="item in services" :key="item.id">
-            <a
-              class="cursor-pointer text-lg"
+            <button
+              role="button"
+              class="
+                cursor-pointer
+                text-lg
+                duration-150
+                font-bold
+                focus:border-none
+                focus:outline-none
+              "
               :class="[
                 getActiveServices.title === item.title
                   ? 'text-app-green-1'
-                  : '',
+                  : 'hover:text-app-green-1 focus:text-app-green-1',
               ]"
               @click="activeService = item.title"
-              >{{ item.title }}
-            </a>
+            >
+              {{ item.title }}
+            </button>
           </li>
         </ul>
         <!-- END TABS -->
@@ -43,6 +52,7 @@
             <span
               v-for="item in services"
               :key="item.id"
+              role="button"
               class="cursor-pointer mx-4"
               @click="activeService = item.title"
             >
