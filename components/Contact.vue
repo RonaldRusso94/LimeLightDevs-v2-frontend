@@ -23,12 +23,12 @@
           class="
             relative
             lg:absolute
-            lg:left-0
-            w-full
-            h-full
+            lg:-left-56
+            w-[998px]
+            h-[790]
             rounded-3xl
             flex
-            items-end
+            items-center
             justify-center
             lg:justify-start
             select-none
@@ -37,15 +37,15 @@
           <img
             draggable="false"
             class="
-              lg:pl-6
-              lg:pt-6
               object-contain
               z-20
               w-1/2
-              lg:w-1/4
-              max-h-full
+              lg:w-3/4
+              max-h-3/4
+              transform
+              -rotate-12
             "
-            src="/contact/unboggled.png"
+            src="/contact/OSXDBL1_2.png"
           />
         </div>
         <div
@@ -138,25 +138,25 @@ export default {
     const fields = computed(() => [
       {
         name: 'fullName',
-        placeholder: 'Write your first & last name here',
-        label: 'Name & Last Name',
-        divClass: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
+        placeholder: 'Full Name',
+        // label: 'Name & Last Name',
+        divClass: 'flex flex-col mb-10 pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
         rules: {
           required: true,
         },
       },
       {
         name: 'reason',
-        placeholder: 'Write your reason',
-        label: 'Reason',
+        placeholder: 'Subject',
+        // label: 'Reason',
         rules: {
           required: true,
         },
       },
       {
         name: 'email',
-        placeholder: 'Write your email here',
-        label: 'Email',
+        placeholder: 'Email ID',
+        // label: 'Email',
         rules: {
           required: true,
           email: {
@@ -166,8 +166,8 @@ export default {
       },
       {
         name: 'phone',
-        placeholder: 'Phone Number',
-        label: 'Write your phone number',
+        placeholder: 'Contact Number',
+        // label: 'Write your phone number',
         rules: {
           presence: false,
           format: {
@@ -182,9 +182,9 @@ export default {
       },
       {
         name: 'message',
-        placeholder: 'Write your message',
+        placeholder: 'Message',
+        label: ' ',
         variant: 'CustomTextArea',
-        label: 'Message',
         divClass: 'w-full',
         parentClass: 'mt-2 w-full lg:pr-4',
         rules: {
@@ -219,7 +219,7 @@ export default {
     const options = {
       formClass:
         'w-full flex flex-wrap flex-row justify-start items-center px-8',
-      divClasses: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4 mb-2',
+      divClasses: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4 mb-10',
       // parentClasses: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
     }
     return { form, submit, fields, options, formComp }
