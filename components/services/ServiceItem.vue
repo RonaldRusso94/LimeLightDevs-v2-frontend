@@ -42,8 +42,6 @@
           transform
           origin-bottom
           md:origin-center
-          scale-110
-          lg:scale-150
           lg:self-start
         "
         draggable="false"
