@@ -1,13 +1,33 @@
 <template>
-  <div
-    class="container navbar py-8 px-6 xl:px-48 2xl:px-4"
-    :class="{ 'navbar--unpinned': scrolled, 'shadow-xl': scrolled }"
-  >
-    <!-- so navbar always takes priority, will actually be absolute in the future for a few reasons -->
-    <div class="flex items-center justify-between relative z-40">
-      <NavLogo />
-      <NavDesktop :nav-links="navLinks" />
-      <NavMobile :nav-links="navLinks" />
+  <div>
+    <div
+      class="
+        container
+        fixed
+        bg-app-gray-2
+        navbar
+        py-8
+        px-6
+        xl:px-48
+        2xl:px-4
+        -mt-32
+      "
+      :class="{ 'navbar--unpinned': scrolled, 'shadow-xl': scrolled }"
+    >
+      <!-- so navbar always takes priority, will actually be absolute in the future for a few reasons -->
+      <div class="flex items-center justify-between relative z-40">
+        <NavLogo />
+        <NavDesktop :nav-links="navLinks" />
+        <NavMobile :nav-links="navLinks" />
+      </div>
+    </div>
+    <div class="container navbar py-8 px-6 xl:px-48 2xl:px-4">
+      <!-- so navbar always takes priority, will actually be absolute in the future for a few reasons -->
+      <div class="flex items-center justify-between relative z-40">
+        <NavLogo />
+        <NavDesktop :nav-links="navLinks" />
+        <NavMobile :nav-links="navLinks" />
+      </div>
     </div>
   </div>
 </template>
@@ -33,7 +53,7 @@ export default {
         button: true,
       },
     },
-    limitPosition: 20,
+    limitPosition: 50,
     scrolled: false,
     lastPosition: 0,
   }),
@@ -58,7 +78,6 @@ export default {
 </script>
 <style>
 .navbar {
-  position: fixed;
   z-index: 29;
   padding-right: 4%;
   padding-left: 4%;
@@ -69,8 +88,9 @@ export default {
   transform: translateY(0%);
 }
 .navbar--unpinned {
-  background: rgb(34, 34, 34);
+  z-index: 100;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-top: 0rem;
 }
 </style>
