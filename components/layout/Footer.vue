@@ -26,20 +26,10 @@
         border-b border-white
       "
     >
-      <div
-        class="
-          flex
-          items-end
-          justify-center
-          text-[25]
-          sm:text-[50px]
-          tracking-wide
-          text-app-green-1
-        "
-      >
-        <span class="font-bold">Lime</span>
-        <span class="tracking-wide">light</span>
-        <span class="pl-2 text-xs sm:text-lg">devs</span>
+      <div class="flex items-end cursor-pointer">
+        <p class="font-bold text-4xl text-app-green-1">Lime</p>
+        <p class="text-4xl text-app-green-1">light</p>
+        <p class="pl-4 text-app-green-1 opacity-75">devs</p>
       </div>
       <div
         class="
@@ -51,13 +41,17 @@
           tracking-wide
         "
       >
-        <div><nuxt-link to="/"> Home </nuxt-link></div>
+        <div><nuxt-link class="text-xl" to="/"> Home </nuxt-link></div>
         <div class="mx-3">/</div>
-        <div><nuxt-link to="/services"> services </nuxt-link></div>
+        <div>
+          <nuxt-link class="text-xl" to="/services"> services </nuxt-link>
+        </div>
         <div class="mx-3">/</div>
-        <div><nuxt-link to="/works"> Works </nuxt-link></div>
+        <div><nuxt-link class="text-xl" to="/works"> Works </nuxt-link></div>
         <div class="mx-3">/</div>
-        <div><nuxt-link to="/packages"> Packages </nuxt-link></div>
+        <div>
+          <nuxt-link class="text-xl" to="/packages"> Packages </nuxt-link>
+        </div>
       </div>
     </div>
 
