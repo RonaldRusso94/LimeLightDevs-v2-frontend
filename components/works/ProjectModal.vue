@@ -142,6 +142,7 @@ export default {
   components: { VueSlickCarousel, Modal },
   data() {
     const settings = {
+      centerMode: true,
       dots: false,
       arrows: true,
       infinite: true,

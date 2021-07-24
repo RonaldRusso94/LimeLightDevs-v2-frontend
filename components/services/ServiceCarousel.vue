@@ -95,6 +95,7 @@ export default {
     // while vue-slick-carousel did have it's own built in dots and arrows buttons, trying to implement different styles on them was hard
     // so they were taken out entirely and dots and arrows were made that function the same
     const settings = {
+      centerMode: true,
       dots: false,
       arrows: false,
       infinite: true,
