@@ -29,7 +29,7 @@ export default {
     // wasn't sure if there we gonna be more of the service items eventually added, but implemented so there could be more anyways
     const serviceItems = [
       {
-        title: 'Mobile App Development',
+        title: 'App Development',
         description:
           "With the growing digital landscape dominated by smartphones, we understand your need to revitalize your digital business to the modern audience. Every company can use the benefit of a native app, regardless of the sector and their size, and that's where we come in. Experts in both iOS and Android app development- we craft meticulous and immersive apps that your users would love to engage with. We build effective native apps for every customizable operating system meeting industry standards and optimized to their maximum potential.",
         imageUrl: '/mobile-app-dev.png',
