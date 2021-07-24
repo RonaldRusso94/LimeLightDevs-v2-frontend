@@ -104,6 +104,7 @@ export default {
   },
   data() {
     const settings = {
+      centerMode: true,
       dots: false,
       arrows: false,
       infinite: true,
