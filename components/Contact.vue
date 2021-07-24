@@ -48,7 +48,7 @@
               lg:translate-x-12
               xl:translate-x-16
             "
-            src="/contact/OSXDBL1_2.png"
+            src="/contact/OSXDBL1_2.svg"
           />
         </div>
         <div
