@@ -32,17 +32,20 @@
       <img
         :src="imageUrl"
         class="
-          -mb-8
+          mb-0
+          lg:mb-14
           w-11/12
           md:w-9/12
           lg:w-5/12
-          lg:max-h-full
           object-contain
           select-none
           transform
+          lg:scale-150
           origin-bottom
           md:origin-center
-          lg:self-start
+          lg:self-end
+          2xl:self-center
+          2xl:scale-75
         "
         draggable="false"
       />
