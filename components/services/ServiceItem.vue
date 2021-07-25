@@ -29,25 +29,35 @@
       "
       :class="imageLeftSide ? 'lg:flex-row' : 'lg:flex-row-reverse'"
     >
-      <img
-        :src="imageUrl"
-        class="
-          -mb-8
-          w-11/12
-          md:w-9/12
-          lg:w-5/12
-          lg:max-h-full
-          object-contain
-          select-none
-          transform
-          origin-bottom
-          md:origin-center
-          lg:self-start
-        "
-        draggable="false"
-      />
       <div
-        class="relative z-20 w-full lg:w-1/2 flex flex-col my-12 text-center"
+        class="md:w-1/2 transform -translate-y-16"
+        :class="!imageLeftSide ? 'lg:pr-5' : ''"
+      >
+        <img
+          :src="imageUrl"
+          class="
+            -mb-8
+            object-contain
+            select-none
+            transform
+            origin-bottom
+            md:origin-center
+            lg:self-start
+          "
+          draggable="false"
+        />
+      </div>
+      <div
+        class="
+          relative
+          z-20
+          lg:px-8
+          w-full
+          lg:w-1/2
+          flex flex-col
+          my-12
+          text-center
+        "
         :class="textAlignStyle"
       >
         <span

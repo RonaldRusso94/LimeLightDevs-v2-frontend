@@ -43,14 +43,14 @@ export default {
         imageLeftSide: true,
       },
       {
-        title: 'Web/App Design',
+        title: 'Web & App Design',
         description:
           "Make your presence felt online with robust, powerful, seamless, and sleek scalable web solutions. Whether it's an easy-to-use pop-up site for your business, a conversion-driven eCommerce solution, an eye-catching marketing face of your brand online, or a hassle-free website for your employers to navigate around-your website is an extension of your brand and we deliver upon just that with no compromise on quality.",
         imageUrl: '/web-app-design.png',
         imageLeftSide: false,
       },
       {
-        title: 'Web/App Hosting',
+        title: 'Web & App Hosting',
         description:
           "Make your presence felt online with robust, powerful, seamless, and sleek scalable web solutions. Whether it's an easy-to-use pop-up site for your business, a conversion-driven eCommerce solution, an eye-catching marketing face of your brand online, or a hassle-free website for your employers to navigate around-your website is an extension of your brand and we deliver upon just that with no compromise on quality.",
         imageUrl: '/web-app-hosting.png',
