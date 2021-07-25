@@ -29,8 +29,6 @@ export default {
       slidesToShow: 1,
       slidesToScroll: 1,
       adaptiveHeight: false,
-      autoplay: true,
-      autoplaySpeed: 4000,
       pauseOnFocus: true,
       pauseOnHover: true,
     }

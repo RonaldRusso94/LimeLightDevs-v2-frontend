@@ -40,8 +40,6 @@ export default {
       speed: 750,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
       pauseOnFocus: true,
       pauseOnHover: true,
     }
