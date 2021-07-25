@@ -17,7 +17,7 @@
         z-10
         w-5/6
         h-auto
-        lg:h-128
+        xl:h-128
         bg-app-gray-2
         rounded-2xl
         shadow-2xl
@@ -30,8 +30,10 @@
       :class="imageLeftSide ? 'lg:flex-row' : 'lg:flex-row-reverse'"
     >
       <div
-        class="md:w-1/2 transform -translate-y-16"
-        :class="!imageLeftSide ? 'lg:pr-5' : ''"
+        :class="{
+          '-translate-x-10': isFlowingOut,
+        }"
+        class="md:w-7/12 transform -translate-y-16"
       >
         <img
           :src="imageUrl"
@@ -48,30 +50,17 @@
         />
       </div>
       <div
-        class="
-          relative
-          z-20
-          lg:px-8
-          w-full
-          lg:w-1/2
-          flex flex-col
-          my-12
-          text-center
-        "
+        class="relative z-20 w-full lg:w-5/12 flex flex-col my-12 text-center"
         :class="textAlignStyle"
       >
-        <span
-          class="text-4xl mb-3 tracking-wide font-bold w-full"
-          :class="imageLeftSide ? 'lg:pr-0 lg:pl-16' : 'lg:pl-0 lg:pr-16'"
-        >
-          {{ title }}
-        </span>
-        <p
-          class="text-lg px-8"
-          :class="imageLeftSide ? 'lg:pr-0 lg:pl-16' : 'lg:pl-0 lg:pr-16'"
-        >
-          {{ description }}
-        </p>
+        <div :class="imageLeftSide ? 'lg:pr-6 lg:pl-16' : 'lg:pl-6 lg:pr-16'">
+          <span class="text-4xl block mb-3 tracking-wide font-bold w-full">
+            {{ title }}
+          </span>
+          <p class="text-lg">
+            {{ description }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -95,6 +84,10 @@ export default {
     imageLeftSide: {
       type: Boolean,
       required: true,
+    },
+    isFlowingOut: {
+      type: Boolean,
+      default: false,
     },
   },
   setup(props) {
