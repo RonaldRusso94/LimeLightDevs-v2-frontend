@@ -31,26 +31,17 @@
         <p class="text-4xl text-app-green-1">light</p>
         <p class="pl-4 text-app-green-1 opacity-75">devs</p>
       </div>
-      <div
-        class="
-          flex
-          justify-between
-          text-[12px] text-[#CFCFCF]
-          sm:text-[24px]
-          capitalize
-          tracking-wide
-        "
-      >
-        <div><nuxt-link class="text-xl" to="/"> Home </nuxt-link></div>
+      <div class="flex justify-between text-[#CFCFCF] capitalize tracking-wide">
+        <div><nuxt-link to="/"> Home </nuxt-link></div>
         <div class="mx-3">/</div>
         <div>
-          <nuxt-link class="text-xl" to="/services"> services </nuxt-link>
+          <nuxt-link to="/services"> services </nuxt-link>
         </div>
         <div class="mx-3">/</div>
-        <div><nuxt-link class="text-xl" to="/works"> Works </nuxt-link></div>
+        <div><nuxt-link to="/works"> Works </nuxt-link></div>
         <div class="mx-3">/</div>
         <div>
-          <nuxt-link class="text-xl" to="/packages"> Packages </nuxt-link>
+          <nuxt-link to="/packages"> Packages </nuxt-link>
         </div>
       </div>
     </div>
