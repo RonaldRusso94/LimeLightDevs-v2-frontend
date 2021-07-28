@@ -139,7 +139,7 @@ export default {
       {
         name: 'fullName',
         placeholder: 'Full Name',
-        // label: 'Name & Last Name',
+        label: 'Full Name...',
         divClass: 'flex flex-col mb-10 pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
         rules: {
           required: true,
@@ -147,16 +147,16 @@ export default {
       },
       {
         name: 'reason',
-        placeholder: 'Subject',
-        // label: 'Reason',
+        placeholder: 'Subject...',
+        label: 'Subject',
         rules: {
           required: true,
         },
       },
       {
         name: 'email',
-        placeholder: 'Email ID',
-        // label: 'Email',
+        placeholder: 'Email ID...',
+        label: 'Email ID',
         rules: {
           required: true,
           email: {
@@ -167,7 +167,7 @@ export default {
       {
         name: 'phone',
         placeholder: 'Contact Number',
-        // label: 'Write your phone number',
+        label: 'Contact Number...',
         rules: {
           presence: false,
           format: {

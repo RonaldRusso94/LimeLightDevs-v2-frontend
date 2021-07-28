@@ -46,14 +46,24 @@
       <div class="sm:hidden mb-4">
         <!-- TABS -->
         <div class="md:w-1/2">
-          <VueSlickCarousel v-if="services" v-bind="settings">
+          <VueSlickCarousel
+            v-if="services"
+            v-bind="settings"
+            @init="initSlides"
+            @beforeChange="slideChange"
+          >
             <span
-              v-for="item in services"
+              v-for="(item, index) in services"
               :key="item.id"
               role="button"
               class="cursor-pointer mx-4"
-              @click="activeService = item.title"
+              :class="{
+                'text-right': lastIndex == index,
+                'text-left': nextIndex == index,
+                'text-center': currentIndex == index,
+              }"
             >
+              <!-- @click="activeService = item.title" -->
               {{ item.title }}
             </span>
           </VueSlickCarousel>
@@ -104,18 +114,26 @@ export default {
   },
   data() {
     const settings = {
+      speed: 500,
       dots: false,
       arrows: false,
       infinite: true,
+      slidesToShow: 1,
       autoplay: true,
-      speed: 500,
       autoplaySpeed: 4000,
-      variableWidth: true,
+      pauseOnFocus: true,
+      pauseOnHover: true,
+      centerMode: true,
+      centerPadding: '60px',
+      // variableWidth: true,
       slidesToScroll: 1,
     }
 
     return {
       settings,
+      lastIndex: 0,
+      currentIndex: 1,
+      nextIndex: 2,
       activeService: 'Web Development',
     }
   },
@@ -132,6 +150,23 @@ export default {
     },
     services() {
       return this.$store.getters.services
+    },
+  },
+  methods: {
+    slideChange(oldIndex, currentIndex) {
+      this.currentIndex = currentIndex
+      this.nextIndex =
+        currentIndex === this.services.length ? 0 : currentIndex + 1
+      this.lastIndex = oldIndex
+    },
+    initSlides(a) {
+      this.currentIndex = this.services
+        .map((x) => x.title)
+        .indexOf(this.activeService)
+      this.nextIndex =
+        this.currentIndex === this.services.length ? 0 : this.currentIndex + 1
+      this.lastIndex =
+        this.currentIndex === 0 ? this.services.length : this.currentIndex - 1
     },
   },
 }

@@ -2,7 +2,9 @@
   <VueSlickCarousel v-bind="settings" ref="carousel">
     <service-card
       v-for="(item, index) in services"
+      :ref="index"
       :key="item.id"
+      class="transform element scale-90"
       :service="item"
       :isFirstItem="index === 0"
       :isLastItem="index === services.length - 1"
@@ -40,7 +42,7 @@ export default {
       speed: 750,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       pauseOnFocus: true,
       pauseOnHover: true,
@@ -64,4 +66,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.slick-active .element {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+</style>
