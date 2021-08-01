@@ -25,7 +25,7 @@
         z-50
         bg-black bg-opacity-50
         transition
-        duration-300
+        duration-100
       "
       :class="{ 'rounded-lg': roundedStyle }"
     >

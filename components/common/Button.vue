@@ -12,7 +12,15 @@
         ? 'px-5 md:px-8 py-2 tracking-wider text-xl text-app-green-1 border-app-green-1 cursor-pointer hover:text-white hover:bg-app-green-1'
         : '',
     ]"
-    class="rounded-full font-bold transition duration-300 border-2 outline-none focus:outline-none"
+    class="
+      rounded-full
+      font-bold
+      transition
+      duration-100
+      border-2
+      outline-none
+      focus:outline-none
+    "
   >
     <slot />
   </button>
