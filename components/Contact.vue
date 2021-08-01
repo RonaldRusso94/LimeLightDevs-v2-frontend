@@ -22,16 +22,17 @@
         <div
           class="
             relative
-            flex
+            xl:flex
             items-end
             justify-center
             w-full
             h-full
             select-none
-            lg:absolute
-            lg:left-0
+            xl:absolute
+            xl:left-0
             rounded-3xl
-            lg:justify-start
+            xl:justify-start
+            hidden
           "
         >
           <img
@@ -43,9 +44,13 @@
               max-h-full
               lg:pl-6
               lg:pt-6
-              lg:w-1/4
+              lg:w-auto
+              relative
+              bottom-8
+              2xl:right-20
+              xl:right-24
             "
-            src="/contact/unboggled.png"
+            src="/contact/contact.png"
           />
         </div>
         <div
@@ -55,9 +60,8 @@
             justify-center
             w-full
             pt-8
-            pb-0
-            lg:w-2/3
-            lg:pb-8
+            lg:w-full
+            xl:w-3/5
           "
         >
           <v-generic-form
