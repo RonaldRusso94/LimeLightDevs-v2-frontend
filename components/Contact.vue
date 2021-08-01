@@ -40,12 +40,14 @@
               object-contain
               z-20
               w-1/2
-              lg:w-3/4
+              xl:w-4/6
               max-h-3/4
               transform
               -rotate-12
+              translate-x-4
+              lg:translate-x-40
             "
-            src="/contact/OSXDBL1_2.png"
+            src="/contact/OSXDBL1_2.svg"
           />
         </div>
         <div
