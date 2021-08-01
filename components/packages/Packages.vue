@@ -45,7 +45,27 @@
       </div>
       <div class="sm:hidden mb-4">
         <!-- TABS -->
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 bg-app-gray-2 relative">
+          <div
+            class="
+              bg-app-gray-2 bg-opacity-75
+              absolute
+              -right-5
+              w-16
+              z-20
+              h-full
+            "
+          ></div>
+          <div
+            class="
+              bg-app-gray-2 bg-opacity-75
+              absolute
+              -right-5
+              w-16
+              z-20
+              h-full
+            "
+          ></div>
           <VueSlickCarousel
             v-if="services"
             v-bind="settings"
@@ -56,11 +76,12 @@
               v-for="(item, index) in services"
               :key="item.id"
               role="button"
-              class="cursor-pointer mx-4"
+              class="cursor-pointer mx-4 py-3 lg:py-0 duration-150"
               :class="{
                 'text-right': lastIndex == index,
                 'text-left': nextIndex == index,
-                'text-center': currentIndex == index,
+                'text-center': 2 > 1,
+                'opacity-50': index !== currentIndex,
               }"
             >
               <!-- @click="activeService = item.title" -->
@@ -123,7 +144,7 @@ export default {
       pauseOnFocus: true,
       pauseOnHover: true,
       centerMode: true,
-      centerPadding: '60px',
+      centerPadding: '70px',
       // variableWidth: true,
       slidesToScroll: 1,
     }
