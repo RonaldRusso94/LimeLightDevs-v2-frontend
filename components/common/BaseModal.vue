@@ -13,7 +13,6 @@
             bg-app-gray-1
             rounded-md
             lg:w-5/6
-            2xl:w-2/3
             p-3
             h-full
             md:h-[54%]
