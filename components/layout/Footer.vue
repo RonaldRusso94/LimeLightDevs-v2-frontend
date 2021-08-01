@@ -31,8 +31,8 @@
           flex
           items-end
           justify-center
-          text-[25]
-          sm:text-[50px]
+          text-[36]
+          sm:text-[36px]
           tracking-wide
           text-app-green-1
         "
@@ -46,7 +46,7 @@
           flex
           justify-between
           text-[12px] text-[#CFCFCF]
-          sm:text-[24px]
+          sm:text-[20px]
           capitalize
           tracking-wide
         "
@@ -62,32 +62,32 @@
     </div>
 
     <div class="flex items-center justify-between mt-5">
-      <div class="text-[8px] sm:text-[20px] text-[#a3a3a3] font-medium">
+      <div class="text-[8px] sm:text-[15px] text-[#a3a3a3] font-medium">
         © Copyright 2020 | Limelight Devs
       </div>
-      <div class="flex justify-between w-4/10 sm:w-2/10">
-        <div class="w-[16px] h-[16px] sm:w-[42px] sm:h-[42px]">
+      <div class="flex justify-between w-5/10 sm:w-2/10">
+        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
           <img
             class="w-full h-full object-contain"
             src="/social-icons/icons8-facebook 1.png"
             alt=""
           />
         </div>
-        <div class="w-[16px] h-[16px] sm:w-[42px] sm:h-[42px]">
+        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
           <img
             class="w-full h-full object-contain"
             src="/social-icons/icons8-github 1.png"
             alt=""
           />
         </div>
-        <div class="w-[16px] h-[16px] sm:w-[42px] sm:h-[42px]">
+        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
           <img
             class="w-full h-full object-contain"
             src="/social-icons/icons8-twitter 1.png"
             alt=""
           />
         </div>
-        <div class="w-[16px] h-[16px] sm:w-[42px] sm:h-[42px]">
+        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
           <img
             class="w-full h-full object-contain"
             src="/social-icons/instagram 1.png"
