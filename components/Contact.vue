@@ -10,54 +10,53 @@
       <div
         class="
           relative
+          flex flex-col-reverse
+          items-center
+          justify-center
           rounded-3xl
           bg-app-gray-2
-          flex flex-col-reverse
           lg:flex-row
-          justify-center
           lg:justify-end
-          items-center
         "
       >
         <div
           class="
             relative
-            lg:absolute
-            lg:-left-56
-            w-[998px]
-            h-[790]
-            rounded-3xl
             flex
-            items-center
+            items-end
             justify-center
-            lg:justify-start
+            w-full
+            h-full
             select-none
+            lg:absolute
+            lg:left-0
+            rounded-3xl
+            lg:justify-start
           "
         >
           <img
             draggable="false"
             class="
-              object-contain
               z-20
+              object-contain
               w-1/2
-              lg:w-3/4
-              max-h-3/4
-              transform
-              -rotate-12
+              max-h-full
+              lg:pl-6
+              lg:pt-6
+              lg:w-1/4
             "
-            src="/contact/OSXDBL1_2.png"
+            src="/contact/unboggled.png"
           />
         </div>
         <div
           class="
             z-30
-            flex
-            w-full
-            lg:w-2/3
-            flex-col
+            flex flex-col
             justify-center
+            w-full
             pt-8
             pb-0
+            lg:w-2/3
             lg:pb-8
           "
         >
@@ -69,22 +68,24 @@
             @submit="submit"
           >
             <template slot="submit">
-              <div class="m-6 flex justify-center w-full">
+              <div class="flex justify-center w-full m-6">
                 <button
                   type="submit"
                   class="
                     px-12
                     py-2
+                    text-xl
                     font-bold
-                    text-xl text-app-green-1
-                    hover:text-white
-                    border-4 border-app-green-1
-                    hover:bg-app-green-1
-                    rounded-full
-                    focus:outline-none
                     transition
-                    ease-in-out
                     duration-300
+                    ease-in-out
+                    border-4
+                    rounded-full
+                    text-app-green-1
+                    hover:text-white
+                    border-app-green-1
+                    hover:bg-app-green-1
+                    focus:outline-none
                   "
                 >
                   Send message
@@ -138,25 +139,25 @@ export default {
     const fields = computed(() => [
       {
         name: 'fullName',
-        placeholder: 'Full Name',
-        label: 'Full Name...',
-        divClass: 'flex flex-col mb-10 pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
+        placeholder: 'Write your first & last name here',
+        label: 'Name & Last Name',
+        divClass: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
         rules: {
           required: true,
         },
       },
       {
         name: 'reason',
-        placeholder: 'Subject...',
-        label: 'Subject',
+        placeholder: 'Write your reason',
+        label: 'Reason',
         rules: {
           required: true,
         },
       },
       {
         name: 'email',
-        placeholder: 'Email ID...',
-        label: 'Email ID',
+        placeholder: 'Write your email here',
+        label: 'Email',
         rules: {
           required: true,
           email: {
@@ -166,8 +167,8 @@ export default {
       },
       {
         name: 'phone',
-        placeholder: 'Contact Number',
-        label: 'Contact Number...',
+        placeholder: 'Phone Number',
+        label: 'Write your phone number',
         rules: {
           presence: false,
           format: {
@@ -182,9 +183,9 @@ export default {
       },
       {
         name: 'message',
-        placeholder: 'Message',
-        label: ' ',
+        placeholder: 'Write your message',
         variant: 'CustomTextArea',
+        label: 'Message',
         divClass: 'w-full',
         parentClass: 'mt-2 w-full lg:pr-4',
         rules: {
@@ -219,7 +220,7 @@ export default {
     const options = {
       formClass:
         'w-full flex flex-wrap flex-row justify-start items-center px-8',
-      divClasses: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4 mb-10',
+      divClasses: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4 mb-2',
       // parentClasses: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
     }
     return { form, submit, fields, options, formComp }
