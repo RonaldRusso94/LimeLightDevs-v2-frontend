@@ -1,7 +1,15 @@
 <template>
   <div class="md:flex justify-between items-center mb-4">
     <h3
-      class="mb-3 text-4xl font-semibold tracking-wide text-left 2xl:text-5xl lg:mb-0"
+      class="
+        mb-3
+        text-4xl
+        font-semibold
+        tracking-wide
+        text-left
+        2xl:text-5xl
+        lg:mb-0
+      "
     >
       Our Packages
     </h3>

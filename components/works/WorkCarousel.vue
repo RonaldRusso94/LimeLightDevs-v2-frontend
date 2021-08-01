@@ -31,8 +31,7 @@ export default {
       centerPadding: '60px',
       slidesToScroll: 1,
       adaptiveHeight: false,
-      autoplay: true,
-      autoplaySpeed: 4000,
+      autoplay: false,
       pauseOnFocus: true,
       pauseOnHover: true,
     }
@@ -83,7 +82,7 @@ export default {
     rgba(27, 27, 27, 0.1),
     rgb(27, 27, 27) 74%
   );
-  z-index: 111;
+  z-index: 18;
   height: 100%;
 }
 .slick-prev:before {

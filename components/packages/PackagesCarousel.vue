@@ -1,14 +1,14 @@
 <template>
-  <VueSlickCarousel v-bind="settings" ref="carousel">
+  <VueSlickCarousel ref="carousel" v-bind="settings">
     <service-card
       v-for="(item, index) in services"
       :ref="index"
       :key="item.id"
       class="transform element scale-90"
       :service="item"
-      :isFirstItem="index === 0"
-      :isLastItem="index === services.length - 1"
-      :isCarousel="true"
+      :is-first-item="index === 0"
+      :is-last-item="index === services.length - 1"
+      :is-carousel="true"
     />
   </VueSlickCarousel>
 </template>
@@ -43,7 +43,6 @@ export default {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: false,
-      autoplaySpeed: 2000,
       pauseOnFocus: true,
       pauseOnHover: true,
     }
