@@ -6,15 +6,15 @@
       !isCarousel && isLastItem ? 'rounded-r-2xl' : '',
     ]"
     class="
-      w-3/12
+      lg:w-3/12
       bg-app-gray-2
       flex flex-col
       text-center
       items-center
       justify-between
-      px-8
+      px-2
+      py-10
       2xl:px-10
-      py-8
       shadow-2xl
       z-10
     "

@@ -3,7 +3,7 @@
     <WorkCard
       v-for="work in projects"
       :key="work.id"
-      class="transform element scale-90"
+      class="transform element scale-[.95]"
       :work="work"
       :rounded-style="true"
     />
@@ -23,12 +23,12 @@ export default {
   data() {
     const settings = {
       dots: false,
-      arrows: true,
+      arrows: false,
       infinite: true,
       speed: 750,
       slidesToShow: 1,
       centerMode: true,
-      centerPadding: '60px',
+      centerPadding: '25px',
       slidesToScroll: 1,
       adaptiveHeight: false,
       autoplay: false,

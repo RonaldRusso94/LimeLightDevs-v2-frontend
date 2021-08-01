@@ -39,7 +39,15 @@
         >Welcome!</span
       >
       <span
-        class="text-2xl sm:text-3xl font-hibana text-app-green-1 mb-4 lg:mb-8"
+        class="
+          text-2xl text-center
+          lg:text-left
+          sm:text-3xl
+          font-hibana
+          text-app-green-1
+          mb-4
+          lg:mb-8
+        "
         >Limelight - Software Development</span
       >
       <p class="text-md lg:text-lg w-5/6 mb-8 text-center lg:text-left">

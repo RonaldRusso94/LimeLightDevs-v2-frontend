@@ -4,7 +4,7 @@
       v-for="(item, index) in services"
       :ref="index"
       :key="item.id"
-      class="transform element scale-90"
+      class="transform element scale-[.95]"
       :service="item"
       :is-first-item="index === 0"
       :is-last-item="index === services.length - 1"
@@ -35,7 +35,7 @@ export default {
   setup() {
     const settings = {
       centerMode: true,
-      centerPadding: '60px',
+      centerPadding: '35px',
       dots: false,
       arrows: false,
       infinite: true,
