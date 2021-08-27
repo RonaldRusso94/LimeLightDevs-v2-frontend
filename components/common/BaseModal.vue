@@ -4,7 +4,7 @@
     <transition name="scale">
       <div
         v-if="isOpen"
-        class="fixed flex justify-center inset-0 items-center z-40"
+        class="fixed inset-0 z-40 flex items-center justify-center"
       >
         <div
           v-click-outside="onClickOutside"
@@ -16,8 +16,7 @@
             p-3
             h-full
             md:h-[54%]
-            lg:h-2/5
-            xl:h-[70%]
+            xl:h-[67%]
           "
           role="dialog"
           aria-labelledby="modalTitle"
@@ -27,9 +26,9 @@
             <button
               type="button"
               class="
+                duration-150
                 btn-close
                 hover:text-red-600
-                duration-150
                 focus:text-red-600
               "
               aria-label="Close modal"
@@ -38,7 +37,7 @@
               x
             </button>
           </header>
-          <section id="modalDescription" class="modal-body h-full">
+          <section id="modalDescription" class="h-full modal-body">
             <slot name="body"> This is the default body! </slot>
           </section>
         </div>

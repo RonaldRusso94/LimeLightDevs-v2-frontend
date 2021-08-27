@@ -10,55 +10,58 @@
       <div
         class="
           relative
+          flex flex-col-reverse
+          items-center
+          justify-center
           rounded-3xl
           bg-app-gray-2
-          flex flex-col-reverse
           lg:flex-row
-          justify-center
           lg:justify-end
-          items-center
         "
       >
         <div
           class="
             relative
-            lg:absolute
-            lg:left-0
-            w-full
-            h-full
-            rounded-3xl
-            flex
+            xl:flex
             items-end
             justify-center
-            lg:justify-start
+            w-full
+            h-full
             select-none
+            xl:absolute
+            xl:left-0
+            rounded-3xl
+            xl:justify-start
+            hidden
           "
         >
           <img
             draggable="false"
             class="
+              z-20
+              object-contain
+              w-1/2
+              max-h-full
               lg:pl-6
               lg:pt-6
-              object-contain
-              z-20
-              w-1/2
-              lg:w-1/4
-              max-h-full
+              lg:w-auto
+              relative
+              bottom-8
+              2xl:right-20
+              xl:right-24
             "
-            src="/contact/unboggled.png"
+            src="/contact/contact.png"
           />
         </div>
         <div
           class="
             z-30
-            flex
-            w-full
-            lg:w-2/3
-            flex-col
+            flex flex-col
             justify-center
+            w-full
             pt-8
-            pb-0
-            lg:pb-8
+            lg:w-full
+            xl:w-3/5
           "
         >
           <v-generic-form
@@ -69,22 +72,24 @@
             @submit="submit"
           >
             <template slot="submit">
-              <div class="m-6 flex justify-center w-full">
+              <div class="flex justify-center w-full m-6">
                 <button
                   type="submit"
                   class="
                     px-12
                     py-2
+                    text-xl
                     font-bold
-                    text-xl text-app-green-1
-                    hover:text-white
-                    border-4 border-app-green-1
-                    hover:bg-app-green-1
-                    rounded-full
-                    focus:outline-none
                     transition
-                    ease-in-out
                     duration-300
+                    ease-in-out
+                    border-4
+                    rounded-full
+                    text-app-green-1
+                    hover:text-white
+                    border-app-green-1
+                    hover:bg-app-green-1
+                    focus:outline-none
                   "
                 >
                   Send message

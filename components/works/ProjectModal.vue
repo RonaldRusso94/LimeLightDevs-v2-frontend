@@ -2,30 +2,30 @@
   <div>
     <Modal :is-open="isModalVisible" @close="closeModal">
       <template v-slot:body>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-14 px-8">
-          <div class="left-side">
+        <div class="grid grid-cols-1 px-8 md:grid-cols-2 gap-14">
+          <div class="left-side md:order-first order-2">
             <div>
               <h2
                 class="
+                  mb-4
                   text-xl
                   font-semibold
-                  text-white text-center
+                  text-center text-white
                   sm:text-2xl
                   sm:leading-7
                   md:text-3xl
-                  mb-4
                 "
               >
                 {{ project.title }}
               </h2>
-              <p class="text-base mb-5">
+              <p class="mb-5 text-base">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.
               </p>
               <div class="mt-8">
-                <h2 class="text-xl font-semibold text-white sm:leading-7 mb-3">
+                <h2 class="mb-3 text-xl font-semibold text-white sm:leading-7">
                   Technologies
                 </h2>
                 <div>
@@ -33,19 +33,20 @@
                     v-for="item in project.technologies"
                     :key="item._id"
                     class="
-                      m-1
                       px-3
-                      md:px-3
                       py-1
-                      tracking-wider
+                      m-1
+                      text-sm
                       font-bold
-                      text-sm text-app-green-1
-                      border-2
+                      tracking-wider
                       transition
                       duration-200
-                      border-app-green-1
+                      border-2
                       rounded-lg
                       cursor-pointer
+                      md:px-3
+                      text-app-green-1
+                      border-app-green-1
                       focus:outline-none
                       hover:text-white
                       hover:bg-app-green-1
@@ -56,28 +57,17 @@
                 </div>
               </div>
 
-              <!-- <div class="mt-20">
-                <a
-                  href="/"
-                  target="_blank"
-                  class="
-                    px-3
-                    py-1
-                    font-bold
-                    text-md
-                    border-b-2
-                    transition
-                    duration-200
-                    border-app-green-1
-                    cursor-pointer
-                    focus:outline-none
-                    hover:bg-app-green-1
-                  "
-                >
-                  Visit Website
-                </a>
-              </div> -->
-              <div class="absolute bottom-5">
+              <div
+                class="
+                  md:absolute
+                  md:bottom-2
+                  mt-5
+                  md:mt-0
+                  flex flex-col
+                  items-center
+                  md:block
+                "
+              >
                 <a
                   href="#"
                   class="
@@ -108,23 +98,75 @@
                   ></div>
                 </a>
               </div>
+              <!-- <div class="mt-20">
+                <a
+                  href="/"
+                  target="_blank"
+                  class="px-3 py-1 font-bold transition duration-200 border-b-2 cursor-pointer text-md border-app-green-1 focus:outline-none hover:bg-app-green-1"
+                >
+                  Visit Website
+                </a>
+              </div> -->
             </div>
           </div>
           <!-- band aid fix for issue with initial load of modal -->
-          <VueSlickCarousel v-bind="settings">
+
+          <div class="relative">
+            <VueSlickCarousel ref="slider" v-bind="settings">
+              <div
+                v-for="media in project.media"
+                :key="media.url"
+                class="relative px-3 py-2 focus:outline-none appear-in"
+              >
+                <img
+                  :src="media.url"
+                  :alt="project.title"
+                  class="mx-auto rounded-xl md:h-[18rem] w-full"
+                  draggable="false"
+                />
+              </div>
+            </VueSlickCarousel>
             <div
-              v-for="media in project.media"
-              :key="media.url"
-              class="relative px-3 py-2 focus:outline-none appear-in"
+              class="
+                md:absolute
+                -bottom-4
+                md:-bottom-24
+                md:right-12
+                flex
+                items-center
+                justify-center
+                md:justify-start
+                space-x-3
+              "
             >
-              <img
-                :src="media.url"
-                :alt="project.title"
-                class="object-cover rounded-xl h-70 mx-auto"
-                draggable="false"
-              />
+              <button
+                class="
+                  text-app-green-1
+                  w-20
+                  h-20
+                  cursor-pointer
+                  duration-150
+                  hover:opacity-75
+                "
+                @click="prev()"
+              >
+                <chevron class="w-20 h-20" />
+              </button>
+              <button
+                class="
+                  text-app-green-1
+                  w-20
+                  h-20
+                  cursor-pointer
+                  duration-150
+                  hover:opacity-75
+                "
+                @click="next()"
+              >
+                <chevron class="w-20 h-20 transform rotate-180" />
+              </button>
             </div>
-          </VueSlickCarousel>
+          </div>
         </div>
       </template>
     </Modal>
@@ -137,13 +179,14 @@ import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import Modal from '../common/BaseModal.vue'
+import Chevron from '../misc/icons/Chevron.vue'
 
 export default {
-  components: { VueSlickCarousel, Modal },
+  components: { VueSlickCarousel, Modal, Chevron },
   data() {
     const settings = {
       dots: false,
-      arrows: true,
+      arrows: false,
       infinite: true,
       speed: 750,
       slidesToShow: 1,
@@ -204,6 +247,12 @@ export default {
       } else {
         el.classList.remove(className)
       }
+    },
+    next() {
+      this.$refs.slider.next()
+    },
+    prev() {
+      this.$refs.slider.prev()
     },
   },
 }

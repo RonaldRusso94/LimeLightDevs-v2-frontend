@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen text-white bg-app-gray-1 relative">
+  <div class="min-h-screen overflow-hidden text-white bg-app-gray-1 relative">
     <NavBar />
     <div :style="`padding-bottom:${footerHeight}px; padding-top: 100px;`">
       <Nuxt />

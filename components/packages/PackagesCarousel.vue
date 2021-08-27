@@ -1,19 +1,21 @@
 <template>
-  <VueSlickCarousel v-bind="settings" ref="carousel">
+  <VueSlickCarousel ref="carousel" v-bind="settings">
     <service-card
       v-for="(item, index) in services"
+      :ref="index"
       :key="item.id"
+      class="transform element scale-[.95]"
       :service="item"
-      :isFirstItem="index === 0"
-      :isLastItem="index === services.length - 1"
-      :isCarousel="true"
+      :is-first-item="index === 0"
+      :is-last-item="index === services.length - 1"
+      :is-carousel="true"
     />
   </VueSlickCarousel>
 </template>
 
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
-import SectionContainer from '../common/SectionContainer.vue'
+// import SectionContainer from '../common/SectionContainer.vue'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 // optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
@@ -21,7 +23,6 @@ import ServiceCard from './ServiceCard.vue'
 
 export default {
   components: {
-    SectionContainer,
     VueSlickCarousel,
     ServiceCard,
   },
@@ -33,14 +34,15 @@ export default {
   },
   setup() {
     const settings = {
+      centerMode: true,
+      centerPadding: '35px',
       dots: false,
       arrows: false,
       infinite: true,
       speed: 750,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
+      autoplay: false,
       pauseOnFocus: true,
       pauseOnHover: true,
     }
@@ -63,4 +65,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.slick-active .element {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+</style>
