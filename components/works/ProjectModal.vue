@@ -98,7 +98,8 @@
                   </p>
                 </div>
                 <a
-                  :href="project.url || '#contact'"
+                  v-if="project.url"
+                  :href="project.url"
                   class="
                     relative
                     inline-flex
@@ -114,14 +115,45 @@
                   "
                 >
                   <p class="relative z-10">
-                    {{
-                      project.url
-                        ? `Visit ${
-                            project.type === 'mobileapp' ? 'App' : 'Website'
-                          }`
-                        : 'Request Demo'
-                    }}
+                    Visit {{ project.type === 'mobileapp' ? 'App' : 'Website' }}
                   </p>
+                  <div
+                    class="
+                      absolute
+                      bg-app-green-1
+                      inset-x-0
+                      bottom-0
+                      h-[10%]
+                      duration-150
+                      group-hover:h-full
+                    "
+                  ></div>
+                </a>
+                <a
+                  v-else
+                  href="#contact"
+                  class="
+                    relative
+                    inline-flex
+                    justify-center
+                    items-center
+                    px-3
+                    py-2
+                    md:px-6
+                    xl:py-3.5
+                    group
+                    text-xs
+                    sm:text-base
+                  "
+                  @click.stop="
+                    ;(isModalVisible = false),
+                      $store.commit('setContact', {
+                        message: `I'd like to see a demo of ${project.title}.`,
+                        reason: `${project.title} Demo`,
+                      })
+                  "
+                >
+                  <p class="relative z-10">Request Demo</p>
                   <div
                     class="
                       absolute
