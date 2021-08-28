@@ -51,7 +51,7 @@
                     "
                     @click="prev()"
                   >
-                    <chevron class="w-16 h-16 md:w-[4rem] md:h-[4rem]" />
+                    <chevron class="w-16 h-16" />
                   </button>
                   <button
                     class="
@@ -98,7 +98,7 @@
                   </p>
                 </div>
                 <a
-                  href="#"
+                  :href="project.url || '#contact'"
                   class="
                     relative
                     inline-flex
@@ -113,7 +113,15 @@
                     sm:text-base
                   "
                 >
-                  <p class="relative z-10">Visit Website</p>
+                  <p class="relative z-10">
+                    {{
+                      project.url
+                        ? `Visit ${
+                            project.type === 'mobileapp' ? 'App' : 'Website'
+                          }`
+                        : 'Request Demo'
+                    }}
+                  </p>
                   <div
                     class="
                       absolute
@@ -150,7 +158,7 @@ export default {
       dots: false,
       arrows: false,
       infinite: true,
-      speed: 750,
+      speed: 400,
       slidesToShow: 1,
       slidesToScroll: 1,
       adaptiveHeight: false,
