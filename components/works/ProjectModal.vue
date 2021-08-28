@@ -14,7 +14,7 @@
                   <img
                     :src="media.url"
                     :alt="project.title"
-                    class="mx-auto rounded-xl md:h-[30rem] w-full"
+                    class="mx-auto rounded-xl md:h-[25rem] lg:h-[30rem] w-full"
                     draggable="false"
                   />
                 </div>

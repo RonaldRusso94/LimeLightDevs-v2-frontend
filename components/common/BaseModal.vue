@@ -22,16 +22,16 @@
             rounded-xl
             shadow-xl
             overflow-x-hidden
-            lg:w-853px
             flex flex-col
-            md:w-10/12
+            lg:w-10/12
             w-11/12
-            pb-8
+            pb-3
             pt-2
             md:h-auto
             h-screen
             m-auto
-            md:px-10
+            lg:px-10
+            md:px-3
             relative
             z-50
           "
