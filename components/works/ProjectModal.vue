@@ -100,6 +100,7 @@
                 <a
                   v-if="project.url"
                   :href="project.url"
+                  target="__blank"
                   class="
                     relative
                     inline-flex
