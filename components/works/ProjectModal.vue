@@ -1,73 +1,113 @@
 <template>
   <div>
-    <Modal :is-open="isModalVisible" @close="closeModal">
-      <template v-slot:body>
-        <div class="grid grid-cols-1 px-8 md:grid-cols-2 gap-14">
-          <div class="left-side md:order-first order-2">
+    <client-only>
+      <Modal :is-open="isModalVisible" @close="closeModal">
+        <template>
+          <div v-if="project" class="flex flex-col h-full">
             <div>
-              <h2
+              <VueSlickCarousel ref="slider" v-bind="settings">
+                <div
+                  v-for="media in project.media"
+                  :key="media.url"
+                  class="relative px-3 py-2 focus:outline-none appear-in"
+                >
+                  <img
+                    :src="media.url"
+                    :alt="project.title"
+                    class="mx-auto rounded-xl md:h-[30rem] w-full"
+                    draggable="false"
+                  />
+                </div>
+              </VueSlickCarousel>
+            </div>
+            <div class="px-3">
+              <div
                 class="
-                  mb-4
-                  text-xl
-                  font-semibold
-                  text-center text-white
-                  sm:text-2xl
-                  sm:leading-7
-                  md:text-3xl
+                  mt-1
+                  mb-2
+                  flex flex-wrap
+                  justify-center
+                  md:justify-between
                 "
               >
-                {{ project.title }}
-              </h2>
-              <p class="mb-5 text-base">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </p>
-              <div class="mt-8">
-                <h2 class="mb-3 text-xl font-semibold text-white sm:leading-7">
-                  Technologies
-                </h2>
-                <div>
+                <h1 class="text-2xl md:text-4xl font-bold">
+                  {{ project.title }}
+                </h1>
+                <div
+                  class="
+                    flex
+                    items-center
+                    justify-center
+                    md:justify-start
+                    space-x-3
+                  "
+                >
                   <button
-                    v-for="item in project.technologies"
-                    :key="item._id"
                     class="
-                      px-3
-                      py-1
-                      m-1
-                      text-sm
-                      font-bold
-                      tracking-wider
-                      transition
-                      duration-200
-                      border-2
-                      rounded-lg
-                      cursor-pointer
-                      md:px-3
                       text-app-green-1
-                      border-app-green-1
-                      focus:outline-none
-                      hover:text-white
-                      hover:bg-app-green-1
+                      cursor-pointer
+                      duration-150
+                      hover:opacity-75
                     "
+                    @click="prev()"
                   >
-                    {{ item.technology }}
+                    <chevron
+                      class="w-[3rem] h-[3rem] md:w-[4rem] md:h-[4rem]"
+                    />
+                  </button>
+                  <button
+                    class="
+                      text-app-green-1
+                      cursor-pointer
+                      duration-150
+                      hover:opacity-75
+                    "
+                    @click="next()"
+                  >
+                    <chevron
+                      class="
+                        w-[3rem]
+                        h-[3rem]
+                        md:w-[4rem]
+                        md:h-[4rem]
+                        transform
+                        rotate-180
+                      "
+                    />
                   </button>
                 </div>
               </div>
-
+              <p class="my-8 md:my-0">{{ project.description }}</p>
+            </div>
+            <div class="px-3 mt-auto">
               <div
                 class="
-                  md:absolute
-                  md:bottom-2
-                  mt-5
-                  md:mt-0
-                  flex flex-col
-                  items-center
-                  md:block
+                  flex
+                  md:items-center
+                  flex-wrap
+                  justify-center
+                  md:justify-between
                 "
               >
+                <div
+                  class="
+                    flex
+                    items-center
+                    flex-wrap
+                    space-x-2
+                    mt-2
+                    mb-5
+                    md:mb-0
+                  "
+                >
+                  <p
+                    v-for="tech in project.technologies"
+                    :key="tech.id"
+                    class="bg-app-green-1 text-white p-2 my-3"
+                  >
+                    {{ tech.technology }}
+                  </p>
+                </div>
                 <a
                   href="#"
                   class="
@@ -98,78 +138,11 @@
                   ></div>
                 </a>
               </div>
-              <!-- <div class="mt-20">
-                <a
-                  href="/"
-                  target="_blank"
-                  class="px-3 py-1 font-bold transition duration-200 border-b-2 cursor-pointer text-md border-app-green-1 focus:outline-none hover:bg-app-green-1"
-                >
-                  Visit Website
-                </a>
-              </div> -->
             </div>
           </div>
-          <!-- band aid fix for issue with initial load of modal -->
-
-          <div class="relative">
-            <VueSlickCarousel ref="slider" v-bind="settings">
-              <div
-                v-for="media in project.media"
-                :key="media.url"
-                class="relative px-3 py-2 focus:outline-none appear-in"
-              >
-                <img
-                  :src="media.url"
-                  :alt="project.title"
-                  class="mx-auto rounded-xl md:h-[18rem] w-full"
-                  draggable="false"
-                />
-              </div>
-            </VueSlickCarousel>
-            <div
-              class="
-                md:absolute
-                -bottom-4
-                md:-bottom-24
-                md:right-12
-                flex
-                items-center
-                justify-center
-                md:justify-start
-                space-x-3
-              "
-            >
-              <button
-                class="
-                  text-app-green-1
-                  w-20
-                  h-20
-                  cursor-pointer
-                  duration-150
-                  hover:opacity-75
-                "
-                @click="prev()"
-              >
-                <chevron class="w-20 h-20" />
-              </button>
-              <button
-                class="
-                  text-app-green-1
-                  w-20
-                  h-20
-                  cursor-pointer
-                  duration-150
-                  hover:opacity-75
-                "
-                @click="next()"
-              >
-                <chevron class="w-20 h-20 transform rotate-180" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </template>
-    </Modal>
+        </template>
+      </Modal>
+    </client-only>
   </div>
 </template>
 
@@ -213,7 +186,7 @@ export default {
       } else {
         vm.showCarousel = false
       }
-      console.log(`value`, value)
+      // console.log(`value`, value)
     },
   },
   computed: {
