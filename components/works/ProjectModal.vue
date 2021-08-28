@@ -140,14 +140,10 @@ import { mapGetters } from 'vuex'
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-import ClickOutside from 'vue-click-outside'
 import Modal from '../common/BaseModal.vue'
 import Chevron from '../misc/icons/Chevron.vue'
 
 export default {
-  directives: {
-    ClickOutside,
-  },
   components: { VueSlickCarousel, Modal, Chevron },
   data() {
     const settings = {
