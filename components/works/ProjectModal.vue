@@ -51,9 +51,7 @@
                     "
                     @click="prev()"
                   >
-                    <chevron
-                      class="w-[3rem] h-[3rem] md:w-[4rem] md:h-[4rem]"
-                    />
+                    <chevron class="w-16 h-16 md:w-[4rem] md:h-[4rem]" />
                   </button>
                   <button
                     class="
@@ -64,16 +62,7 @@
                     "
                     @click="next()"
                   >
-                    <chevron
-                      class="
-                        w-[3rem]
-                        h-[3rem]
-                        md:w-[4rem]
-                        md:h-[4rem]
-                        transform
-                        rotate-180
-                      "
-                    />
+                    <chevron class="w-16 h-16 transform rotate-180" />
                   </button>
                 </div>
               </div>
@@ -151,10 +140,14 @@ import { mapGetters } from 'vuex'
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import ClickOutside from 'vue-click-outside'
 import Modal from '../common/BaseModal.vue'
 import Chevron from '../misc/icons/Chevron.vue'
 
 export default {
+  directives: {
+    ClickOutside,
+  },
   components: { VueSlickCarousel, Modal, Chevron },
   data() {
     const settings = {

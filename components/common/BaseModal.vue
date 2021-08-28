@@ -14,66 +14,70 @@
         items-center
       "
     >
-      <div
-        class="
-          bg-black
-          rounded-xl
-          shadow-xl
-          overflow-x-hidden
-          lg:w-853px
-          flex flex-col
-          md:w-10/12
-          w-11/12
-          pb-8
-          pt-2
-          px-5
-          md:h-auto
-          h-screen
-          m-auto
-          md:px-10
-          relative
-          z-50
-        "
-        role="dialog"
-        aria-labelledby="modalTitle"
-        aria-describedby="modalDescription"
-      >
-        <section
+      <transition name="scale">
+        <div
           v-if="isOpen"
-          id="modalDescription"
-          class="modal-body relative px-3 py-5"
+          class="
+            bg-black
+            rounded-xl
+            shadow-xl
+            overflow-x-hidden
+            lg:w-853px
+            flex flex-col
+            md:w-10/12
+            w-11/12
+            pb-8
+            pt-2
+            md:h-auto
+            h-screen
+            m-auto
+            md:px-10
+            relative
+            z-50
+          "
+          role="dialog"
+          aria-labelledby="modalTitle"
+          aria-describedby="modalDescription"
         >
-          <div class="flex w-full mb-4">
-            <button
-              type="button"
-              class="
-                text-red-500
-                hover:text-red-400
-                duration-150
-                text-5xl
-                ml-auto
-              "
-              @click="$emit('close')"
-            >
-              &times;
-            </button>
-          </div>
-          <slot></slot>
-        </section>
-      </div>
+          <section
+            id="modalDescription"
+            v-click-outside="onClickoutside"
+            class="modal-body relative px-3 py-5"
+          >
+            <div class="flex w-full mb-4">
+              <button
+                type="button"
+                class="
+                  text-red-500
+                  hover:text-red-400
+                  duration-150
+                  text-5xl
+                  ml-auto
+                  mr-5
+                  md:mr-0
+                "
+                @click="$emit('close')"
+              >
+                &times;
+              </button>
+            </div>
+            <slot></slot>
+          </section>
+        </div>
+      </transition>
     </div>
   </transition>
 </template>
 
 <script>
-import vClickOutside from 'v-click-outside'
+// import ClickOutside from 'v-click-outside'
 
 export default {
   name: 'BaseModal',
   components: {},
-  directives: {
-    clickOutside: vClickOutside.directive,
-  },
+  // directives: {
+  //   ClickOutside,
+  // },
   props: {
     isOpen: {
       type: Boolean,
