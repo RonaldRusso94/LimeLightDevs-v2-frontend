@@ -15,7 +15,7 @@
         :description="serviceItem.description"
         :image-url="serviceItem.imageUrl"
         :image-left-side="serviceItem.imageLeftSide"
-        :isFlowingOut="serviceItem.isFlowingOut"
+        :is-flowing-out="serviceItem.isFlowingOut"
       />
     </div>
   </div>

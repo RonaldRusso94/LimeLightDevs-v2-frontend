@@ -18,15 +18,14 @@
         <div
           v-if="isOpen"
           class="
-            bg-black
+            bg-app-gray-1
             rounded-xl
             shadow-xl
             overflow-x-hidden
             flex flex-col
-            lg:w-10/12
+            lg:w-7/12
             w-11/12
             pb-3
-            pt-2
             md:h-auto
             h-screen
             m-auto
@@ -42,7 +41,7 @@
           <section
             id="modalDescription"
             v-click-outside="onClickoutside"
-            class="modal-body relative px-3 py-5"
+            class="modal-body relative px-3 pb-2 pt-3"
           >
             <div class="flex w-full mb-4">
               <button

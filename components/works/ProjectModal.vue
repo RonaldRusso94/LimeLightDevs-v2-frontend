@@ -14,7 +14,12 @@
                   <img
                     :src="media.url"
                     :alt="project.title"
-                    class="mx-auto rounded-xl md:h-[25rem] lg:h-[30rem] w-full"
+                    class="mx-auto rounded-xl"
+                    :class="
+                      project.type !== 'mobileapp'
+                        ? 'md:h-[25rem] lg:h-[27rem] w-full'
+                        : ' w-10/12 h-auto'
+                    "
                     draggable="false"
                   />
                 </div>
@@ -83,6 +88,8 @@
                     flex
                     items-center
                     flex-wrap
+                    md:transform
+                    md:translate-y-3
                     space-x-2
                     mt-2
                     mb-5
@@ -92,7 +99,16 @@
                   <p
                     v-for="tech in project.technologies"
                     :key="tech.id"
-                    class="bg-app-green-1 text-white p-2 my-3"
+                    class="
+                      bg-app-green-1
+                      text-white
+                      p-1
+                      inline-block
+                      my-3
+                      rounded-full
+                      text-center
+                      min-w-[80px]
+                    "
                   >
                     {{ tech.technology }}
                   </p>
