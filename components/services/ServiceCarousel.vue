@@ -17,14 +17,23 @@
         />
         <div class="absolute bottom-0 py-2 w-full flex flex-col items-center">
           <span
-            class="font-bold text-2xl md:text-3xl px-4 md:px-0 mb-6 text-center"
+            class="
+              font-bold
+              text-2xl
+              md:text-3xl
+              px-4
+              md:px-0
+              mb-6
+              text-center
+              hidden
+            "
             >{{ serviceSlide.name }}</span
           >
         </div>
       </div>
     </VueSlickCarousel>
 
-    <div class="w-full flex justify-center absolute bottom-2">
+    <!-- <div class="w-full flex justify-center absolute bottom-2">
       <button
         v-for="(serviceSlide, index) in serviceSlides"
         :key="index"
@@ -41,7 +50,7 @@
         :class="currentIndex === index ? 'bg-white' : 'border-2 border-white'"
         @click="goToIndex(index)"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -58,23 +67,23 @@ export default {
       {
         name: 'Hallmar wine & distillery',
         imageUrl:
-          'https://images.unsplash.com/photo-1487083990731-52aaad54939a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+          'https://images.unsplash.com/photo-1555421689-491a97ff2040?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
       },
-      {
-        name: 'Lorem ipsum dolor sit amet',
-        imageUrl:
-          'https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1369&q=80',
-      },
-      {
-        name: 'consectetur adipiscing elit',
-        imageUrl:
-          'https://images.unsplash.com/photo-1483488792196-78bedff29c21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-      },
-      {
-        name: 'something really really cool!',
-        imageUrl:
-          'https://images.unsplash.com/photo-1525877089115-11718b6724c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80',
-      },
+      // {
+      //   name: 'Lorem ipsum dolor sit amet',
+      //   imageUrl:
+      //     'https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1369&q=80',
+      // },
+      // {
+      //   name: 'consectetur adipiscing elit',
+      //   imageUrl:
+      //     'https://images.unsplash.com/photo-1483488792196-78bedff29c21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      // },
+      // {
+      //   name: 'something really really cool!',
+      //   imageUrl:
+      //     'https://images.unsplash.com/photo-1525877089115-11718b6724c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80',
+      // },
     ]
 
     const currentIndex = ref(0)
