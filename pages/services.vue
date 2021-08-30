@@ -27,6 +27,14 @@ export default {
   head() {
     return {
       title: 'Services',
+      meta: [
+        {
+          hid: 'LimeLightDevs',
+          name: 'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave outdated technologies in the past.',
+          content:
+            'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave outdated technologies in the past.',
+        },
+      ],
     }
   },
 }

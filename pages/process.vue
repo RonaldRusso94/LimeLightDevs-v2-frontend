@@ -59,6 +59,19 @@ import LeftDottedLine from '~/components/misc/icons/LeftDottedLine.vue'
 import RightDottedLine from '~/components/misc/icons/RightDottedLine.vue'
 export default {
   components: { RightDottedLine, LeftDottedLine, ProcessPoint },
+  head() {
+    return {
+      title: 'Packages',
+      meta: [
+        {
+          hid: 'LimeLightDevs',
+          name: 'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave outdated technologies in the past.',
+          content:
+            'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave outdated technologies in the past.',
+        },
+      ],
+    }
+  },
 }
 </script>
 
