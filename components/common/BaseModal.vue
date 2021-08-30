@@ -1,131 +1,120 @@
 <template>
-  <div>
-    <overlay :is-open="isOpen" />
-    <transition name="scale">
-      <div
-        v-if="isOpen"
-        class="fixed inset-0 z-40 flex items-center justify-center"
-      >
+  <transition name="modal-fade">
+    <div
+      v-if="isOpen"
+      class="
+        z-40
+        py-10
+        fixed
+        inset-0
+        overflow-y-auto
+        blur
+        flex
+        justify-center
+        items-center
+      "
+    >
+      <transition name="scale">
         <div
-          v-click-outside="onClickOutside"
+          v-if="isOpen"
           class="
-            modal
             bg-app-gray-1
-            rounded-md
-            lg:w-5/6
-            p-3
-            h-full
-            md:h-[54%]
-            xl:h-[67%]
+            rounded-xl
+            shadow-xl
+            overflow-x-hidden
+            flex flex-col
+            lg:w-7/12
+            w-11/12
+            pb-3
+            md:h-auto
+            h-screen
+            m-auto
+            lg:px-10
+            md:px-3
+            relative
+            z-50
           "
           role="dialog"
           aria-labelledby="modalTitle"
           aria-describedby="modalDescription"
         >
-          <header id="modalTitle" class="modal-header">
-            <button
-              type="button"
-              class="
-                duration-150
-                btn-close
-                hover:text-red-600
-                focus:text-red-600
-              "
-              aria-label="Close modal"
-              @click="close"
-            >
-              x
-            </button>
-          </header>
-          <section id="modalDescription" class="h-full modal-body">
-            <slot name="body"> This is the default body! </slot>
+          <section
+            id="modalDescription"
+            v-click-outside="onClickoutside"
+            class="modal-body relative px-3 pb-2 pt-3"
+          >
+            <div class="flex w-full mb-4">
+              <button
+                type="button"
+                class="
+                  text-red-500
+                  hover:text-red-400
+                  duration-150
+                  text-5xl
+                  ml-auto
+                  mr-5
+                  md:mr-0
+                "
+                @click="$emit('close')"
+              >
+                &times;
+              </button>
+            </div>
+            <slot></slot>
           </section>
         </div>
-      </div>
-    </transition>
-  </div>
+      </transition>
+    </div>
+  </transition>
 </template>
 
 <script>
-import Overlay from '../misc/Overlay.vue'
+// import ClickOutside from 'v-click-outside'
+
 export default {
-  name: 'Modal',
-  components: { Overlay },
+  name: 'BaseModal',
+  components: {},
+  // directives: {
+  //   ClickOutside,
+  // },
   props: {
     isOpen: {
       type: Boolean,
-      default: false,
+      default: true,
+    },
+  },
+  watch: {
+    isOpen: {
+      immediate: true,
+      handler(value) {
+        if (typeof document === 'undefined') return
+        if (value) {
+          document.body.classList.add('overflow-y-hidden')
+        } else {
+          document.body.classList.remove('overflow-y-hidden')
+        }
+      },
     },
   },
   methods: {
-    close() {
+    onClickoutside() {
       this.$emit('close')
-    },
-    onClickOutside(event) {
-      if (event.target.type !== 'submit') this.$emit('close')
     },
   },
 }
 </script>
 
-<style>
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+<style scoped>
+/* .modal-backdrop {
+  @apply z-50 py-10 fixed inset-0 overflow-y-auto bg-black bg-opacity-70 flex justify-center items-center;
+} */
 
-.modal {
-  /* background: #000; */
-  overflow-x: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.modal-header,
-.modal-footer {
-  padding: 15px;
-  display: flex;
-}
-
-.modal-header {
-  position: relative;
-  justify-content: space-between;
-}
-
-.modal-footer {
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.modal-body {
-  position: relative;
-  padding: 20px 10px;
-}
-
-.btn-close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: none;
-  font-size: 20px;
-  padding: 1px 10px;
-  cursor: pointer;
-  font-weight: bold;
-  background: transparent;
-}
-
-.btn-green {
-  color: white;
-  background: #4aae9b;
-  border: 1px solid #4aae9b;
-  border-radius: 2px;
+/* .modal {
+  @apply bg-white rounded-xl shadow-xl overflow-x-hidden lg:w-853px flex flex-col w-full py-8 px-5 md:h-auto m-auto md:px-10;
+} */
+.blur {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
 }
 
 .modal-fade-enter,
@@ -135,6 +124,13 @@ export default {
 
 .modal-fade-enter-active,
 .modal-fade-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.29s ease;
+}
+.scale-enter-active,
+.scale-leave-active {
+  transition: all 0.2s;
+}
+.scale-enter, .scale-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  transform: scale(0);
 }
 </style>

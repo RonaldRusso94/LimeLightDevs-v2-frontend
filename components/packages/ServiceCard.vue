@@ -41,7 +41,7 @@
       variant="two"
       @click.stop="
         $store.commit('setContact', {
-          message: `I'd to order the ${service.title} package.`,
+          message: `I'd like to order the ${service.title} package.`,
           reason: `${service.title} Package.`,
         })
       "
