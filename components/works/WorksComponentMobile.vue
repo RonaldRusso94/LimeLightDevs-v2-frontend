@@ -1,5 +1,8 @@
 <template>
-  <section-container class="sm:hidden w-11/12 mx-auto my-4" :default-margins="false">
+  <section-container
+    class="sm:hidden w-11/12 mx-auto my-4"
+    :default-margins="false"
+  >
     <section-title text="Our Works" />
     <work-carousel />
   </section-container>
@@ -9,7 +12,7 @@
 import WorkCarousel from '~/components/works/WorkCarousel'
 import SectionTitle from '~/components/common/SectionTitle.vue'
 import SectionContainer from '~/components/common/SectionContainer.vue'
-
+//
 export default {
   components: {
     SectionContainer,
