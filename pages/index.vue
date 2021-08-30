@@ -25,13 +25,14 @@ export default {
   components: { OurProcess, Packages, WorksComponent },
   head() {
     return {
-      title: 'Landing Page',
+      title:
+        'Software Development Company & Technical Soultions in NYC - LimeLight Devs ',
       meta: [
         {
           hid: 'LimeLightDevs',
-          name: 'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave outdated technologies in the past.',
+          name: 'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave the outdated technologies and errors in the past.',
           content:
-            'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave outdated technologies in the past.',
+            'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave the outdated technologies and errors in the past.',
         },
       ],
     }
