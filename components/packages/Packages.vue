@@ -27,8 +27,7 @@
                 text-lg
                 duration-150
                 font-bold
-                focus:border-none
-                focus:outline-none
+                focus:border-none focus:outline-none
               "
               :class="[
                 getActiveServices.title === item.title
@@ -68,6 +67,7 @@
           ></div>
           <VueSlickCarousel
             v-if="services"
+            ref="carousel"
             v-bind="settings"
             @init="initSlides"
             @beforeChange="slideChange"
@@ -78,11 +78,10 @@
               role="button"
               class="cursor-pointer mx-4 py-3 lg:py-0 duration-150"
               :class="{
-                'text-right': lastIndex == index,
-                'text-left': nextIndex == index,
                 'text-center': 2 > 1,
-                'opacity-50': index !== currentIndex,
+                'opacity-50': activeService !== item.title,
               }"
+              @click="selectService(item, index)"
             >
               <!-- @click="activeService = item.title" -->
               {{ item.title }}
@@ -178,6 +177,10 @@ export default {
       this.nextIndex =
         currentIndex === this.services.length ? 0 : currentIndex + 1
       this.lastIndex = oldIndex
+    },
+    selectService(item, index) {
+      this.activeService = item.title
+      this.$refs.carousel.goTo(index)
     },
     initSlides(a) {
       this.currentIndex = this.services
