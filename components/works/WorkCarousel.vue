@@ -1,5 +1,5 @@
 <template>
-  <VueSlickCarousel v-bind="settings">
+  <VueSlickCarousel v-bind="settings" class="-mx-6">
     <WorkCard
       v-for="work in projects"
       :key="work.id"
