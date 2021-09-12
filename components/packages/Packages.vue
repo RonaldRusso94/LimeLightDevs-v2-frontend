@@ -27,7 +27,8 @@
                 text-lg
                 duration-150
                 font-bold
-                focus:border-none focus:outline-none
+                focus:border-none
+                focus:outline-none
               "
               :class="[
                 getActiveServices.title === item.title
@@ -42,7 +43,7 @@
         </ul>
         <!-- END TABS -->
       </div>
-      <div class="sm:hidden mb-4">
+      <div class="sm:hidden mb-6 -mx-6">
         <!-- TABS -->
         <div class="md:w-1/2 bg-app-gray-2 relative">
           <div
@@ -92,7 +93,7 @@
       </div>
     </div>
 
-    <div v-if="getActiveServices != null" class="">
+    <div v-if="getActiveServices != null" class="-mx-6">
       <div class="lg:hidden">
         <packages-carousel :services="[...getActiveServices.packages]" />
       </div>
