@@ -4,7 +4,8 @@
       v-if="isOpen"
       class="
         z-40
-        py-10
+        pb-10
+        pt-[4.5rem]
         fixed
         inset-0
         overflow-y-auto
