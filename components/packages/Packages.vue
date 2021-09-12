@@ -77,7 +77,7 @@
               v-for="(item, index) in services"
               :key="item.id"
               role="button"
-              class="cursor-pointer mx-4 py-3 lg:py-0 duration-150"
+              class="cursor-pointer py-3 lg:py-0 duration-150"
               :class="{
                 'text-center': 2 > 1,
                 'opacity-50': activeService !== item.title,
@@ -178,6 +178,7 @@ export default {
       this.nextIndex =
         currentIndex === this.services.length ? 0 : currentIndex + 1
       this.lastIndex = oldIndex
+      this.activeService = this.services[currentIndex].title
     },
     selectService(item, index) {
       this.activeService = item.title
