@@ -48,9 +48,11 @@
         <div class="md:w-1/2 bg-app-gray-2 relative">
           <div
             class="
-              bg-app-gray-2 bg-opacity-75
+              bg-gradient-to-l
+              from-transparent
+              to-app-gray-2
               absolute
-              -right-5
+              -left-5
               w-16
               z-20
               h-full
@@ -58,7 +60,9 @@
           ></div>
           <div
             class="
-              bg-app-gray-2 bg-opacity-75
+              bg-gradient-to-r
+              from-transparent
+              to-app-gray-2
               absolute
               -right-5
               w-16
