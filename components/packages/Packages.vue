@@ -79,8 +79,10 @@
               role="button"
               class="cursor-pointer py-3 lg:py-0 duration-150"
               :class="{
-                'text-center': 2 > 1,
+                'text-right': lastIndex == index,
+                'text-left': nextIndex == index,
                 'opacity-50': activeService !== item.title,
+                'text-center': activeService === item.title,
               }"
               @click="selectService(item, index)"
             >
@@ -151,9 +153,9 @@ export default {
 
     return {
       settings,
-      lastIndex: 0,
-      currentIndex: 1,
-      nextIndex: 2,
+      lastIndex: null,
+      currentIndex: null,
+      nextIndex: null,
       activeService: 'Web Development',
     }
   },
@@ -191,7 +193,9 @@ export default {
       this.nextIndex =
         this.currentIndex === this.services.length ? 0 : this.currentIndex + 1
       this.lastIndex =
-        this.currentIndex === 0 ? this.services.length : this.currentIndex - 1
+        this.currentIndex === 0
+          ? this.services.length - 1
+          : this.currentIndex - 1
     },
   },
 }
