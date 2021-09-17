@@ -25,18 +25,8 @@ export default {
   components: { OurProcess, Packages, WorksComponent },
   head() {
     return {
-      title:
-        'Software Development Company & Technical Soultions in NYC - LimeLight Devs ',
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'LimeLightDevs',
-          name: 'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave the outdated technologies and errors in the past.',
-          content:
-            'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave the outdated technologies and errors in the past.',
-        },
-      ],
+      titleTemplate:
+        '%s - Software Development Company & Technical Soultions in NYC',
     }
   },
 }

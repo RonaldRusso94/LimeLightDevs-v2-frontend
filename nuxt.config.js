@@ -1,21 +1,28 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+  // publicRuntimeConfig: { baseURL: process.env.NUXT_BASE_URL },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'limelight-devs',
+    title: 'LimeLight Devs',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    ],
-    link: [
       {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/web-app-design',
+        name: 'LimeLight Devs',
+        content:
+          'The Best New York Website & App Development Company. We follow the lastest technology trends and ensure we delievery quality. We leave the outdated technologies and errors in the past.',
       },
+      // { hid: 'og:image', property: 'og:image', content: `${this.$config.baseURL}/logo.png` }
     ],
+    // link: [
+    //   {
+    //     rel: 'icon',
+    //     type: 'image/x-icon',
+    //     href: '/web-app-design.png',
+    //   },
+    // ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
