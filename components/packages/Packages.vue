@@ -43,14 +43,16 @@
         </ul>
         <!-- END TABS -->
       </div>
-      <div class="sm:hidden mb-4">
+      <div class="sm:hidden mb-6 -mx-6">
         <!-- TABS -->
         <div class="md:w-1/2 bg-app-gray-2 relative">
           <div
             class="
-              bg-app-gray-2 bg-opacity-75
+              bg-gradient-to-l
+              from-transparent
+              to-app-gray-2
               absolute
-              -right-5
+              -left-5
               w-16
               z-20
               h-full
@@ -58,7 +60,9 @@
           ></div>
           <div
             class="
-              bg-app-gray-2 bg-opacity-75
+              bg-gradient-to-r
+              from-transparent
+              to-app-gray-2
               absolute
               -right-5
               w-16
@@ -68,6 +72,7 @@
           ></div>
           <VueSlickCarousel
             v-if="services"
+            ref="carousel"
             v-bind="settings"
             @init="initSlides"
             @beforeChange="slideChange"
@@ -76,13 +81,14 @@
               v-for="(item, index) in services"
               :key="item.id"
               role="button"
-              class="cursor-pointer mx-4 py-3 lg:py-0 duration-150"
+              class="cursor-pointer py-3 lg:py-0 duration-150"
               :class="{
                 'text-right': lastIndex == index,
                 'text-left': nextIndex == index,
-                'text-center': 2 > 1,
-                'opacity-50': index !== currentIndex,
+                'opacity-50': activeService !== item.title,
+                'text-center': activeService === item.title,
               }"
+              @click="selectService(item, index)"
             >
               <!-- @click="activeService = item.title" -->
               {{ item.title }}
@@ -93,7 +99,7 @@
       </div>
     </div>
 
-    <div v-if="getActiveServices != null" class="">
+    <div v-if="getActiveServices != null" class="-mx-6">
       <div class="lg:hidden">
         <packages-carousel :services="[...getActiveServices.packages]" />
       </div>
@@ -151,9 +157,9 @@ export default {
 
     return {
       settings,
-      lastIndex: 0,
-      currentIndex: 1,
-      nextIndex: 2,
+      lastIndex: null,
+      currentIndex: null,
+      nextIndex: null,
       activeService: 'Web Development',
     }
   },
@@ -178,6 +184,11 @@ export default {
       this.nextIndex =
         currentIndex === this.services.length ? 0 : currentIndex + 1
       this.lastIndex = oldIndex
+      this.activeService = this.services[currentIndex].title
+    },
+    selectService(item, index) {
+      this.activeService = item.title
+      this.$refs.carousel.goTo(index)
     },
     initSlides(a) {
       this.currentIndex = this.services
@@ -186,7 +197,9 @@ export default {
       this.nextIndex =
         this.currentIndex === this.services.length ? 0 : this.currentIndex + 1
       this.lastIndex =
-        this.currentIndex === 0 ? this.services.length : this.currentIndex - 1
+        this.currentIndex === 0
+          ? this.services.length - 1
+          : this.currentIndex - 1
     },
   },
 }

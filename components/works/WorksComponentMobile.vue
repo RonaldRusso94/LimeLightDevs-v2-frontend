@@ -1,8 +1,5 @@
 <template>
-  <section-container
-    class="sm:hidden w-11/12 mx-auto my-4"
-    :default-margins="false"
-  >
+  <section-container class="sm:hidden w-full my-4" :default-margins="false">
     <section-title text="Our Works" />
     <work-carousel />
   </section-container>
