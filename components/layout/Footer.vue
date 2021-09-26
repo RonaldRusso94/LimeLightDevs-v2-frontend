@@ -26,20 +26,8 @@
         border-b border-white
       "
     >
-      <div
-        class="
-          flex
-          items-end
-          justify-center
-          text-[36]
-          sm:text-[36px]
-          tracking-wide
-          text-app-green-1
-        "
-      >
-        <span class="font-bold">Lime</span>
-        <span class="tracking-wide">light</span>
-        <span class="pl-2 text-xs sm:text-lg">devs</span>
+      <div class="tracking-wide">
+        <nav-logo />
       </div>
       <div
         class="
@@ -61,44 +49,19 @@
       </div>
     </div>
 
-    <div class="flex items-center justify-between mt-5">
+    <div class="flex items-center justify-center mt-5">
       <div class="text-[8px] sm:text-[15px] text-[#a3a3a3] font-medium">
         © Copyright 2020 | Limelight Devs
-      </div>
-      <div class="flex justify-between w-5/10 sm:w-2/10">
-        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
-          <img
-            class="w-full h-full object-contain"
-            src="/social-icons/icons8-facebook 1.png"
-            alt=""
-          />
-        </div>
-        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
-          <img
-            class="w-full h-full object-contain"
-            src="/social-icons/icons8-github 1.png"
-            alt=""
-          />
-        </div>
-        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
-          <img
-            class="w-full h-full object-contain"
-            src="/social-icons/icons8-twitter 1.png"
-            alt=""
-          />
-        </div>
-        <div class="w-[16px] h-[16px] sm:w-[30px] sm:h-[30px]">
-          <img
-            class="w-full h-full object-contain"
-            src="/social-icons/instagram 1.png"
-            alt=""
-          />
-        </div>
       </div>
     </div>
   </footer>
 </template>
 
 <script>
-export default {}
+import NavLogo from '../NavBar/NavLogo.vue'
+export default {
+  components: {
+    NavLogo,
+  },
+}
 </script>

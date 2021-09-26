@@ -86,21 +86,33 @@
     <!-- Small Screen -->
     <section-container
       :default-margins="false"
-      class="flex flex-col items-center lg:hidden relative"
+      class="
+        flex flex-col
+        items-center
+        justify-between
+        lg:hidden
+        relative
+        min-h-[980px]
+      "
     >
-      <dotted-line />
-      <ProcessPoint
-        src="/processes/wireframes.png"
-        body="We study your industry, your market, your competitors and your customers to formulate the best strategies weighing both pros and cons. We do not only meet the expectations but exceed them with a considerable margin."
-        subhead="Research & Strategize"
-      />
-      <ProcessPoint
-        class="mt-16"
-        src="/processes/development.png"
-        body="Whether it's a mobile app, a website, or software - careful meticulous consideration goes into every step where we carefully craft flawless designs and seamless operations. We refine, test, and re-test the prototypes until we have the perfect product for you.
-"
-        subhead="Design & Develop"
-      />
+      <div class="relative">
+        <ProcessPoint
+          src="/processes/wireframes.png"
+          body="We study your industry, your market, your competitors and your customers to formulate the best strategies weighing both pros and cons. We do not only meet the expectations but exceed them with a considerable margin."
+          subhead="Research & Strategize"
+        />
+        <dotted-line class="bottom-[-220px] md:bottom-[-290px]" />
+      </div>
+      <div class="relative">
+        <ProcessPoint
+          class="mt-16"
+          src="/processes/development.png"
+          body="Whether it's a mobile app, a website, or software - careful meticulous consideration goes into every step where we carefully craft flawless designs and seamless operations. We refine, test, and re-test the prototypes until we have the perfect product for you.
+  "
+          subhead="Design & Develop"
+        />
+        <dotted-line class="bottom-[-220px] md:bottom-[-290px]" />
+      </div>
       <ProcessPoint
         class="mt-16"
         src="/processes/launch.png"
