@@ -11,7 +11,7 @@
       flex flex-col
       text-center
       items-center
-      justify-between
+      justify-center
       px-2
       py-10
       2xl:px-10
@@ -35,26 +35,27 @@
       </p>
       <p class="text-3xl font-bold text-app-green-1">${{ service.newPrice }}</p>
     </div>
-    <a
-      href="#contact"
-      class="hover:text-app-green-1 duration-100"
-      variant="two"
-      @click.stop="
-        $store.commit('setContact', {
-          message: `I'd like to order the ${service.title} package.`,
-          reason: `${service.title} Package.`,
-        })
-      "
-      >Order Package</a
-    >
-    <p class="mt-4">
-      Edit request?
+    <div class="flex md:flex-row space-x-2 mt-4 justify-center items-center">
+      <p class="">Edit request?</p>
       <a
-        class="font-medium text-app-green-1 hover:opacity-[.77] duration-100"
+        class="
+          font-medium
+          text-app-green-1
+          transform
+          transition
+          duration-300
+          hover:scale-110
+        "
         href="#contact"
+        @click.stop="
+          $store.commit('setContact', {
+            message: `I'd like to order the ${service.title} package.`,
+            reason: `${service.title} Package.`,
+          })
+        "
         >Contact us</a
       >
-    </p>
+    </div>
   </div>
 </template>
 
