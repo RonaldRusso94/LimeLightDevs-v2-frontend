@@ -35,6 +35,24 @@
       </p>
       <p class="text-3xl font-bold text-app-green-1">${{ service.newPrice }}</p>
     </div>
+    <a
+      href="#contact"
+      class="
+        hover:text-app-green-1
+        duration-200
+        transform
+        transition
+        hover:scale-125
+      "
+      variant="two"
+      @click.stop="
+        $store.commit('setContact', {
+          message: `I'd like to order the ${service.title} package.`,
+          reason: `${service.title} Package.`,
+        })
+      "
+      >Order Package</a
+    >
     <div class="flex md:flex-row space-x-2 mt-4 justify-center items-center">
       <p class="">Edit request?</p>
       <a
