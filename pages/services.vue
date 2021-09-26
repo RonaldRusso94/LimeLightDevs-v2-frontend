@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full z-20">
     <PageHeader
       :page-title="pageTitle"
       :description="description"

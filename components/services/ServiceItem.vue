@@ -1,7 +1,23 @@
 <template>
-  <section-container>
+  <div
+    class="
+      relative
+      w-full
+      flex
+      justify-center
+      mx-auto
+      px-0
+      lg:px-10
+      xl:px-16
+      2xl:px-32
+    "
+  >
     <div
       class="
+        z-10
+        w-5/6
+        h-auto
+        xl:h-128
         bg-app-gray-2
         rounded-2xl
         shadow-2xl
@@ -47,13 +63,11 @@
         </div>
       </div>
     </div>
-  </section-container>
+  </div>
 </template>
 
 <script>
-import SectionContainer from '../common/SectionContainer.vue'
 export default {
-  components: { SectionContainer },
   props: {
     title: {
       type: String,
