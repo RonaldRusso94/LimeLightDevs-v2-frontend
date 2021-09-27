@@ -75,8 +75,8 @@
             ref="carousel"
             v-bind="settings"
             @init="initSlides"
-            @beforeChange="slideChange"
           >
+            <!-- ^ @beforeChange="slideChange" -->
             <span
               v-for="(item, index) in services"
               :key="item.id"

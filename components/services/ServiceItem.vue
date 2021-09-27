@@ -1,17 +1,5 @@
 <template>
-  <div
-    class="
-      relative
-      w-full
-      flex
-      justify-center
-      mx-auto
-      px-0
-      lg:px-10
-      xl:px-16
-      2xl:px-32
-    "
-  >
+  <section-container>
     <div
       class="
         z-10
@@ -65,11 +53,13 @@
         </div>
       </div>
     </div>
-  </div>
+  </section-container>
 </template>
 
 <script>
+import SectionContainer from '../common/SectionContainer.vue'
 export default {
+  components: { SectionContainer },
   props: {
     title: {
       type: String,
@@ -96,7 +86,6 @@ export default {
     const textAlignStyle = props.imageLeftSide
       ? 'lg:text-left'
       : 'lg:text-right'
-
     return { textAlignStyle }
   },
 }
