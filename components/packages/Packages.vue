@@ -135,6 +135,7 @@ export default {
     ServiceCard,
   },
   async fetch() {
+    //
     const { store, $axios } = this.$nuxt.context
     const { data } = await $axios('/services')
     store.commit('addServices', data)
