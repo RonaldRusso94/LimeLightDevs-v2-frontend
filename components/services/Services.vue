@@ -3,10 +3,10 @@
     <div class="absolute hidden lg:block right-0 top-28 w-2/6">
       <img class="block w-full h-full transform" src="greenblob02.png" alt="" />
     </div>
-    <ServiceCarousel />
+    <!-- <ServiceCarousel /> -->
     <div
       id="services"
-      class="pt-32 lg:pt-48 w-full flex flex-col items-center overflow-hidden"
+      class="pt-20 lg:pt-28 w-full flex flex-col items-center overflow-hidden"
     >
       <ServiceItem
         v-for="serviceItem in serviceItems"
@@ -22,10 +22,10 @@
 </template>
 
 <script>
-import ServiceCarousel from './ServiceCarousel.vue'
+// import ServiceCarousel from './ServiceCarousel.vue'
 import ServiceItem from './ServiceItem.vue'
 export default {
-  components: { ServiceCarousel, ServiceItem },
+  components: { ServiceItem },
   setup() {
     // wasn't sure if there we gonna be more of the service items eventually added, but implemented so there could be more anyways
     const serviceItems = [
