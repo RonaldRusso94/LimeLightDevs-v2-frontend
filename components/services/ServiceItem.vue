@@ -16,6 +16,8 @@
       class="
         z-10
         w-5/6
+        px-8
+        lg:px-0
         h-auto
         xl:h-128
         bg-app-gray-2
