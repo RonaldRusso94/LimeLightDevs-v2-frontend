@@ -51,29 +51,13 @@
           tracking-wide
         "
       >
-        <div>
-          <nuxt-link class="hover:text-app-green-1 duration-150" to="/">
-            Home
-          </nuxt-link>
-        </div>
+        <div><nuxt-link to="/"> Home </nuxt-link></div>
         <div class="mx-3">/</div>
-        <div>
-          <nuxt-link class="hover:text-app-green-1 duration-150" to="/services">
-            services
-          </nuxt-link>
-        </div>
+        <div><nuxt-link to="/services"> services </nuxt-link></div>
         <div class="mx-3">/</div>
-        <div>
-          <nuxt-link class="hover:text-app-green-1 duration-150" to="/works">
-            Works
-          </nuxt-link>
-        </div>
+        <div><nuxt-link to="/works"> Works </nuxt-link></div>
         <div class="mx-3">/</div>
-        <div>
-          <nuxt-link class="hover:text-app-green-1 duration-150" to="/packages">
-            Packages
-          </nuxt-link>
-        </div>
+        <div><nuxt-link to="/packages"> Packages </nuxt-link></div>
       </div>
     </div>
 
