@@ -48,7 +48,7 @@
           mb-4
           lg:mb-8
         "
-        >Limelight - Software Development</span
+        >LimeLight - Software Development</span
       >
       <p class="text-md lg:text-lg w-5/6 mb-8 text-center lg:text-left">
         Extend your empire beyond borders. Leverage the power of next-gen
@@ -88,7 +88,7 @@
           h-full
           items-center
           justify-center
-          mt-8
+          mt-6
           lg:mt-0
           lg:absolute
           lg:left-0
@@ -104,7 +104,7 @@
             transform
             lg:-rotate-90 lg:-translate-x-32 lg:-translate-y-10
           "
-          >contact@limelight.com</span
+          >LimeLightDevs@Gmail.com</span
         >
       </div>
     </div>
