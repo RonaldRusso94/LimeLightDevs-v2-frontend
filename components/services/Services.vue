@@ -6,7 +6,7 @@
     <!-- <ServiceCarousel /> -->
     <div
       id="services"
-      class="pt-32 lg:pt-48 w-full flex flex-col items-center overflow-hidden"
+      class="pt-20 lg:pt-28 w-full flex flex-col items-center overflow-hidden"
     >
       <ServiceItem
         v-for="serviceItem in serviceItems"
@@ -22,6 +22,7 @@
 </template>
 
 <script>
+// import ServiceCarousel from './ServiceCarousel.vue'
 import ServiceItem from './ServiceItem.vue'
 export default {
   components: { ServiceItem },
