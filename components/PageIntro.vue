@@ -1,7 +1,17 @@
 <template>
   <div>
     <div
-      class="relative lg:w-1/2 flex flex-col items-start lg:ml-56 my-24 lg:my-36 pl-8 lg:pl-0"
+      class="
+        relative
+        lg:w-1/2
+        flex flex-col
+        items-start
+        lg:ml-56
+        my-24
+        lg:my-36
+        pl-8
+        lg:pl-0
+      "
     >
       <span class="text-6xl md:text-5xl font-hibana mb-4 lg:mb-2">{{
         title
@@ -16,12 +26,28 @@
       </p>
       <Button variant="variant1"> Contact Us </Button>
       <div
-        class="flex h-full items-center justify-center mt-8 lg:mt-0 lg:absolute lg:left-0 pointer-events-none"
+        class="
+          flex
+          h-full
+          items-center
+          justify-center
+          mt-8
+          lg:mt-0
+          lg:absolute
+          lg:left-0
+          pointer-events-none
+        "
       >
         <span
           :class="[title === 'Welcome!' ? 'block' : 'hidden']"
-          class="text-app-gray-3 font-bold text-lg transform lg:-rotate-90 lg:-translate-x-32 lg:-translate-y-10"
-          >contact@limelight.com</span
+          class="
+            text-app-gray-3
+            font-bold
+            text-lg
+            transform
+            lg:-rotate-90 lg:-translate-x-32 lg:-translate-y-10
+          "
+          >limelightdevs@gmail.com</span
         >
       </div>
     </div>
