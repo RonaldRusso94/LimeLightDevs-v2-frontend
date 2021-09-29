@@ -144,7 +144,7 @@ export default {
       {
         name: 'fullName',
         placeholder: 'Write your first & last name here',
-        label: 'Name & Last Name',
+        label: 'First & Last Name',
         divClass: 'flex flex-col pb-4 lg:pb-0 w-full lg:w-1/2 lg:pr-4',
         rules: {
           required: true,
@@ -171,8 +171,8 @@ export default {
       },
       {
         name: 'phone',
-        placeholder: 'Phone Number',
-        label: 'Write your phone number',
+        label: 'Phone Number',
+        placeholder: 'Write your phone number',
         rules: {
           presence: false,
           format: {
