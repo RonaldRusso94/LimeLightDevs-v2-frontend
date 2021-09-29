@@ -26,7 +26,7 @@
         border-b border-white
       "
     >
-      <div class="tracking-wide">
+      <div>
         <nav-logo />
       </div>
       <div
