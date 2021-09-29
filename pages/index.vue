@@ -1,7 +1,7 @@
 <template>
   <!-- overflow hidden is required for blobs -->
   <div class="lg:overflow-x-hidden">
-    <h1 class="text-5xl">WORKING</h1>
+    <h1 class="text-5xl">WORKING!</h1>
     <Hero />
     <div class="relative">
       <Packages />
