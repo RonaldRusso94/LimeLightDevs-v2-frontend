@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full text-white flex mb-24 lg:mb-4 xl:mb-[24rem]">
+  <div class="w-full text-white flex mb-24 md:mb-6 lg:mb-10 xl:mb-44">
     <img
       src="/greenblob01.png"
       class="
@@ -28,7 +28,8 @@
         items-center
         lg:items-start
         lg:ml-[3.8rem]
-        xl:ml-56
+        xl:ml-44
+        2xl:ml-32
         my-24
         lg:my-36
         pl-0
@@ -111,7 +112,7 @@
   </div>
 </template>
 <style scoped>
-@media (min-width: 1700px) {
+@media (min-width: 1920px) {
   .page-header {
     margin-left: 18rem;
   }
