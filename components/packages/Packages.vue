@@ -90,7 +90,6 @@
               }"
               @click="selectService(item, index)"
             >
-              <!-- @click="activeService = item.title" -->
               {{ item.title }}
             </span>
           </VueSlickCarousel>
@@ -146,11 +145,11 @@ export default {
       arrows: false,
       infinite: true,
       slidesToShow: 1,
-      autoplay: false,
       pauseOnFocus: true,
       pauseOnHover: true,
       centerMode: true,
       centerPadding: '70px',
+      autoplay: false,
       // variableWidth: true,
       slidesToScroll: 1,
     }
@@ -178,6 +177,9 @@ export default {
       return this.$store.getters.services
     },
   },
+  mounted() {
+    this.$refs.carousel.pause()
+  },
   methods: {
     slideChange(oldIndex, currentIndex) {
       this.currentIndex = currentIndex
@@ -190,7 +192,7 @@ export default {
       this.activeService = item.title
       this.$refs.carousel.goTo(index)
     },
-    initSlides(a) {
+    initSlides() {
       this.currentIndex = this.services
         .map((x) => x.title)
         .indexOf(this.activeService)
