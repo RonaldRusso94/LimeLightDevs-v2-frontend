@@ -26,7 +26,7 @@ export default {
   head() {
     return {
       titleTemplate:
-        '%s - Software Development Company & Technical Soultions in NYC',
+        '%s - Software Development Company & Technical Solutions in NYC',
     }
   },
 }

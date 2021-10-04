@@ -24,14 +24,10 @@ export default {
       linkTitle: 'Check our packages',
     }
   },
+
   head() {
     return {
-      title: 'Our Services - LimeLight Devs',
-      head() {
-        return {
-          titleTemplate: '%s - Our Services',
-        }
-      },
+      titleTemplate: '%s - Our Services',
     }
   },
 }
