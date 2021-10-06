@@ -102,7 +102,7 @@
       <div class="lg:hidden">
         <packages-carousel :services="[...getActiveServices.packages]" />
       </div>
-      <div class="hidden lg:flex justify-center space-x-1">
+      <div class="hidden lg:flex justify-center shadow-2xl">
         <service-card
           v-for="(item, index) in getActiveServices.packages"
           :key="item.id"
