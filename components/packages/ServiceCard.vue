@@ -17,7 +17,7 @@
       py-10
       2xl:px-10
       z-10
-      min-h-[740px]
+      min-h-[640px]
     "
   >
     <div class="flex flex-col">
