@@ -18,6 +18,7 @@
       2xl:px-10
       z-10
       md:min-h-[590px]
+      2xl:min-h-[620px]
     "
   >
     <div class="flex flex-col">
