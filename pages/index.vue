@@ -25,9 +25,27 @@ export default {
   components: { OurProcess, Packages, WorksComponent },
   head() {
     return {
-      titleTemplate:
-        '%s - Software Development Company & Technical Solutions in NYC',
-    }
+      meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        name: 'og:title',
+        hid: 'og:title',
+        content: 'LimeLight Devs',
+      },
+      {
+        name: 'og:description',
+        hid: 'og:description',
+        content:
+          'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
+      },
+      {
+        name: 'og:image',
+        hid: 'og:image',
+        content: '/LimeLightOGImage.png',
+      },
+    ],
+    
   },
 }
 </script>
