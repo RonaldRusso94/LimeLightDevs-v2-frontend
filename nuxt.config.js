@@ -21,8 +21,8 @@ export default {
           'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
       },
       {
+        name: 'og:image',
         hid: 'og:image',
-        property: 'og:image',
         content: '/LimeLightOGImage.png',
       },
     ],
