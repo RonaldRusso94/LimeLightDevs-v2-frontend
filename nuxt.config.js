@@ -22,6 +22,7 @@ export default {
       },
       {
         name: 'og:description',
+        property: 'og:description',
         content:
           'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
       },
