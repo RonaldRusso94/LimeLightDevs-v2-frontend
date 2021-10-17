@@ -17,23 +17,19 @@ export default {
       },
       {
         name: 'og:title',
+        property: 'og:title',
         content: 'LimeLight Devs',
       },
-      // {
-      //   name: 'og:description',
-      //   content:
-      //     'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
-      // },
-      // {
-      //   name: 'og:image',
-      //   content: '/LimeLightOGImage.png',
-      // },
+      {
+        name: 'og:description',
+        content:
+          'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
+      },
       {
         hid: 'og:image',
         property: 'og:image',
         content: '/LimeLightOGImage.png',
       },
-      // { hid: 'og:image', property: 'og:image', content: `${this.$config.baseURL}/logo.png` }
     ],
     link: [
       {
