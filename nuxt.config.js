@@ -16,13 +16,13 @@ export default {
       },
       // { hid: 'og:image', property: 'og:image', content: `${this.$config.baseURL}/logo.png` }
     ],
-    // link: [
-    //   {
-    //     rel: 'icon',
-    //     type: 'image/x-icon',
-    //     href: '/web-app-design.png',
-    //   },
-    // ],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/LimeLightDevsFavicon.svg',
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
