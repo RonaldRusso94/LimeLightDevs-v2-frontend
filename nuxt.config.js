@@ -10,9 +10,28 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        name: 'LimeLight Devs',
+        hid: 'description',
+        name: 'description',
         content:
           'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
+      },
+      {
+        name: 'og:title',
+        content: 'LimeLight Devs',
+      },
+      // {
+      //   name: 'og:description',
+      //   content:
+      //     'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
+      // },
+      // {
+      //   name: 'og:image',
+      //   content: '/LimeLightOGImage.png',
+      // },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/LimeLightOGImage.png',
       },
       // { hid: 'og:image', property: 'og:image', content: `${this.$config.baseURL}/logo.png` }
     ],
