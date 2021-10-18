@@ -25,20 +25,16 @@ export default {
         hid: 'og:image',
         content: '/LimeLightOGImage.png',
       },
-      {
-        name: 'og:image:height',
-        hid: 'og:image:height',
-        content: '630',
-      },
-      {
-        name: 'og:image:width',
-        hid: 'og:image:width',
-        content: '1200',
-      },
+
       {
         name: 'og:image:alt',
         hid: 'og:image:alt',
         content: 'LimeLight Devs & Team Communicating',
+      },
+      {
+        name: 'twitter:image',
+        hid: 'twitter:image',
+        content: '/LimeLightOGImage.png',
       },
     ],
     link: [
