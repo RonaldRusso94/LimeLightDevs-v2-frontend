@@ -67,7 +67,6 @@ export default {
         content:
           'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
       },
-      // Marketing smarts for big ideas | Mailchimp
       {
         name: 'twitter:image',
         hid: 'twitter:image',
