@@ -79,10 +79,10 @@ export default {
         type: 'image/x-icon',
         href: '/LimeLightDevsFavicon.svg',
       },
-      {
-        rel: 'canonical',
-        href: 'https://limelightdevs.com' + this.$route.path,
-      },
+      // {
+      //   rel: 'canonical',
+      //   href: 'https://limelightdevs.com' + this.$route.path,
+      // },
     ],
   },
 
