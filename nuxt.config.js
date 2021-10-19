@@ -15,6 +15,21 @@ export default {
         content: 'LimeLight Devs',
       },
       {
+        name: 'og:type',
+        hid: 'og:type',
+        content: 'website',
+      },
+      {
+        name: 'og:site_name',
+        hid: 'og:site_name',
+        content: 'LimeLightDevs',
+      },
+      {
+        name: 'og:url',
+        hid: 'og:url',
+        content: 'https://limelightdevs.com/',
+      },
+      {
         name: 'og:description',
         hid: 'og:description',
         content:
@@ -25,12 +40,49 @@ export default {
         hid: 'og:image',
         content: '/LimeLightOGImage.png',
       },
+
+      {
+        name: 'og:image:alt',
+        hid: 'og:image:alt',
+        content: 'LimeLight Devs & Team Communicating',
+      },
+      {
+        name: 'twitter:card',
+        hid: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      // {
+      //   name: 'twitter:site',
+      //   hid: 'twitter:site',
+      //   content: '@limelightdevs',
+      // },
+      {
+        name: 'twitter:title',
+        hid: 'twitter:title',
+        content: '/LimeLightOGImage.png',
+      },
+      {
+        name: 'twitter:description',
+        hid: 'twitter:description',
+        content:
+          'The Best New York Website & App Software Development Company. We follow the latest technology trends and ensure we delivery quality. We leave the outdated technologies and errors in the past.',
+      },
+      // Marketing smarts for big ideas | Mailchimp
+      {
+        name: 'twitter:image',
+        hid: 'twitter:image',
+        content: '/LimeLightOGImage.png',
+      },
     ],
     link: [
       {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/LimeLightDevsFavicon.svg',
+      },
+      {
+        rel: 'canonical',
+        href: 'https://limelightdevs.com' + this.$route.path,
       },
     ],
   },
