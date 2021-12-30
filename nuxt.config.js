@@ -108,7 +108,11 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/google-gtag',
   ],
+  'google-gtag': {
+    id: 'G-JGK45VYJRE', // your measurement id
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
