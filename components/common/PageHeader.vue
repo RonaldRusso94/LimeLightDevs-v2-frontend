@@ -38,6 +38,7 @@
         {{ description }}
       </p>
       <nuxt-link
+        v-if="link"
         :to="link"
         class="
           mx-8
