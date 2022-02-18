@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="lg:text-center ml-6 lg:ml-0 lg:mt-10">
-      <h4 class="font-bold text-2xl mb-1">{{ subhead }}</h4>
+      <h3 class="font-bold text-2xl mb-1">{{ subhead }}</h3>
       <p class="max-w-xs xl:px-8">
         {{ body }}
       </p>

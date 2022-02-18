@@ -29,7 +29,7 @@
       "
       :class="{ 'rounded-lg': roundedStyle }"
     >
-      <h2 class="mb-4 text-3xl font-bold">{{ work.title }}</h2>
+      <h3 class="mb-4 text-3xl font-bold">{{ work.title }}</h3>
       <button
         class="
           bg-white

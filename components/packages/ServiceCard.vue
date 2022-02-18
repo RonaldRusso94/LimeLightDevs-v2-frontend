@@ -26,7 +26,7 @@
     </div>
     <div class="flex flex-col flex-1">
       <div class="flex flex-col mb-auto">
-        <h1 class="font-bold text-2xl mb-2">{{ service.title }}</h1>
+        <h3 class="font-bold text-2xl mb-2">{{ service.title }}</h3>
         <p class="mb-4">
           {{ service.description }}
         </p>

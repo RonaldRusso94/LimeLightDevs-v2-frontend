@@ -39,7 +39,7 @@
       <span class="text-6xl md:text-5xl font-hibana mb-4 lg:mb-2"
         >Welcome!</span
       >
-      <span
+      <h1
         class="
           text-2xl text-center
           lg:text-left
@@ -49,16 +49,25 @@
           mb-4
           lg:mb-8
         "
-        >LimeLight - Software Development</span
       >
+        LimeLight - Software Development
+      </h1>
       <p class="text-md lg:text-lg w-5/6 mb-8 text-center lg:text-left">
+        Extend your empire beyond borders the power of next-gen digital
+        innovation. We at Limelight devs, cut to the heart of your software
+        needs. We build restaurants, blogs, ecommerce, enterpise websites &
+        mobile apps. Empower your organization with the means to transform your
+        bold ideas into great success stories. Whatever your custom software
+        requirements are - we've got you covered.
+      </p>
+      <!-- <p class="text-md lg:text-lg w-5/6 mb-8 text-center lg:text-left">
         Extend your empire beyond borders. Leverage the power of next-gen
         digital innovation and scale your ventures to new heights. We at
         Limelight devs, cut to the heart of your software needs, and empower
         your organization with the means to transform your bold ideas into great
         success stories. Whatever your custom software requirements are - we've
         got you covered.
-      </p>
+      </p> -->
       <a
         href="#contact"
         class="

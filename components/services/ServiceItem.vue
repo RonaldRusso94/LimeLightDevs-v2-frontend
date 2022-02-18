@@ -56,9 +56,9 @@
         :class="textAlignStyle"
       >
         <div :class="imageLeftSide ? 'lg:pr-6 lg:pl-16' : 'lg:pl-6 lg:pr-16'">
-          <span class="text-4xl block mb-3 tracking-wide font-bold w-full">
+          <h2 class="text-4xl block mb-3 tracking-wide font-bold w-full">
             {{ title }}
-          </span>
+          </h2>
           <p class="text-lg">
             {{ description }}
           </p>

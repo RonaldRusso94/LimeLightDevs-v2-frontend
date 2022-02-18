@@ -1,5 +1,5 @@
 <template>
-  <h3
+  <h2
     class="
       mb-7
       text-4xl
@@ -13,7 +13,7 @@
     "
   >
     <slot>{{ text }}</slot>
-  </h3>
+  </h2>
 </template>
 
 <script>
