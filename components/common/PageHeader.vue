@@ -31,9 +31,9 @@
         2xl:pl-24
       "
     >
-      <span class="text-4xl md:text-5xl font-hibana px-8 lg:px-0 z-20">{{
-        pageTitle
-      }}</span>
+      <h1 class="text-4xl md:text-5xl font-hibana px-8 lg:px-0 z-20">
+        {{ pageTitle }}
+      </h1>
       <p class="text-lg px-8 lg:px-0 mt-2 mb-10 tracking-wide z-20">
         {{ description }}
       </p>
