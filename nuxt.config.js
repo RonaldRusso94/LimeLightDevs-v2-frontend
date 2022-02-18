@@ -103,6 +103,9 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/composition-api/module',
   ],
+  scriptSetup: {
+    /* options */
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
