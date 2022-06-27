@@ -13,8 +13,8 @@
 
         <ul>
           <li>
-            Visit our website at https://www.limelightdigitalagency.com/, or any
-            website of ours that links to this privacy notice
+            Visit our website at https://www.limelightdevs.com/, or any website
+            of ours that links to this privacy notice
           </li>
           <li>
             Engage with us in other related ways, including any sales,
@@ -27,7 +27,7 @@
           understand your privacy rights and choices. If you do not agree with
           our policies and practices, please do not use our Services. If you
           still have any questions or concerns, please contact us at
-          Ronald@limelightdigitalagency.com.
+          limelightdevs@gmail.com.
         </p>
       </div>
     </div>
@@ -678,7 +678,7 @@
               reasonable measures to promptly delete such data from our records.
               If you become aware of any data we may have collected from
               children under age 18, please contact us at
-              Ronald@limelightdigitalagency.com.
+              limelightdevs@gmail.com.
             </p>
           </div>
         </li>
@@ -763,7 +763,7 @@
             </p>
             <p>
               If you have questions or comments about your privacy rights, you
-              may email us at Ronald@limelightdigitalagency.com.
+              may email us at limelightdevs@gmail.com.
             </p>
           </div>
         </li>
@@ -954,8 +954,8 @@
             be found in this privacy notice.
           </p>
           <p>
-            You may contact us by email at Ronald@limelightdigitalagency.com, or
-            by referring to the contact details at the bottom of this document.
+            You may contact us by email at limelightdevs@gmail.com, or by
+            referring to the contact details at the bottom of this document.
           </p>
           <p>
             If you are using an authorized agent to exercise your right to opt
@@ -1086,9 +1086,9 @@
           </ul>
           <p>
             To exercise these rights, you can contact us by email at
-            Ronald@limelightdigitalagency.com, or by referring to the contact
-            details at the bottom of this document. If you have a complaint
-            about how we handle your data, we would like to hear from you.
+            limelightdevs@gmail.com, or by referring to the contact details at
+            the bottom of this document. If you have a complaint about how we
+            handle your data, we would like to hear from you.
           </p>
         </li>
         <li>
@@ -1120,7 +1120,7 @@
           </h2>
           <p>
             If you have questions or comments about this notice, you may email
-            us at Ronald@limelightdigitalagency.com or by post to:
+            us at limelightdevs@gmail.com or by post to:
           </p>
           <p>Limelight Digital Agency, Inc</p>
           <p>81-06 78th Avenue</p>
