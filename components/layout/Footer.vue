@@ -66,8 +66,17 @@
     </div>
 
     <div class="flex items-center justify-center mt-5">
-      <div class="text-[8px] sm:text-[15px] text-[#a3a3a3] font-medium">
-        © Copyright 2020 | Limelight Devs
+      <div
+        class="text-[8px] sm:text-[15px] text-[#a3a3a3] font-medium text-center"
+      >
+        <ul class="flex mb-2">
+          <li><nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link></li>
+          <li class="mx-1">|</li>
+          <li>
+            <nuxt-link to="/terms-conditions">Terms & Conditions</nuxt-link>
+          </li>
+        </ul>
+        © Copyright 2022 Limelight Devs
       </div>
     </div>
   </footer>
