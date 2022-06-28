@@ -1,6 +1,6 @@
 <template>
   <div class="pt-32 space-y-10 w-5/12 mx-auto">
-    <div>
+    <!-- <div>
       <h1 class="text-3xl font-bold"><b>PRIVACY NOTICE</b></h1>
       <p>Last updated June 14, 2022</p>
       <div>
@@ -1179,7 +1179,7 @@
           </p>
         </li>
       </ol>
-    </div>
+    </div> -->
   </div>
 </template>
 <style scoped>
