@@ -13,8 +13,10 @@
 
         <ul>
           <li>
-            Visit our website at https://www.limelightdevs.com/, or any website
-            of ours that links to this privacy notice
+            Visit our website at
+            <a href="https://www.limelightdevs.com/"
+              >https://www.limelightdevs.com/</a
+            >, or any website of ours that links to this privacy notice
           </li>
           <li>
             Engage with us in other related ways, including any sales,
@@ -41,7 +43,8 @@
             can find out more details about any of these topics by clicking the
             link following each key point or by using our table of contents
             below to find the section you are looking for. You can also click
-            <a href="">here</a> to go directly to our table of contents.</i
+            <a href="#TABLE-OF-CONTENTS">here</a> to go directly to our table of
+            contents.</i
           >
         </p>
         <p>
@@ -49,7 +52,8 @@
           navigate our Services, we may process personal information depending
           on how you interact with Limelight Digital Agency, Inc and the
           Services, the choices you make, and the products and features you use.
-          Click <a href="">here</a> to learn more.
+          Click <a href="#WHAT-INFORMATION-DO-WE-COLLECT">here</a> to learn
+          more.
         </p>
         <p>
           Do we process any sensitive personal information? We do not process
@@ -58,8 +62,9 @@
         <p>
           Do we receive any information from third parties? We may receive
           information from public databases, marketing partners, social media
-          platforms, and other outside sources. Click <a href="">here</a> to
-          learn more.
+          platforms, and other outside sources. Click
+          <a href="#INFORMATION-COLLECTED-FROM-OTHER-SOURCES">here</a> to learn
+          more.
         </p>
         <p>
           How do we process your information? We process your information to
@@ -67,12 +72,17 @@
           for security and fraud prevention, and to comply with law. We may also
           process your information for other purposes with your consent. We
           process your information only when we have a valid legal reason to do
-          so. Click <a href="">here</a> to learn more.
+          so. Click <a href="#HOW-DO-WE-PROCESS-YOUR-INFORMATION">here</a> to
+          learn more.
         </p>
         <p>
           In what situations and with which parties do we share personal
           information? We may share information in specific situations and with
-          specific third parties. Click <a href="">here</a> to learn more.
+          specific third parties. Click
+          <a href="#WHEN-AND-WITH-WHOM-DO-WE-SHARE-YOUR-PERSONAL-INFORMATION"
+            >here</a
+          >
+          to learn more.
         </p>
         <p>
           How do we keep your information safe? We have organizational and
@@ -82,101 +92,105 @@
           we cannot promise or guarantee that hackers, cybercriminals, or other
           unauthorized third parties will not be able to defeat our security and
           improperly collect, access, steal, or modify your information. Click
-          <a href="">here</a> to learn more.
+          <a href="#HOW-DO-WE-KEEP-YOUR-INFORMATION-SAFE">here</a> to learn
+          more.
         </p>
         <p>
           What are your rights? Depending on where you are located
           geographically, the applicable privacy law may mean you have certain
           rights regarding your personal information. Click
-          <a href="">here</a> to learn more.
+          <a href="#WHAT-ARE-YOUR-PRIVACY-RIGHTS">here</a> to learn more.
         </p>
         <p>
           How do you exercise your rights? The easiest way to exercise your
-          rights is by filling out our data subject request form available
-          <a href="">here</a>, or by contacting us. We will consider and act
-          upon any request in accordance with applicable data protection laws.
+          rights is by filling out our data subject request form available by
+          contacting us. We will consider and act upon any request in accordance
+          with applicable data protection laws.
         </p>
         <p>
           Want to learn more about what Limelight Digital Agency, Inc does with
-          any information we collect? Click <a href="">here</a> to review the
-          notice in full.
+          any information we collect? Click
+          <a href="#TABLE-OF-CONTENTS">here</a> to review the notice in full.
         </p>
       </div>
     </div>
 
     <div>
-      <h2 class="text-2xl font-bold">TABLE OF CONTENTS</h2>
+      <h2 id="TABLE-OF-CONTENTS" class="text-2xl font-bold">
+        TABLE OF CONTENTS
+      </h2>
       <ol class="my-4">
         <li>
           <a href="#WHAT-INFORMATION-DO-WE-COLLECT">
-            WHAT INFORMATION DO WE COLLECT?</a
+            1. WHAT INFORMATION DO WE COLLECT?</a
           >
         </li>
         <li>
           <a href="#HOW-DO-WE-PROCESS-YOUR-INFORMATION"
-            >HOW DO WE PROCESS YOUR INFORMATION?</a
+            >2. HOW DO WE PROCESS YOUR INFORMATION?</a
           >
         </li>
         <li>
           <a href="#WHAT-LEGAL-BASIS-DO-WE-RELY-ON-TO-PROCESS-YOUR-INFORMATION">
-            WHAT LEGAL BASIS DO WE RELY ON TO PROCESS YOUR INFORMATION?</a
+            3. WHAT LEGAL BASIS DO WE RELY ON TO PROCESS YOUR INFORMATION?</a
           >
         </li>
         <li>
           <a href="#WHEN-AND-WITH-WHOM-DO-WE-SHARE-YOUR-PERSONAL-INFORMATION">
-            WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a
+            4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a
           >
         </li>
         <li>
           <a href="#DO-WE-USE-COOKIES-AND-OTHER-TRACKING-TECHNOLOGIES">
-            DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</a
+            5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</a
           >
         </li>
         <li>
           <a href="#HOW-LONG-DO-WE-KEEP-YOUR-INFORMATION">
-            HOW LONG DO WE KEEP YOUR INFORMATION?</a
+            6. HOW LONG DO WE KEEP YOUR INFORMATION?</a
           >
         </li>
         <li>
           <a href="#HOW-DO-WE-KEEP-YOUR-INFORMATION-SAFE">
-            HOW DO WE KEEP YOUR INFORMATION SAFE?</a
+            7. HOW DO WE KEEP YOUR INFORMATION SAFE?</a
           >
         </li>
         <li>
           <a href="#DO-WE-COLLECT-INFORMATION-FROM-MINORS">
-            DO WE COLLECT INFORMATION FROM MINORS?</a
+            8. DO WE COLLECT INFORMATION FROM MINORS?</a
           >
         </li>
         <li>
           <a href="#WHAT-ARE-YOUR-PRIVACY-RIGHTS">
-            WHAT ARE YOUR PRIVACY RIGHTS?</a
+            9. WHAT ARE YOUR PRIVACY RIGHTS?</a
           >
         </li>
         <li>
           <a href="#CONTROLS-FOR-DO-NOT-TRACK-FEATURES">
-            CONTROLS FOR DO NOT TRACK FEATURES</a
+            10. CONTROLS FOR DO NOT TRACK FEATURES</a
           >
         </li>
         <li>
           <a href="#DO-CALIFORNIA-RESISDENTS-HAVE-SPECIFIC-PRIVACY-RIGHTS">
-            DO CALIFORNIA RESISDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a
+            11. DO CALIFORNIA RESISDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a
           >
         </li>
         <li>
           <a href="#DO-WE-MAKE-UPDATES-TO-THIS-NOTICE">
-            DO WE MAKE UPDATES TO THIS NOTICE?</a
+            12. DO WE MAKE UPDATES TO THIS NOTICE?</a
           >
         </li>
         <li>
           <a href="#HOW-CAN-YOU-CONTACT-US-ABOUT-THIS-NOTICE">
-            HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a
+            13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a
           >
         </li>
         <li>
           <a
             href="#HOW-CAN-YOU-REVIEW-UPDATE-OR-DELETE-THE-DATA-WE-COLLECT-FROM-YOU"
           >
-            HOW CAN YOU REVIEW UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?</a
+            14. HOW CAN YOU REVIEW UPDATE OR DELETE THE DATA WE COLLECT FROM
+            YOU?</a
           >
         </li>
       </ol>
@@ -281,7 +295,9 @@
                 the Services.
               </li>
             </ul>
-            <h4>Information collected from other sources</h4>
+            <h4 id="INFORMATION-COLLECTED-FROM-OTHER-SOURCES">
+              Information collected from other sources
+            </h4>
             <p>
               In Short: We may collect limited data from public databases,
               marketing partners, and other outside sources.
@@ -356,8 +372,10 @@
                 process the personal information you send to us for our
                 marketing purposes, if this is in accordance with your marketing
                 preferences. You can opt out of our marketing emails at any
-                time. For more information, see "WHAT ARE YOUR PRIVACY RIGHTS?"
-                below).
+                time. For more information, see
+                <a href="#WHAT-ARE-YOUR-PRIVACY-RIGHTS"
+                  >"WHAT ARE YOUR PRIVACY RIGHTS?</a
+                >" below).
               </li>
               <li>
                 To deliver targeted advertising to you. We may process your
@@ -419,7 +437,7 @@
                 Consent. We may process your information if you have given us
                 permission (e., consent) to use your personal information for a
                 specific purpose. You can withdraw your consent at any time.
-                Click <a href="">here</a> to leam more.
+                Click <a href="#WITHDRAWING-YOUR-CONSENT">here</a> to leam more.
               </li>
               <li>
                 Performance of a Contract. We may process your personal
@@ -487,8 +505,8 @@
               permission (i.e., express consent) to use your personal
               information for a specific purpose, or in situations where your
               permission can be inferred (i.e., implied consent). You can
-              withdraw your consent at any time. Click <a href="">here</a> to
-              learn more.
+              withdraw your consent at any time. Click
+              <a href="#WITHDRAWING-YOUR-CONSENT">here</a> to learn more.
             </p>
             <p>
               In some exceptional cases, we may be legally permitted under
@@ -587,9 +605,9 @@
             </p>
             <p>
               We may use cookies and similar tracking technologies (like web
-              beacons and pixels) to access or store information. Specific
-              information about how we use such technologies and how you can
-              refuse certain cookies is set out in our Cookie Notice.
+              beacons and pixels) to access or store information. You may
+              contact us for more information about how we use such
+              technologies.
             </p>
           </div>
         </li>
@@ -703,8 +721,11 @@
               applicable, to data portability. In certain circumstances, you may
               also have the right to object to the processing of your personal
               information. You can make such a request by contacting us by using
-              the contact details provided in the section "HOW CAN YOU CONTACT
-              US ABOUT THIS NOTICE?" below.
+              the contact details provided in the section
+              <a href="#HOW-CAN-YOU-CONTACT-US-ABOUT-THIS-NOTICE"
+                >"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"</a
+              >
+              below.
             </p>
             <p>
               We will consider and act upon any request in accordance with
@@ -714,23 +735,29 @@
               If you are located in the EEA or UK and you believe we are
               unlawfully processing your personal information, you also have the
               right to complain to your local data protection supervisory
-              authority. You can find their contact details here: https://ec.
-              europa.
-              eu/justice/data-protection/bodies/authorities/index_en.html.
+              authority. You can find their contact details here:
+              <a href="https://ec.europa.eu/newsroom/article29/items/612080">
+                https://ec.europa.eu/newsroom/article29/items/612080</a
+              >
             </p>
             <p>
               If you are located in Switzerland, the contact details for the
               data protection authorities are available here:
-              https:/www.edoeb.admin.ch/edoeb/en/home.html.
+              <a href="https://www.edoeb.admin.ch/edoeb/en/home.html"
+                >https://www.edoeb.admin.ch/edoeb/en/home.html.</a
+              >
             </p>
-            <p>
+            <p id="WITHDRAWING-YOUR-CONSENT">
               Withdrawing your consent: If we are relying on your consent to
               process your personal information, which may be express and/or
               implied consent depending on the applicable law, you have the
               right to withdraw your consent at any time. You can withdraw your
               consent at any time by contacting us by using the contact details
-              provided in the section "HOW CAN YOU CONTACT US ABOUT THIS
-              NOTICE?" below.
+              provided in the section
+              <a href="#HOW-CAN-YOU-CONTACT-US-ABOUT-THIS-NOTICE"
+                >"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"</a
+              >
+              below.
             </p>
             <p>
               However, please note that this will not affect the lawfulness of
@@ -745,9 +772,12 @@
               any time by clicking on the unsubscribe link in the emails that we
               send, replying "STOP" or "UNSUBSCRIBE" to the SMS messages that we
               send, or by contacting us using the details provided in the
-              section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below. You
-              will then be removed from the marketing lists. However, we may
-              still communicate with you — for example, to send you
+              section
+              <a href="#HOW-CAN-YOU-CONTACT-US-ABOUT-THIS-NOTICE"
+                >"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"</a
+              >
+              below. You will then be removed from the marketing lists. However,
+              we may still communicate with you — for example, to send you
               service-related messages that are necessary for the administration
               and use of your account, to respond to service requests, or for
               other non-marketing purposes.
@@ -824,7 +854,8 @@
             comprehensively removed from all our systems (e.g., backups, etc.).
           </p>
           <h4>CCPA Privacy Notice</h4>
-          <ol>
+          <p>The California Code of Regulations defines a "resident" as:</p>
+          <ol class="list-decimal ml-8">
             <li>
               every individual who is in the State of California for other than
               a temporary or transitory purpose and
@@ -1140,7 +1171,11 @@
             to request access to the personal information we collect from you,
             change that information, or delete it. To request to review, update,
             or delete your personal information, please submit a request form by
-            clicking <a href="">here</a>.
+            clicking
+            <a
+              href="https://app.termly.io/notify/f39f5558-ea14-43b7-89d4-8ead5a49c5e9"
+              >here</a
+            >.
           </p>
         </li>
       </ol>
@@ -1155,27 +1190,30 @@ td {
   padding: 10px;
 }
 ul > li {
-  margin-left: 2rem;
-  list-style-type: disc;
+  @apply ml-8 list-disc;
 }
 ol.heading > li {
-  list-style: decimal;
+  @apply list-decimal;
 }
-ol > li::marker {
-  font-size: 1.5rem;
-  font-weight: 600;
+ol.heading > li::marker {
+  @apply text-2xl font-bold;
 }
 p {
-  margin: 1rem 0;
+  @apply my-4;
+}
+ul > li {
+  @apply my-4;
 }
 li > ul > li {
-  list-style: circle;
+  @apply list-circle;
 }
 a {
-  color: blue;
-  text-decoration: underline;
+  @apply text-blue-500 underline visited:text-purple-600;
 }
-a:visited {
-  color: purple;
+:target {
+  scroll-margin-top: 6rem;
+}
+h4 {
+  @apply text-lg font-bold my-4;
 }
 </style>
