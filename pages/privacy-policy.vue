@@ -1183,37 +1183,45 @@
   </div>
 </template>
 <style scoped>
-/* table,
+table,
 th,
 td {
   border: 1px solid black;
   padding: 10px;
 }
 ul > li {
-  @apply ml-8 list-disc;
+  margin-left: 2rem;
+  list-style: disc;
 }
 ol.heading > li {
-  @apply list-decimal;
+  list-style: decimal;
 }
 ol.heading > li::marker {
-  @apply text-2xl font-bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 p {
-  @apply my-4;
+  margin: 1rem 0;
 }
 ul > li {
-  @apply my-4;
+  margin: 0.5rem 2rem;
 }
 li > ul > li {
-  @apply list-circle;
+  list-style: circle;
 }
 a {
-  @apply text-blue-500 underline visited:text-purple-600;
+  color: royalblue;
+  text-decoration: underline;
+}
+a:visited {
+  color: darkviolet;
 }
 :target {
   scroll-margin-top: 6rem;
 }
 h4 {
-  @apply text-lg font-bold my-4;
-} */
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
 </style>
