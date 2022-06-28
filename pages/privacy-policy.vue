@@ -1,5 +1,6 @@
 <template>
   <div class="pt-32 space-y-10 w-5/12 mx-auto">
+    hi
     <!-- <div>
       <h1 class="text-3xl font-bold"><b>PRIVACY NOTICE</b></h1>
       <p>Last updated June 14, 2022</p>
@@ -1183,7 +1184,7 @@
   </div>
 </template>
 <style scoped>
-table,
+/* table,
 th,
 td {
   border: 1px solid black;
@@ -1215,5 +1216,5 @@ a {
 }
 h4 {
   @apply text-lg font-bold my-4;
-}
+} */
 </style>
