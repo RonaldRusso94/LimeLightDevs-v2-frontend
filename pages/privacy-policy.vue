@@ -5,10 +5,10 @@
       <p>Last updated June 14, 2022</p>
       <div>
         <p>
-          This privacy notice for Limelight Digital Agency, Inc ("Company,”
-          "we," "us," or “our"), describes how and why we might collect, store,
-          use, and/or share ("process") your information when you use our
-          services ("Services"), such as when you:
+          This privacy notice for Limelight Devs ("Company,” "we," "us," or
+          “our"), describes how and why we might collect, store, use, and/or
+          share ("process") your information when you use our services
+          ("Services"), such as when you:
         </p>
 
         <ul>
@@ -50,10 +50,9 @@
         <p>
           What personal information do we process? When you visit, use, or
           navigate our Services, we may process personal information depending
-          on how you interact with Limelight Digital Agency, Inc and the
-          Services, the choices you make, and the products and features you use.
-          Click <a href="#WHAT-INFORMATION-DO-WE-COLLECT">here</a> to learn
-          more.
+          on how you interact with Limelight Devs and the Services, the choices
+          you make, and the products and features you use. Click
+          <a href="#WHAT-INFORMATION-DO-WE-COLLECT">here</a> to learn more.
         </p>
         <p>
           Do we process any sensitive personal information? We do not process
@@ -108,8 +107,8 @@
           with applicable data protection laws.
         </p>
         <p>
-          Want to learn more about what Limelight Digital Agency, Inc does with
-          any information we collect? Click
+          Want to learn more about what Limelight Devs does with any information
+          we collect? Click
           <a href="#TABLE-OF-CONTENTS">here</a> to review the notice in full.
         </p>
       </div>
@@ -1007,11 +1006,11 @@
             "selling" of your personal information.
           </p>
           <p>
-            Limelight Digital Agency, Inc has not disclosed or sold any personal
-            information to third parties for a business or commercial purpose in
-            the preceding twelve (12) months. Limelight Digital Agency, Inc will
-            not sell personal information in the future belonging to website
-            visitors, users, and other consumers.
+            Limelight Devs has not disclosed or sold any personal information to
+            third parties for a business or commercial purpose in the preceding
+            twelve (12) months. Limelight Devs will not sell personal
+            information in the future belonging to website visitors, users, and
+            other consumers.
           </p>
           <h5>Your rights with respect to your personal data</h5>
           <p>
@@ -1153,7 +1152,7 @@
             If you have questions or comments about this notice, you may email
             us at limelightdevs@gmail.com or by post to:
           </p>
-          <p>Limelight Digital Agency, Inc</p>
+          <p>Limelight Devs</p>
           <p>81-06 78th Avenue</p>
           <p>Glendale, NY 11385</p>
           <p>United States</p>
