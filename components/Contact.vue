@@ -100,6 +100,11 @@
         </div>
       </div>
     </div>
+    <div class="w-full text-center mt-5">
+      <p>Phone: (347) 853-6977</p>
+      <p>Email: limelightdevs@gmail.com</p>
+      <p>Address: 81-06 78th Avenue, Glendale, NY, 11385</p>
+    </div>
   </section-container>
 </template>
 
