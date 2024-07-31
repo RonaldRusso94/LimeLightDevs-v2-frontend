@@ -10,11 +10,12 @@
         :key="serviceSlide.title"
         class="relative h-80 focus:outline-none"
       >
-        <img
+        <!-- <img
           :src="serviceSlide.imageUrl"
           class="w-full h-96 object-cover"
           draggable="false"
-        />
+        /> -->
+        <!-- <div class="w-full h-96 bg-app-green-1"></div> -->
         <div class="absolute bottom-0 py-2 w-full flex flex-col items-center">
           <span
             class="
