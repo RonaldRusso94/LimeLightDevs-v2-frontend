@@ -1,0 +1,431 @@
+[
+  {
+    "_id": "60996a1cdd5ae95574d61109",
+    "title": "Web Development",
+    "published_at": "2021-05-10T17:18:26.133Z",
+    "createdAt": "2021-05-10T17:15:08.112Z",
+    "updatedAt": "2021-05-10T17:18:26.269Z",
+    "__v": 0,
+    "packages": [
+      {
+        "_id": "61616d879d90d00018acad80",
+        "title": "Small Business",
+        "description": "To reach the right people at the right time needs not only the right product but a powerful website to both grow and expand your business.",
+        "oldPrice": "499",
+        "newPrice": "399",
+        "published_at": "2021-10-09T10:23:08.640Z",
+        "details": [
+          {
+            "_id": "61616d879d90d00018acad81",
+            "value": "4-5 Web Pages",
+            "__v": 0,
+            "id": "61616d879d90d00018acad81"
+          },
+          {
+            "_id": "61616d879d90d00018acad82",
+            "value": "Responsive Development",
+            "__v": 0,
+            "id": "61616d879d90d00018acad82"
+          },
+          {
+            "_id": "61616d879d90d00018acad83",
+            "value": "7 Day Delivery Time",
+            "__v": 0,
+            "id": "61616d879d90d00018acad83"
+          }
+        ],
+        "createdAt": "2021-10-09T10:23:03.095Z",
+        "updatedAt": "2021-10-09T10:25:17.626Z",
+        "__v": 1,
+        "service": "60996a1cdd5ae95574d61109",
+        "id": "61616d879d90d00018acad80"
+      },
+      {
+        "_id": "61616deb9d90d00018acad87",
+        "title": "Blog",
+        "description": "Your ideas are valuable and they deserve and an eye-pleasing digital platform to reach and appeal to a wider audience and we will empower you with just that.",
+        "oldPrice": "1299",
+        "newPrice": "999",
+        "published_at": "2021-10-09T10:24:45.214Z",
+        "details": [
+          {
+            "_id": "61616deb9d90d00018acad88",
+            "value": "Unlimited Web Pages",
+            "__v": 0,
+            "id": "61616deb9d90d00018acad88"
+          },
+          {
+            "_id": "61616deb9d90d00018acad89",
+            "value": "Content Upload",
+            "__v": 0,
+            "id": "61616deb9d90d00018acad89"
+          },
+          {
+            "_id": "61616deb9d90d00018acad8a",
+            "value": "14 Day Delivery Time",
+            "__v": 0,
+            "id": "61616deb9d90d00018acad8a"
+          }
+        ],
+        "createdAt": "2021-10-09T10:24:43.064Z",
+        "updatedAt": "2021-11-02T20:06:18.726Z",
+        "__v": 1,
+        "service": "60996a1cdd5ae95574d61109",
+        "id": "61616deb9d90d00018acad87"
+      },
+      {
+        "_id": "61616e369d90d00018acad91",
+        "title": "Ecommerce",
+        "description": "Create robust and hassle-free conversion-optimized eCommerce solutions for your business. From the front to the backend, there is nothing we would miss.",
+        "oldPrice": "4999",
+        "newPrice": "2999",
+        "published_at": "2021-10-09T10:26:03.995Z",
+        "details": [
+          {
+            "_id": "61616e369d90d00018acad92",
+            "value": "Admin Dashboard",
+            "__v": 0,
+            "id": "61616e369d90d00018acad92"
+          },
+          {
+            "_id": "61616e369d90d00018acad93",
+            "value": "Setup Payment Gateway",
+            "__v": 0,
+            "id": "61616e369d90d00018acad93"
+          },
+          {
+            "_id": "61616e369d90d00018acad94",
+            "value": "28 Day Delivery Time",
+            "__v": 0,
+            "id": "61616e369d90d00018acad94"
+          }
+        ],
+        "createdAt": "2021-10-09T10:25:58.373Z",
+        "updatedAt": "2021-11-02T19:46:37.586Z",
+        "__v": 1,
+        "service": "60996a1cdd5ae95574d61109",
+        "id": "61616e369d90d00018acad91"
+      },
+      {
+        "_id": "61616edb9d90d00018acad98",
+        "title": "Enterprise",
+        "description": "Build your digital enterprise from the ground up with us. From a sleek face for your brand to easy web solutions to keep track of your complex processes- we deliver.",
+        "oldPrice": "19999",
+        "newPrice": "15999",
+        "published_at": "2021-10-09T10:28:44.685Z",
+        "details": [
+          {
+            "_id": "61616edb9d90d00018acad99",
+            "value": "Unlimited Pages",
+            "__v": 0,
+            "id": "61616edb9d90d00018acad99"
+          },
+          {
+            "_id": "61616edb9d90d00018acad9a",
+            "value": "Unlimited Features",
+            "__v": 0,
+            "id": "61616edb9d90d00018acad9a"
+          },
+          {
+            "_id": "61616edb9d90d00018acad9b",
+            "value": "90+ Day Delivery Time",
+            "__v": 0,
+            "id": "61616edb9d90d00018acad9b"
+          }
+        ],
+        "createdAt": "2021-10-09T10:28:43.545Z",
+        "updatedAt": "2021-10-09T10:28:44.700Z",
+        "__v": 1,
+        "service": "60996a1cdd5ae95574d61109",
+        "id": "61616edb9d90d00018acad98"
+      }
+    ],
+    "id": "60996a1cdd5ae95574d61109"
+  },
+  {
+    "_id": "609b5cccca06c728f0de28a2",
+    "title": "App Development",
+    "published_at": "2021-05-12T04:43:28.908Z",
+    "createdAt": "2021-05-12T04:42:52.228Z",
+    "updatedAt": "2021-10-09T10:19:09.294Z",
+    "__v": 0,
+    "packages": [
+      {
+        "_id": "61616f739d90d00018acad9f",
+        "title": "Data Tracking",
+        "description": "Data tracking allows you to check analytics and know how your business is operating. We develop apps that offer plans based on real-time metrics.",
+        "oldPrice": "8999",
+        "newPrice": "6999",
+        "published_at": "2021-10-09T10:31:20.943Z",
+        "details": [
+          {
+            "_id": "61616f739d90d00018acada0",
+            "value": "IOS & Android",
+            "__v": 0,
+            "id": "61616f739d90d00018acada0"
+          },
+          {
+            "_id": "61616f739d90d00018acada1",
+            "value": "Dashboard Display",
+            "__v": 0,
+            "id": "61616f739d90d00018acada1"
+          },
+          {
+            "_id": "61616f739d90d00018acada2",
+            "value": "User Authentication",
+            "__v": 0,
+            "id": "61616f739d90d00018acada2"
+          }
+        ],
+        "createdAt": "2021-10-09T10:31:15.425Z",
+        "updatedAt": "2021-10-09T10:31:20.959Z",
+        "__v": 1,
+        "service": "609b5cccca06c728f0de28a2",
+        "id": "61616f739d90d00018acad9f"
+      },
+      {
+        "_id": "61616fde9d90d00018acada6",
+        "title": "Customer Portal",
+        "description": "Your business needs a highly functional customer portal app, and we develop that for you. We offer custom, adaptable, and secure portal apps to keep you and your customers safe.",
+        "oldPrice": "8999",
+        "newPrice": "6999",
+        "published_at": "2021-10-09T10:33:05.429Z",
+        "details": [
+          {
+            "_id": "61616fde9d90d00018acada7",
+            "value": "IOS & Android",
+            "__v": 0,
+            "id": "61616fde9d90d00018acada7"
+          },
+          {
+            "_id": "61616fde9d90d00018acada8",
+            "value": "Admin Dashboard",
+            "__v": 0,
+            "id": "61616fde9d90d00018acada8"
+          },
+          {
+            "_id": "61616fde9d90d00018acada9",
+            "value": "User Profiles",
+            "__v": 0,
+            "id": "61616fde9d90d00018acada9"
+          }
+        ],
+        "createdAt": "2021-10-09T10:33:02.055Z",
+        "updatedAt": "2021-10-09T10:33:28.973Z",
+        "__v": 1,
+        "service": "609b5cccca06c728f0de28a2",
+        "id": "61616fde9d90d00018acada6"
+      },
+      {
+        "_id": "616170529d90d00018acadb0",
+        "title": "Ecommerce",
+        "description": "If you want to keep customers on your website or app, you need an engaging platform with a better user experience. We will offer your customers a pleasant shopping experience.",
+        "oldPrice": "13999",
+        "newPrice": "10999",
+        "published_at": "2021-10-09T10:35:01.026Z",
+        "details": [
+          {
+            "_id": "616170529d90d00018acadb1",
+            "value": "IOS & Android",
+            "__v": 0,
+            "id": "616170529d90d00018acadb1"
+          },
+          {
+            "_id": "616170529d90d00018acadb2",
+            "value": "Admin Dashboard",
+            "__v": 0,
+            "id": "616170529d90d00018acadb2"
+          },
+          {
+            "_id": "616170529d90d00018acadb3",
+            "value": "Payment Integrations",
+            "__v": 0,
+            "id": "616170529d90d00018acadb3"
+          }
+        ],
+        "createdAt": "2021-10-09T10:34:58.893Z",
+        "updatedAt": "2021-10-09T10:35:01.048Z",
+        "__v": 1,
+        "service": "609b5cccca06c728f0de28a2",
+        "id": "616170529d90d00018acadb0"
+      },
+      {
+        "_id": "616170a89d90d00018acadb7",
+        "title": "Enterprise",
+        "description": "Your enterprise needs a connection with your team and customers. It’s not possible without an app, which provides immense benefit from the influx of real-time data.",
+        "oldPrice": "24999",
+        "newPrice": "19999",
+        "published_at": "2021-10-09T10:36:26.199Z",
+        "details": [
+          {
+            "_id": "616170a89d90d00018acadb8",
+            "value": "IOS & Android",
+            "__v": 0,
+            "id": "616170a89d90d00018acadb8"
+          },
+          {
+            "_id": "616170a89d90d00018acadb9",
+            "value": "Unlimited Features",
+            "__v": 0,
+            "id": "616170a89d90d00018acadb9"
+          },
+          {
+            "_id": "616170a89d90d00018acadba",
+            "value": "Unlimited Functionality",
+            "__v": 0,
+            "id": "616170a89d90d00018acadba"
+          }
+        ],
+        "createdAt": "2021-10-09T10:36:24.101Z",
+        "updatedAt": "2021-10-09T10:36:26.215Z",
+        "__v": 1,
+        "service": "609b5cccca06c728f0de28a2",
+        "id": "616170a89d90d00018acadb7"
+      }
+    ],
+    "id": "609b5cccca06c728f0de28a2"
+  },
+  {
+    "_id": "60d29adfdf750e0017f1576d",
+    "title": "Web/App Design",
+    "published_at": "2021-06-23T02:24:10.619Z",
+    "createdAt": "2021-06-23T02:22:23.451Z",
+    "updatedAt": "2021-06-23T02:24:10.646Z",
+    "__v": 0,
+    "packages": [
+      {
+        "_id": "616171029d90d00018acadbe",
+        "title": "Small Business",
+        "description": "Your small business needs an attractive web and app design with functions that are easy to navigate. We offer a unique end-to-end web/app designing services. ",
+        "oldPrice": "399",
+        "newPrice": "299",
+        "published_at": "2021-10-09T10:37:56.222Z",
+        "details": [
+          {
+            "_id": "616171039d90d00018acadbf",
+            "value": "1-5 Pages",
+            "__v": 0,
+            "id": "616171039d90d00018acadbf"
+          },
+          {
+            "_id": "616171039d90d00018acadc0",
+            "value": "Wireframes & Responsive Design",
+            "__v": 0,
+            "id": "616171039d90d00018acadc0"
+          },
+          {
+            "_id": "616171039d90d00018acadc1",
+            "value": "Source File",
+            "__v": 0,
+            "id": "616171039d90d00018acadc1"
+          }
+        ],
+        "createdAt": "2021-10-09T10:37:54.997Z",
+        "updatedAt": "2021-10-09T10:37:56.236Z",
+        "__v": 1,
+        "service": "60d29adfdf750e0017f1576d",
+        "id": "616171029d90d00018acadbe"
+      },
+      {
+        "_id": "616171769d90d00018acadc5",
+        "title": "Customer Portal",
+        "description": "Whether it’s a website or an app, your customers need a secure storage place for sharing information and documents. Our designs are attractive and easy to use for everyone.",
+        "oldPrice": "999",
+        "newPrice": "799",
+        "published_at": "2021-10-09T10:39:52.931Z",
+        "details": [
+          {
+            "_id": "616171769d90d00018acadc6",
+            "value": "User Profiles",
+            "__v": 0,
+            "id": "616171769d90d00018acadc6"
+          },
+          {
+            "_id": "616171769d90d00018acadc7",
+            "value": "Admin Dashboard",
+            "__v": 0,
+            "id": "616171769d90d00018acadc7"
+          },
+          {
+            "_id": "616171769d90d00018acadc8",
+            "value": "Source File",
+            "__v": 0,
+            "id": "616171769d90d00018acadc8"
+          }
+        ],
+        "createdAt": "2021-10-09T10:39:50.746Z",
+        "updatedAt": "2021-10-09T10:39:52.943Z",
+        "__v": 1,
+        "service": "60d29adfdf750e0017f1576d",
+        "id": "616171769d90d00018acadc5"
+      },
+      {
+        "_id": "616171b99d90d00018acadcc",
+        "title": "Ecommerce",
+        "description": "When it comes to mobile applications, no business can succeed without having one. We creatively build apps for eCommerce businesses to scale up quickly.",
+        "oldPrice": "999",
+        "newPrice": "799",
+        "published_at": "2021-10-09T10:40:58.524Z",
+        "details": [
+          {
+            "_id": "616171b99d90d00018acadcd",
+            "value": "Admin Dashboard",
+            "__v": 0,
+            "id": "616171b99d90d00018acadcd"
+          },
+          {
+            "_id": "616171b99d90d00018acadce",
+            "value": "Shopping Cart & Checkout",
+            "__v": 0,
+            "id": "616171b99d90d00018acadce"
+          },
+          {
+            "_id": "616171b99d90d00018acadcf",
+            "value": "Source File",
+            "__v": 0,
+            "id": "616171b99d90d00018acadcf"
+          }
+        ],
+        "createdAt": "2021-10-09T10:40:57.579Z",
+        "updatedAt": "2021-10-09T10:40:58.539Z",
+        "__v": 1,
+        "service": "60d29adfdf750e0017f1576d",
+        "id": "616171b99d90d00018acadcc"
+      },
+      {
+        "_id": "616171ff9d90d00018acadd3",
+        "title": "Enterprise",
+        "description": "Your enterprise needs web and app design that offers unparalleled user experience. Our designing process includes positive UX and improved navigation for customer satisfaction.",
+        "oldPrice": "1499",
+        "newPrice": "1199",
+        "published_at": "2021-10-09T10:42:09.368Z",
+        "details": [
+          {
+            "_id": "616171ff9d90d00018acadd4",
+            "value": "Unlimited Features",
+            "__v": 0,
+            "id": "616171ff9d90d00018acadd4"
+          },
+          {
+            "_id": "616171ff9d90d00018acadd5",
+            "value": "Unlimited Revisions",
+            "__v": 0,
+            "id": "616171ff9d90d00018acadd5"
+          },
+          {
+            "_id": "616171ff9d90d00018acadd6",
+            "value": "Source File",
+            "__v": 0,
+            "id": "616171ff9d90d00018acadd6"
+          }
+        ],
+        "createdAt": "2021-10-09T10:42:07.230Z",
+        "updatedAt": "2021-10-09T10:42:09.382Z",
+        "__v": 1,
+        "service": "60d29adfdf750e0017f1576d",
+        "id": "616171ff9d90d00018acadd3"
+      }
+    ],
+    "id": "60d29adfdf750e0017f1576d"
+  }
+]

@@ -194,9 +194,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import VueSlickCarousel from '~/components/compat/VueSlickCarousel.vue'
 import Modal from '../common/BaseModal.vue'
 import Chevron from '../misc/icons/Chevron.vue'
 

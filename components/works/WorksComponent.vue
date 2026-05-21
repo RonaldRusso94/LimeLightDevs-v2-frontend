@@ -1,8 +1,8 @@
 <template>
-  <p v-if="$fetchState.pending">
+  <p v-if="pending">
     <loading-spinner />
   </p>
-  <p v-else-if="$fetchState.error">Error while fetching projects.</p>
+  <p v-else-if="error">Error while fetching projects.</p>
   <div v-else>
     <project-modal />
     <div class="w-full">
@@ -18,10 +18,18 @@ import ProjectModal from './ProjectModal.vue'
 
 export default {
   components: { LoadingSpinner, ProjectModal },
-  async fetch() {
-    const { store, $axios } = this.$nuxt.context
-    const { data } = await $axios('/projects')
-    store.commit('works/setProjects', data)
+  async setup() {
+    const { $axios, $store } = useNuxtApp()
+    const { pending, error } = await useAsyncData('works-projects', async () => {
+      const { data } = await $axios('/projects')
+      $store.commit('works/setProjects', data)
+      return data
+    })
+
+    return {
+      pending,
+      error,
+    }
   },
 }
 </script>

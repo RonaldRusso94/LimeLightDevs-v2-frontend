@@ -1,0 +1,5774 @@
+[
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "6126c4a71d40da54503607e6",
+        "name": "3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "3_91e0cd595f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 68.88,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/3_91e0cd595f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_3.png",
+            "hash": "thumbnail_3_91e0cd595f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 15.26,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_3_91e0cd595f.png"
+          },
+          "large": {
+            "name": "large_3.png",
+            "hash": "large_3_91e0cd595f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 141.44,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_3_91e0cd595f.png"
+          },
+          "medium": {
+            "name": "medium_3.png",
+            "hash": "medium_3_91e0cd595f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 95.26,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_3_91e0cd595f.png"
+          },
+          "small": {
+            "name": "small_3.png",
+            "hash": "small_3_91e0cd595f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 50.04,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_3_91e0cd595f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:03.780Z",
+        "updatedAt": "2021-08-25T22:32:51.792Z",
+        "__v": 0,
+        "id": "6126c4a71d40da54503607e6"
+      },
+      {
+        "_id": "6126c4a71d40da54503607e5",
+        "name": "6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "6_01f32e6386",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 119.49,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/6_01f32e6386.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_6.png",
+            "hash": "thumbnail_6_01f32e6386",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 21.15,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_6_01f32e6386.png"
+          },
+          "large": {
+            "name": "large_6.png",
+            "hash": "large_6_01f32e6386",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 151.55,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_6_01f32e6386.png"
+          },
+          "medium": {
+            "name": "medium_6.png",
+            "hash": "medium_6_01f32e6386",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 103.6,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_6_01f32e6386.png"
+          },
+          "small": {
+            "name": "small_6.png",
+            "hash": "small_6_01f32e6386",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 57.06,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_6_01f32e6386.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:03.696Z",
+        "updatedAt": "2021-08-25T22:32:51.793Z",
+        "__v": 0,
+        "id": "6126c4a71d40da54503607e5"
+      },
+      {
+        "_id": "6126c4a71d40da54503607e4",
+        "name": "5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "5_a6b5c1d499",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 38.06,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/5_a6b5c1d499.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_5.png",
+            "hash": "thumbnail_5_a6b5c1d499",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 8.92,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_5_a6b5c1d499.png"
+          },
+          "large": {
+            "name": "large_5.png",
+            "hash": "large_5_a6b5c1d499",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 62.94,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_5_a6b5c1d499.png"
+          },
+          "medium": {
+            "name": "medium_5.png",
+            "hash": "medium_5_a6b5c1d499",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 42.17,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_5_a6b5c1d499.png"
+          },
+          "small": {
+            "name": "small_5.png",
+            "hash": "small_5_a6b5c1d499",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 24.52,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_5_a6b5c1d499.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:03.273Z",
+        "updatedAt": "2021-08-25T22:32:51.793Z",
+        "__v": 0,
+        "id": "6126c4a71d40da54503607e4"
+      },
+      {
+        "_id": "6126c4a71d40da54503607e7",
+        "name": "2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "2_bc7b75cf1f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 502.74,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/2_bc7b75cf1f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_2.png",
+            "hash": "thumbnail_2_bc7b75cf1f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 28.32,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_2_bc7b75cf1f.png"
+          },
+          "large": {
+            "name": "large_2.png",
+            "hash": "large_2_bc7b75cf1f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 321.71,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_2_bc7b75cf1f.png"
+          },
+          "medium": {
+            "name": "medium_2.png",
+            "hash": "medium_2_bc7b75cf1f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 199.09,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_2_bc7b75cf1f.png"
+          },
+          "small": {
+            "name": "small_2.png",
+            "hash": "small_2_bc7b75cf1f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 97.51,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_2_bc7b75cf1f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:03.947Z",
+        "updatedAt": "2021-08-25T22:32:51.793Z",
+        "__v": 0,
+        "id": "6126c4a71d40da54503607e7"
+      },
+      {
+        "_id": "6126c4a81d40da54503607e9",
+        "name": "1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "1_4358b36de8",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 658.41,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/1_4358b36de8.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_1.png",
+            "hash": "thumbnail_1_4358b36de8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 36.44,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_1_4358b36de8.png"
+          },
+          "large": {
+            "name": "large_1.png",
+            "hash": "large_1_4358b36de8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 412.87,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_1_4358b36de8.png"
+          },
+          "medium": {
+            "name": "medium_1.png",
+            "hash": "medium_1_4358b36de8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 245.01,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_1_4358b36de8.png"
+          },
+          "small": {
+            "name": "small_1.png",
+            "hash": "small_1_4358b36de8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 118.51,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_1_4358b36de8.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:04.188Z",
+        "updatedAt": "2021-08-25T22:32:51.793Z",
+        "__v": 0,
+        "id": "6126c4a81d40da54503607e9"
+      },
+      {
+        "_id": "6126c4aa1d40da54503607ea",
+        "name": "7.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "7_cbda0b3638",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 226.69,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/7_cbda0b3638.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_7.png",
+            "hash": "thumbnail_7_cbda0b3638",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 22.44,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_7_cbda0b3638.png"
+          },
+          "large": {
+            "name": "large_7.png",
+            "hash": "large_7_cbda0b3638",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 162.22,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_7_cbda0b3638.png"
+          },
+          "medium": {
+            "name": "medium_7.png",
+            "hash": "medium_7_cbda0b3638",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 107.42,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_7_cbda0b3638.png"
+          },
+          "small": {
+            "name": "small_7.png",
+            "hash": "small_7_cbda0b3638",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 60.75,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_7_cbda0b3638.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:06.135Z",
+        "updatedAt": "2021-08-25T22:32:51.793Z",
+        "__v": 0,
+        "id": "6126c4aa1d40da54503607ea"
+      },
+      {
+        "_id": "6126c4a71d40da54503607e8",
+        "name": "4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "4_23a7b172c3",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 366.13,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/4_23a7b172c3.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_4.png",
+            "hash": "thumbnail_4_23a7b172c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 21.19,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_23a7b172c3.png"
+          },
+          "large": {
+            "name": "large_4.png",
+            "hash": "large_4_23a7b172c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 205.95,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_4_23a7b172c3.png"
+          },
+          "medium": {
+            "name": "medium_4.png",
+            "hash": "medium_4_23a7b172c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 128.01,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_4_23a7b172c3.png"
+          },
+          "small": {
+            "name": "small_4.png",
+            "hash": "small_4_23a7b172c3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 65.04,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_4_23a7b172c3.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c100fcfb328730602b5571"
+        ],
+        "createdAt": "2021-08-25T22:31:03.972Z",
+        "updatedAt": "2021-08-25T22:32:51.793Z",
+        "__v": 0,
+        "id": "6126c4a71d40da54503607e8"
+      }
+    ],
+    "_id": "60c100fcfb328730602b5571",
+    "images": [],
+    "title": "ClearView Energy",
+    "published_at": "2021-06-09T17:57:23.192Z",
+    "technologies": [
+      {
+        "_id": "60c1021f06364736a05f6a4f",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60c1021f06364736a05f6a4f"
+      },
+      {
+        "_id": "60c10729806b6517c8b7f3a0",
+        "technology": "Vue",
+        "__v": 0,
+        "id": "60c10729806b6517c8b7f3a0"
+      },
+      {
+        "_id": "60c10729806b6517c8b7f3a1",
+        "technology": "Nuxt",
+        "__v": 0,
+        "id": "60c10729806b6517c8b7f3a1"
+      },
+      {
+        "_id": "60c10729806b6517c8b7f3a2",
+        "technology": "Strapi",
+        "__v": 0,
+        "id": "60c10729806b6517c8b7f3a2"
+      },
+      {
+        "_id": "60c10729806b6517c8b7f3a3",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60c10729806b6517c8b7f3a3"
+      }
+    ],
+    "createdAt": "2021-06-09T17:57:16.630Z",
+    "updatedAt": "2021-08-25T22:33:16.786Z",
+    "__v": 0,
+    "description": "Clearview energy is a clean energy company that provides services to various of locations. This is a big web application that contains their services virtually from gathering information about the site, starting service with them, etc.",
+    "url": "https://www.clearviewenergy.com/",
+    "cover": {
+      "_id": "60f062c32f267b64d88600e5",
+      "name": "Screenshot 2021-04-23 124158.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Screenshot_2021_04_23_124158_a7e118654f",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 781.1,
+      "width": 1878,
+      "height": 935,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_04_23_124158_a7e118654f.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Screenshot 2021-04-23 124158.png",
+          "hash": "thumbnail_Screenshot_2021_04_23_124158_a7e118654f",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 122,
+          "size": 30.62,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_04_23_124158_a7e118654f.png"
+        },
+        "large": {
+          "name": "large_Screenshot 2021-04-23 124158.png",
+          "hash": "large_Screenshot_2021_04_23_124158_a7e118654f",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 1000,
+          "height": 498,
+          "size": 366.58,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_04_23_124158_a7e118654f.png"
+        },
+        "medium": {
+          "name": "medium_Screenshot 2021-04-23 124158.png",
+          "hash": "medium_Screenshot_2021_04_23_124158_a7e118654f",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 750,
+          "height": 373,
+          "size": 219.03,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_04_23_124158_a7e118654f.png"
+        },
+        "small": {
+          "name": "small_Screenshot 2021-04-23 124158.png",
+          "hash": "small_Screenshot_2021_04_23_124158_a7e118654f",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 249,
+          "size": 105.29,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_04_23_124158_a7e118654f.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60c100fcfb328730602b5571"
+      ],
+      "createdAt": "2021-07-15T16:30:59.017Z",
+      "updatedAt": "2021-08-25T22:33:16.720Z",
+      "__v": 0,
+      "id": "60f062c32f267b64d88600e5"
+    },
+    "id": "60c100fcfb328730602b5571"
+  },
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "60f05d8f2f267b64d88600c6",
+        "name": "provisonade1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "provisonade1_0ba61d4a49",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 618.67,
+        "width": 1891,
+        "height": 922,
+        "url": "https://personal-file-storage.s3.amazonaws.com/provisonade1_0ba61d4a49.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_provisonade1.png",
+            "hash": "thumbnail_provisonade1_0ba61d4a49",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 119,
+            "size": 23.15,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_provisonade1_0ba61d4a49.png"
+          },
+          "large": {
+            "name": "large_provisonade1.png",
+            "hash": "large_provisonade1_0ba61d4a49",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 488,
+            "size": 253.19,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_provisonade1_0ba61d4a49.png"
+          },
+          "medium": {
+            "name": "medium_provisonade1.png",
+            "hash": "medium_provisonade1_0ba61d4a49",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 366,
+            "size": 144.62,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_provisonade1_0ba61d4a49.png"
+          },
+          "small": {
+            "name": "small_provisonade1.png",
+            "hash": "small_provisonade1_0ba61d4a49",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 244,
+            "size": 74.46,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_provisonade1_0ba61d4a49.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:47.201Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8f2f267b64d88600c6"
+      },
+      {
+        "_id": "60f05d8d2f267b64d88600c3",
+        "name": "1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "1_63be48de00",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 49.38,
+        "width": 910,
+        "height": 552,
+        "url": "https://personal-file-storage.s3.amazonaws.com/1_63be48de00.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_1.png",
+            "hash": "thumbnail_1_63be48de00",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 149,
+            "size": 18.64,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_1_63be48de00.png"
+          },
+          "medium": {
+            "name": "medium_1.png",
+            "hash": "medium_1_63be48de00",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 455,
+            "size": 91.16,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_1_63be48de00.png"
+          },
+          "small": {
+            "name": "small_1.png",
+            "hash": "small_1_63be48de00",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 303,
+            "size": 49.81,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_1_63be48de00.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:45.564Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8d2f267b64d88600c3"
+      },
+      {
+        "_id": "60f05d8e2f267b64d88600c5",
+        "name": "3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "3_59b4eb4086",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 73.79,
+        "width": 1137,
+        "height": 687,
+        "url": "https://personal-file-storage.s3.amazonaws.com/3_59b4eb4086.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_3.png",
+            "hash": "thumbnail_3_59b4eb4086",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 148,
+            "size": 18.3,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_3_59b4eb4086.png"
+          },
+          "large": {
+            "name": "large_3.png",
+            "hash": "large_3_59b4eb4086",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 604,
+            "size": 147.38,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_3_59b4eb4086.png"
+          },
+          "medium": {
+            "name": "medium_3.png",
+            "hash": "medium_3_59b4eb4086",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 453,
+            "size": 99.12,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_3_59b4eb4086.png"
+          },
+          "small": {
+            "name": "small_3.png",
+            "hash": "small_3_59b4eb4086",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 302,
+            "size": 52.59,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_3_59b4eb4086.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:46.337Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8e2f267b64d88600c5"
+      },
+      {
+        "_id": "60f05d8d2f267b64d88600c2",
+        "name": "6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "6_a539166a5f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 40.73,
+        "width": 867,
+        "height": 520,
+        "url": "https://personal-file-storage.s3.amazonaws.com/6_a539166a5f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_6.png",
+            "hash": "thumbnail_6_a539166a5f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 147,
+            "size": 13.3,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_6_a539166a5f.png"
+          },
+          "medium": {
+            "name": "medium_6.png",
+            "hash": "medium_6_a539166a5f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 450,
+            "size": 71.47,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_6_a539166a5f.png"
+          },
+          "small": {
+            "name": "small_6.png",
+            "hash": "small_6_a539166a5f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 300,
+            "size": 37.51,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_6_a539166a5f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:45.534Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8d2f267b64d88600c2"
+      },
+      {
+        "_id": "60f05d8d2f267b64d88600c4",
+        "name": "5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "5_2a51dffb0f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 59.58,
+        "width": 967,
+        "height": 821,
+        "url": "https://personal-file-storage.s3.amazonaws.com/5_2a51dffb0f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_5.png",
+            "hash": "thumbnail_5_2a51dffb0f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 184,
+            "height": 156,
+            "size": 11.11,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_5_2a51dffb0f.png"
+          },
+          "medium": {
+            "name": "medium_5.png",
+            "hash": "medium_5_2a51dffb0f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 637,
+            "size": 92.53,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_5_2a51dffb0f.png"
+          },
+          "small": {
+            "name": "small_5.png",
+            "hash": "small_5_2a51dffb0f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 425,
+            "size": 50.68,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_5_2a51dffb0f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:45.575Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8d2f267b64d88600c4"
+      },
+      {
+        "_id": "60f05d8c2f267b64d88600c1",
+        "name": "4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "4_38f96761fd",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 19.47,
+        "width": 576,
+        "height": 351,
+        "url": "https://personal-file-storage.s3.amazonaws.com/4_38f96761fd.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_4.png",
+            "hash": "thumbnail_4_38f96761fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 149,
+            "size": 11.29,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_38f96761fd.png"
+          },
+          "small": {
+            "name": "small_4.png",
+            "hash": "small_4_38f96761fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 305,
+            "size": 31.04,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_4_38f96761fd.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:44.923Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8c2f267b64d88600c1"
+      },
+      {
+        "_id": "60f05d8f2f267b64d88600c7",
+        "name": "2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "2_84473cb41d",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 52.5,
+        "width": 1137,
+        "height": 686,
+        "url": "https://personal-file-storage.s3.amazonaws.com/2_84473cb41d.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_2.png",
+            "hash": "thumbnail_2_84473cb41d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 148,
+            "size": 12.1,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_2_84473cb41d.png"
+          },
+          "large": {
+            "name": "large_2.png",
+            "hash": "large_2_84473cb41d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 603,
+            "size": 99.38,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_2_84473cb41d.png"
+          },
+          "medium": {
+            "name": "medium_2.png",
+            "hash": "medium_2_84473cb41d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 453,
+            "size": 64.71,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_2_84473cb41d.png"
+          },
+          "small": {
+            "name": "small_2.png",
+            "hash": "small_2_84473cb41d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 302,
+            "size": 35.08,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_2_84473cb41d.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1022806364736a05f6a51"
+        ],
+        "createdAt": "2021-07-15T16:08:47.482Z",
+        "updatedAt": "2021-07-15T16:09:20.680Z",
+        "__v": 0,
+        "id": "60f05d8f2f267b64d88600c7"
+      }
+    ],
+    "_id": "60c1022806364736a05f6a51",
+    "images": [],
+    "title": "Provisionade",
+    "published_at": "2021-06-09T18:03:13.541Z",
+    "technologies": [
+      {
+        "_id": "60c1022806364736a05f6a52",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60c1022806364736a05f6a52"
+      },
+      {
+        "_id": "60e3cf5d998d684fec167288",
+        "technology": "Vue",
+        "__v": 0,
+        "id": "60e3cf5d998d684fec167288"
+      },
+      {
+        "_id": "60e3cfef998d684fec16728b",
+        "technology": "Nuxt",
+        "__v": 0,
+        "id": "60e3cfef998d684fec16728b"
+      },
+      {
+        "_id": "60e3cfef998d684fec16728c",
+        "technology": "Tailwind",
+        "__v": 0,
+        "id": "60e3cfef998d684fec16728c"
+      },
+      {
+        "_id": "60e3cfef998d684fec16728d",
+        "technology": "Strapi",
+        "__v": 0,
+        "id": "60e3cfef998d684fec16728d"
+      }
+    ],
+    "createdAt": "2021-06-09T18:02:16.561Z",
+    "updatedAt": "2021-07-20T14:05:14.192Z",
+    "__v": 1,
+    "description": "A multi-tenant phone provisioning application that allows for an admin user to a run a team of users who all run on the same phone line. This is done through a CFG file in which Provisionade makes seamless to generate.",
+    "cover": {
+      "_id": "60f6d31003c84b53589a6953",
+      "name": "Screenshot 2021-07-18 113001.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Screenshot_2021_07_18_113001_1536c6bc07",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 53.76,
+      "width": 640,
+      "height": 301,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_18_113001_1536c6bc07.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Screenshot 2021-07-18 113001.png",
+          "hash": "thumbnail_Screenshot_2021_07_18_113001_1536c6bc07",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 115,
+          "size": 52.15,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_18_113001_1536c6bc07.png"
+        },
+        "small": {
+          "name": "small_Screenshot 2021-07-18 113001.png",
+          "hash": "small_Screenshot_2021_07_18_113001_1536c6bc07",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 235,
+          "size": 173.12,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_18_113001_1536c6bc07.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60c1022806364736a05f6a51"
+      ],
+      "createdAt": "2021-07-20T13:43:44.302Z",
+      "updatedAt": "2021-07-20T13:49:56.381Z",
+      "__v": 0,
+      "id": "60f6d31003c84b53589a6953"
+    },
+    "id": "60c1022806364736a05f6a51"
+  },
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "60f05d122f267b64d88600b1",
+        "name": "gbc1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gbc1_25100bdccd",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 231.6,
+        "width": 1690,
+        "height": 898,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gbc1_25100bdccd.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gbc1.png",
+            "hash": "thumbnail_gbc1_25100bdccd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 130,
+            "size": 17.84,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gbc1_25100bdccd.png"
+          },
+          "large": {
+            "name": "large_gbc1.png",
+            "hash": "large_gbc1_25100bdccd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 531,
+            "size": 153.72,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_gbc1_25100bdccd.png"
+          },
+          "medium": {
+            "name": "medium_gbc1.png",
+            "hash": "medium_gbc1_25100bdccd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 399,
+            "size": 98.68,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gbc1_25100bdccd.png"
+          },
+          "small": {
+            "name": "small_gbc1.png",
+            "hash": "small_gbc1_25100bdccd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 266,
+            "size": 52.19,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gbc1_25100bdccd.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:42.827Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d122f267b64d88600b1"
+      },
+      {
+        "_id": "60f05d122f267b64d88600b0",
+        "name": "gb2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gb2_c8b3fa6c55",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 96.39,
+        "width": 1522,
+        "height": 683,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gb2_c8b3fa6c55.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gb2.png",
+            "hash": "thumbnail_gb2_c8b3fa6c55",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 110,
+            "size": 15.17,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gb2_c8b3fa6c55.png"
+          },
+          "large": {
+            "name": "large_gb2.png",
+            "hash": "large_gb2_c8b3fa6c55",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 449,
+            "size": 139.41,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_gb2_c8b3fa6c55.png"
+          },
+          "medium": {
+            "name": "medium_gb2.png",
+            "hash": "medium_gb2_c8b3fa6c55",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 337,
+            "size": 90.98,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gb2_c8b3fa6c55.png"
+          },
+          "small": {
+            "name": "small_gb2.png",
+            "hash": "small_gb2_c8b3fa6c55",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 224,
+            "size": 47.77,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gb2_c8b3fa6c55.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:42.590Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d122f267b64d88600b0"
+      },
+      {
+        "_id": "60f05d122f267b64d88600b3",
+        "name": "gb5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gb5_c540a9f02d",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 107.31,
+        "width": 1291,
+        "height": 783,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gb5_c540a9f02d.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gb5.png",
+            "hash": "thumbnail_gb5_c540a9f02d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 149,
+            "size": 20.79,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gb5_c540a9f02d.png"
+          },
+          "large": {
+            "name": "large_gb5.png",
+            "hash": "large_gb5_c540a9f02d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 607,
+            "size": 200.92,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_gb5_c540a9f02d.png"
+          },
+          "medium": {
+            "name": "medium_gb5.png",
+            "hash": "medium_gb5_c540a9f02d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 455,
+            "size": 128.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gb5_c540a9f02d.png"
+          },
+          "small": {
+            "name": "small_gb5.png",
+            "hash": "small_gb5_c540a9f02d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 303,
+            "size": 66.88,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gb5_c540a9f02d.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:42.905Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d122f267b64d88600b3"
+      },
+      {
+        "_id": "60f05d122f267b64d88600b2",
+        "name": "gbc3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gbc3_9224e887f7",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 144.62,
+        "width": 1377,
+        "height": 815,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gbc3_9224e887f7.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gbc3.png",
+            "hash": "thumbnail_gbc3_9224e887f7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 145,
+            "size": 24.59,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gbc3_9224e887f7.png"
+          },
+          "large": {
+            "name": "large_gbc3.png",
+            "hash": "large_gbc3_9224e887f7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 592,
+            "size": 230.15,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_gbc3_9224e887f7.png"
+          },
+          "medium": {
+            "name": "medium_gbc3.png",
+            "hash": "medium_gbc3_9224e887f7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 444,
+            "size": 149.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gbc3_9224e887f7.png"
+          },
+          "small": {
+            "name": "small_gbc3.png",
+            "hash": "small_gbc3_9224e887f7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 296,
+            "size": 79.13,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gbc3_9224e887f7.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:42.870Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d122f267b64d88600b2"
+      },
+      {
+        "_id": "60f05d132f267b64d88600b4",
+        "name": "gb6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gb6_8d36e46011",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 608.34,
+        "width": 1865,
+        "height": 852,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gb6_8d36e46011.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gb6.png",
+            "hash": "thumbnail_gb6_8d36e46011",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 112,
+            "size": 22.32,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gb6_8d36e46011.png"
+          },
+          "large": {
+            "name": "large_gb6.png",
+            "hash": "large_gb6_8d36e46011",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 457,
+            "size": 256.11,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_gb6_8d36e46011.png"
+          },
+          "medium": {
+            "name": "medium_gb6.png",
+            "hash": "medium_gb6_8d36e46011",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 343,
+            "size": 154.21,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gb6_8d36e46011.png"
+          },
+          "small": {
+            "name": "small_gb6.png",
+            "hash": "small_gb6_8d36e46011",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 228,
+            "size": 76.32,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gb6_8d36e46011.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:43.230Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d132f267b64d88600b4"
+      },
+      {
+        "_id": "60f05d162f267b64d88600b5",
+        "name": "gbc4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gbc4_85edd36915",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 234.92,
+        "width": 1367,
+        "height": 816,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gbc4_85edd36915.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gbc4.png",
+            "hash": "thumbnail_gbc4_85edd36915",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 146,
+            "size": 26.7,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gbc4_85edd36915.png"
+          },
+          "large": {
+            "name": "large_gbc4.png",
+            "hash": "large_gbc4_85edd36915",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 597,
+            "size": 249.56,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_gbc4_85edd36915.png"
+          },
+          "medium": {
+            "name": "medium_gbc4.png",
+            "hash": "medium_gbc4_85edd36915",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 448,
+            "size": 158.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gbc4_85edd36915.png"
+          },
+          "small": {
+            "name": "small_gbc4.png",
+            "hash": "small_gbc4_85edd36915",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 298,
+            "size": 82.6,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gbc4_85edd36915.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:46.255Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d162f267b64d88600b5"
+      },
+      {
+        "_id": "60f05d122f267b64d88600af",
+        "name": "gbc7.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "gbc7_5b4d7bb707",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 98.02,
+        "width": 897,
+        "height": 910,
+        "url": "https://personal-file-storage.s3.amazonaws.com/gbc7_5b4d7bb707.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gbc7.png",
+            "hash": "thumbnail_gbc7_5b4d7bb707",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 154,
+            "height": 156,
+            "size": 12.32,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_gbc7_5b4d7bb707.png"
+          },
+          "medium": {
+            "name": "medium_gbc7.png",
+            "hash": "medium_gbc7_5b4d7bb707",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 739,
+            "height": 750,
+            "size": 125.14,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_gbc7_5b4d7bb707.png"
+          },
+          "small": {
+            "name": "small_gbc7.png",
+            "hash": "small_gbc7_5b4d7bb707",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 493,
+            "height": 500,
+            "size": 67.85,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_gbc7_5b4d7bb707.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1024206364736a05f6a54"
+        ],
+        "createdAt": "2021-07-15T16:06:42.175Z",
+        "updatedAt": "2021-07-15T16:07:30.299Z",
+        "__v": 0,
+        "id": "60f05d122f267b64d88600af"
+      }
+    ],
+    "_id": "60c1024206364736a05f6a54",
+    "images": [],
+    "title": "GoBlueCube",
+    "published_at": "2021-06-09T18:03:16.337Z",
+    "technologies": [
+      {
+        "_id": "60c1024306364736a05f6a55",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60c1024306364736a05f6a55"
+      },
+      {
+        "_id": "60e3d0f25c2a46444c902375",
+        "technology": "Vue",
+        "__v": 0,
+        "id": "60e3d0f25c2a46444c902375"
+      },
+      {
+        "_id": "60e3d0f25c2a46444c902376",
+        "technology": "Nuxt",
+        "__v": 0,
+        "id": "60e3d0f25c2a46444c902376"
+      },
+      {
+        "_id": "60e3d0f25c2a46444c902377",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60e3d0f25c2a46444c902377"
+      }
+    ],
+    "createdAt": "2021-06-09T18:02:42.989Z",
+    "updatedAt": "2021-07-20T13:48:56.309Z",
+    "__v": 1,
+    "description": "GoBlueCube is a phone provisioning company, this website is tailored to attract clients to use their services.",
+    "url": "https://gobluecube.com/",
+    "cover": {
+      "_id": "60f6d30d03c84b53589a6950",
+      "name": "Screenshot 2021-07-18 105601.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Screenshot_2021_07_18_105601_085b026241",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 42.81,
+      "width": 695,
+      "height": 443,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_18_105601_085b026241.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Screenshot 2021-07-18 105601.png",
+          "hash": "thumbnail_Screenshot_2021_07_18_105601_085b026241",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 156,
+          "size": 32.8,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_18_105601_085b026241.png"
+        },
+        "small": {
+          "name": "small_Screenshot 2021-07-18 105601.png",
+          "hash": "small_Screenshot_2021_07_18_105601_085b026241",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 319,
+          "size": 95.95,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_18_105601_085b026241.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60c1024206364736a05f6a54"
+      ],
+      "createdAt": "2021-07-20T13:43:41.028Z",
+      "updatedAt": "2021-07-20T13:48:56.239Z",
+      "__v": 0,
+      "id": "60f6d30d03c84b53589a6950"
+    },
+    "id": "60c1024206364736a05f6a54"
+  },
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "60f05cd82f267b64d88600a6",
+        "name": "Screenshot 2021-07-15 at 9.46.06 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15_at_9_46_06_AM_ab75301974",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 47.69,
+        "width": 1427,
+        "height": 677,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15_at_9_46_06_AM_ab75301974.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15 at 9.46.06 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 116,
+            "size": 12.38,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974.png"
+          },
+          "large": {
+            "name": "large_Screenshot 2021-07-15 at 9.46.06 AM.png",
+            "hash": "large_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 474,
+            "size": 112.23,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15 at 9.46.06 AM.png",
+            "hash": "medium_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 356,
+            "size": 70.03,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15 at 9.46.06 AM.png",
+            "hash": "small_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 237,
+            "size": 36.27,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15_at_9_46_06_AM_ab75301974.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1025c06364736a05f6a57"
+        ],
+        "createdAt": "2021-07-15T16:05:44.310Z",
+        "updatedAt": "2021-07-15T16:05:59.388Z",
+        "__v": 0,
+        "id": "60f05cd82f267b64d88600a6"
+      },
+      {
+        "_id": "60f05cd82f267b64d88600a5",
+        "name": "Screenshot 2021-07-15 at 9.46.12 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15_at_9_46_12_AM_983134655a",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 44.34,
+        "width": 1427,
+        "height": 677,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15_at_9_46_12_AM_983134655a.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15 at 9.46.12 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15_at_9_46_12_AM_983134655a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 116,
+            "size": 10.69,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15_at_9_46_12_AM_983134655a.png"
+          },
+          "large": {
+            "name": "large_Screenshot 2021-07-15 at 9.46.12 AM.png",
+            "hash": "large_Screenshot_2021_07_15_at_9_46_12_AM_983134655a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 474,
+            "size": 93.61,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_07_15_at_9_46_12_AM_983134655a.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15 at 9.46.12 AM.png",
+            "hash": "medium_Screenshot_2021_07_15_at_9_46_12_AM_983134655a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 356,
+            "size": 59.2,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15_at_9_46_12_AM_983134655a.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15 at 9.46.12 AM.png",
+            "hash": "small_Screenshot_2021_07_15_at_9_46_12_AM_983134655a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 237,
+            "size": 31.43,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15_at_9_46_12_AM_983134655a.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1025c06364736a05f6a57"
+        ],
+        "createdAt": "2021-07-15T16:05:44.229Z",
+        "updatedAt": "2021-07-15T16:05:59.388Z",
+        "__v": 0,
+        "id": "60f05cd82f267b64d88600a5"
+      },
+      {
+        "_id": "60f05cd72f267b64d88600a4",
+        "name": "Screenshot 2021-07-15d at 9.46.54 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 69.67,
+        "width": 949,
+        "height": 676,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15d at 9.46.54 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 219,
+            "height": 156,
+            "size": 16.9,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15d at 9.46.54 AM.png",
+            "hash": "medium_Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 534,
+            "size": 107.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15d at 9.46.54 AM.png",
+            "hash": "small_Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 356,
+            "size": 57.98,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15d_at_9_46_54_AM_ff0b0b2b2a.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1025c06364736a05f6a57"
+        ],
+        "createdAt": "2021-07-15T16:05:43.964Z",
+        "updatedAt": "2021-07-15T16:05:59.388Z",
+        "__v": 0,
+        "id": "60f05cd72f267b64d88600a4"
+      }
+    ],
+    "_id": "60c1025c06364736a05f6a57",
+    "images": [],
+    "title": "Get Fods Calculator",
+    "published_at": "2021-06-09T18:03:10.110Z",
+    "technologies": [
+      {
+        "_id": "60c1025c06364736a05f6a58",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60c1025c06364736a05f6a58"
+      },
+      {
+        "_id": "60c10744806b6517c8b7f3a9",
+        "technology": "Vue",
+        "__v": 0,
+        "id": "60c10744806b6517c8b7f3a9"
+      },
+      {
+        "_id": "60c10744806b6517c8b7f3aa",
+        "technology": "Nuxt",
+        "__v": 0,
+        "id": "60c10744806b6517c8b7f3aa"
+      },
+      {
+        "_id": "60c10744806b6517c8b7f3ac",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60c10744806b6517c8b7f3ac"
+      },
+      {
+        "_id": "60c10744806b6517c8b7f3ab",
+        "technology": "Strapi",
+        "__v": 0,
+        "id": "60c10744806b6517c8b7f3ab"
+      }
+    ],
+    "createdAt": "2021-06-09T18:03:08.774Z",
+    "updatedAt": "2021-07-20T13:48:29.093Z",
+    "__v": 1,
+    "description": "Pricing calculator for the GetFods company to present their new product to their customers and show them how much they could save by switching over.",
+    "url": "https://calculator.getfods.com/",
+    "cover": {
+      "_id": "60f6d31703c84b53589a6954",
+      "name": "Screenshot 2021-07-18 105642.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Screenshot_2021_07_18_105642_0891b99757",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 148.35,
+      "width": 766,
+      "height": 534,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_18_105642_0891b99757.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Screenshot 2021-07-18 105642.png",
+          "hash": "thumbnail_Screenshot_2021_07_18_105642_0891b99757",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 224,
+          "height": 156,
+          "size": 53.52,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_18_105642_0891b99757.png"
+        },
+        "medium": {
+          "name": "medium_Screenshot 2021-07-18 105642.png",
+          "hash": "medium_Screenshot_2021_07_18_105642_0891b99757",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 750,
+          "height": 523,
+          "size": 542.16,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_18_105642_0891b99757.png"
+        },
+        "small": {
+          "name": "small_Screenshot 2021-07-18 105642.png",
+          "hash": "small_Screenshot_2021_07_18_105642_0891b99757",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 349,
+          "size": 254.46,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_18_105642_0891b99757.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60c1025c06364736a05f6a57"
+      ],
+      "createdAt": "2021-07-20T13:43:51.581Z",
+      "updatedAt": "2021-07-20T13:48:29.021Z",
+      "__v": 0,
+      "id": "60f6d31703c84b53589a6954"
+    },
+    "id": "60c1025c06364736a05f6a57"
+  },
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "612a2dbc4f73446f98cb26d6",
+        "name": "1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "1_8b92bfc0d8",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 289.55,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/1_8b92bfc0d8.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_1.png",
+            "hash": "thumbnail_1_8b92bfc0d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 21.36,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_1_8b92bfc0d8.png"
+          },
+          "large": {
+            "name": "large_1.png",
+            "hash": "large_1_8b92bfc0d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 197.18,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_1_8b92bfc0d8.png"
+          },
+          "medium": {
+            "name": "medium_1.png",
+            "hash": "medium_1_8b92bfc0d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 127.53,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_1_8b92bfc0d8.png"
+          },
+          "small": {
+            "name": "small_1.png",
+            "hash": "small_1_8b92bfc0d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 66.64,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_1_8b92bfc0d8.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1027106364736a05f6a5a"
+        ],
+        "createdAt": "2021-08-28T12:36:12.088Z",
+        "updatedAt": "2021-08-28T12:37:35.360Z",
+        "__v": 0,
+        "id": "612a2dbc4f73446f98cb26d6"
+      },
+      {
+        "_id": "612a2dbd4f73446f98cb26d8",
+        "name": "2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "2_ebbb64ae67",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 633.7,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/2_ebbb64ae67.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_2.png",
+            "hash": "thumbnail_2_ebbb64ae67",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 34.82,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_2_ebbb64ae67.png"
+          },
+          "large": {
+            "name": "large_2.png",
+            "hash": "large_2_ebbb64ae67",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 377.47,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_2_ebbb64ae67.png"
+          },
+          "medium": {
+            "name": "medium_2.png",
+            "hash": "medium_2_ebbb64ae67",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 234.7,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_2_ebbb64ae67.png"
+          },
+          "small": {
+            "name": "small_2.png",
+            "hash": "small_2_ebbb64ae67",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 117.37,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_2_ebbb64ae67.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1027106364736a05f6a5a"
+        ],
+        "createdAt": "2021-08-28T12:36:13.850Z",
+        "updatedAt": "2021-08-28T12:37:35.360Z",
+        "__v": 0,
+        "id": "612a2dbd4f73446f98cb26d8"
+      },
+      {
+        "_id": "60f05dcd2f267b64d88600d7",
+        "name": "unbog2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "unbog2_575f15a1c6",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 983.38,
+        "width": 1887,
+        "height": 933,
+        "url": "https://personal-file-storage.s3.amazonaws.com/unbog2_575f15a1c6.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_unbog2.png",
+            "hash": "thumbnail_unbog2_575f15a1c6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 121,
+            "size": 35.86,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_unbog2_575f15a1c6.png"
+          },
+          "large": {
+            "name": "large_unbog2.png",
+            "hash": "large_unbog2_575f15a1c6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 494,
+            "size": 440.64,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_unbog2_575f15a1c6.png"
+          },
+          "medium": {
+            "name": "medium_unbog2.png",
+            "hash": "medium_unbog2_575f15a1c6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 371,
+            "size": 265.29,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_unbog2_575f15a1c6.png"
+          },
+          "small": {
+            "name": "small_unbog2.png",
+            "hash": "small_unbog2_575f15a1c6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 247,
+            "size": 128.41,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_unbog2_575f15a1c6.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1027106364736a05f6a5a"
+        ],
+        "createdAt": "2021-07-15T16:09:49.975Z",
+        "updatedAt": "2021-07-15T16:13:30.610Z",
+        "__v": 0,
+        "id": "60f05dcd2f267b64d88600d7"
+      },
+      {
+        "_id": "612a2dbc4f73446f98cb26d7",
+        "name": "4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "4_8b9121e91e",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 717.39,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/4_8b9121e91e.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_4.png",
+            "hash": "thumbnail_4_8b9121e91e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 36.44,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_8b9121e91e.png"
+          },
+          "large": {
+            "name": "large_4.png",
+            "hash": "large_4_8b9121e91e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 412.92,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_4_8b9121e91e.png"
+          },
+          "medium": {
+            "name": "medium_4.png",
+            "hash": "medium_4_8b9121e91e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 253.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_4_8b9121e91e.png"
+          },
+          "small": {
+            "name": "small_4.png",
+            "hash": "small_4_8b9121e91e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 124.15,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_4_8b9121e91e.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1027106364736a05f6a5a"
+        ],
+        "createdAt": "2021-08-28T12:36:12.806Z",
+        "updatedAt": "2021-08-28T12:37:35.360Z",
+        "__v": 0,
+        "id": "612a2dbc4f73446f98cb26d7"
+      },
+      {
+        "_id": "60f05dcd2f267b64d88600d6",
+        "name": "unbog3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "unbog3_af320e1991",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 120.55,
+        "width": 1907,
+        "height": 937,
+        "url": "https://personal-file-storage.s3.amazonaws.com/unbog3_af320e1991.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_unbog3.png",
+            "hash": "thumbnail_unbog3_af320e1991",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 120,
+            "size": 27.02,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_unbog3_af320e1991.png"
+          },
+          "large": {
+            "name": "large_unbog3.png",
+            "hash": "large_unbog3_af320e1991",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 491,
+            "size": 283.87,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_unbog3_af320e1991.png"
+          },
+          "medium": {
+            "name": "medium_unbog3.png",
+            "hash": "medium_unbog3_af320e1991",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 369,
+            "size": 181.45,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_unbog3_af320e1991.png"
+          },
+          "small": {
+            "name": "small_unbog3.png",
+            "hash": "small_unbog3_af320e1991",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 246,
+            "size": 93.87,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_unbog3_af320e1991.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1027106364736a05f6a5a"
+        ],
+        "createdAt": "2021-07-15T16:09:49.397Z",
+        "updatedAt": "2021-07-15T16:13:30.610Z",
+        "__v": 0,
+        "id": "60f05dcd2f267b64d88600d6"
+      },
+      {
+        "_id": "612a2dbe4f73446f98cb26d9",
+        "name": "8.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "8_ddffa661d5",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 136.3,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/8_ddffa661d5.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_8.png",
+            "hash": "thumbnail_8_ddffa661d5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 18.09,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_8_ddffa661d5.png"
+          },
+          "large": {
+            "name": "large_8.png",
+            "hash": "large_8_ddffa661d5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 168.13,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_8_ddffa661d5.png"
+          },
+          "medium": {
+            "name": "medium_8.png",
+            "hash": "medium_8_ddffa661d5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 113.51,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_8_ddffa661d5.png"
+          },
+          "small": {
+            "name": "small_8.png",
+            "hash": "small_8_ddffa661d5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 57.76,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_8_ddffa661d5.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60c1027106364736a05f6a5a"
+        ],
+        "createdAt": "2021-08-28T12:36:14.706Z",
+        "updatedAt": "2021-08-28T12:37:35.360Z",
+        "__v": 0,
+        "id": "612a2dbe4f73446f98cb26d9"
+      }
+    ],
+    "_id": "60c1027106364736a05f6a5a",
+    "images": [],
+    "title": "Unboggled",
+    "published_at": "2021-06-09T18:03:34.822Z",
+    "technologies": [
+      {
+        "_id": "60c1027106364736a05f6a5b",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60c1027106364736a05f6a5b"
+      },
+      {
+        "_id": "60e3d14e5c2a46444c902381",
+        "technology": "React",
+        "__v": 0,
+        "id": "60e3d14e5c2a46444c902381"
+      },
+      {
+        "_id": "60e3d14e5c2a46444c902382",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60e3d14e5c2a46444c902382"
+      },
+      {
+        "_id": "60e3d14e5c2a46444c902383",
+        "technology": "Gatsby",
+        "__v": 0,
+        "id": "60e3d14e5c2a46444c902383"
+      }
+    ],
+    "createdAt": "2021-06-09T18:03:29.796Z",
+    "updatedAt": "2021-08-28T12:37:35.443Z",
+    "__v": 1,
+    "description": "Informational site for the data center Unboggled company to show their clients all services they are providing.",
+    "url": "https://unboggled.com/",
+    "cover": {
+      "_id": "60f6d30703c84b53589a6945",
+      "name": "Screenshot 2021-07-18 115551.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Screenshot_2021_07_18_115551_397335d79a",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 152.12,
+      "width": 582,
+      "height": 643,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_18_115551_397335d79a.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Screenshot 2021-07-18 115551.png",
+          "hash": "thumbnail_Screenshot_2021_07_18_115551_397335d79a",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 141,
+          "height": 156,
+          "size": 50.82,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_18_115551_397335d79a.png"
+        },
+        "small": {
+          "name": "small_Screenshot 2021-07-18 115551.png",
+          "hash": "small_Screenshot_2021_07_18_115551_397335d79a",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 453,
+          "height": 500,
+          "size": 433.7,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_18_115551_397335d79a.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60c1027106364736a05f6a5a"
+      ],
+      "createdAt": "2021-07-20T13:43:35.065Z",
+      "updatedAt": "2021-07-20T13:49:32.526Z",
+      "__v": 0,
+      "id": "60f6d30703c84b53589a6945"
+    },
+    "id": "60c1027106364736a05f6a5a"
+  },
+  {
+    "type": "mobileapp",
+    "media": [
+      {
+        "_id": "612d22f93df4158a88851a26",
+        "name": "e2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e2_09a79353c9",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 176.5,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e2_09a79353c9.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e2.png",
+            "hash": "thumbnail_e2_09a79353c9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 12.98,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e2_09a79353c9.png"
+          },
+          "large": {
+            "name": "large_e2.png",
+            "hash": "large_e2_09a79353c9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 128.16,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e2_09a79353c9.png"
+          },
+          "medium": {
+            "name": "medium_e2.png",
+            "hash": "medium_e2_09a79353c9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 79,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e2_09a79353c9.png"
+          },
+          "small": {
+            "name": "small_e2.png",
+            "hash": "small_e2_09a79353c9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 40.83,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e2_09a79353c9.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:05.430Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22f93df4158a88851a26"
+      },
+      {
+        "_id": "612d22f73df4158a88851a22",
+        "name": "e1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e1_316240885c",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 77.63,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e1_316240885c.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e1.png",
+            "hash": "thumbnail_e1_316240885c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 7.79,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e1_316240885c.png"
+          },
+          "large": {
+            "name": "large_e1.png",
+            "hash": "large_e1_316240885c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 55.53,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e1_316240885c.png"
+          },
+          "medium": {
+            "name": "medium_e1.png",
+            "hash": "medium_e1_316240885c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 36.71,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e1_316240885c.png"
+          },
+          "small": {
+            "name": "small_e1.png",
+            "hash": "small_e1_316240885c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 20.54,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e1_316240885c.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:03.996Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22f73df4158a88851a22"
+      },
+      {
+        "_id": "612d22f83df4158a88851a24",
+        "name": "e4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e4_08c47cf1a3",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 188.31,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e4_08c47cf1a3.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e4.png",
+            "hash": "thumbnail_e4_08c47cf1a3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 12.4,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e4_08c47cf1a3.png"
+          },
+          "large": {
+            "name": "large_e4.png",
+            "hash": "large_e4_08c47cf1a3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 110.94,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e4_08c47cf1a3.png"
+          },
+          "medium": {
+            "name": "medium_e4.png",
+            "hash": "medium_e4_08c47cf1a3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 68.61,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e4_08c47cf1a3.png"
+          },
+          "small": {
+            "name": "small_e4.png",
+            "hash": "small_e4_08c47cf1a3",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 36.78,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e4_08c47cf1a3.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:04.120Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22f83df4158a88851a24"
+      },
+      {
+        "_id": "612d22f83df4158a88851a23",
+        "name": "e3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e3_3234fdb427",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 66.72,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e3_3234fdb427.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e3.png",
+            "hash": "thumbnail_e3_3234fdb427",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 6.45,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e3_3234fdb427.png"
+          },
+          "large": {
+            "name": "large_e3.png",
+            "hash": "large_e3_3234fdb427",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 46.76,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e3_3234fdb427.png"
+          },
+          "medium": {
+            "name": "medium_e3.png",
+            "hash": "medium_e3_3234fdb427",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 31.11,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e3_3234fdb427.png"
+          },
+          "small": {
+            "name": "small_e3.png",
+            "hash": "small_e3_3234fdb427",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 17.55,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e3_3234fdb427.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:04.003Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22f83df4158a88851a23"
+      },
+      {
+        "_id": "612d22f83df4158a88851a25",
+        "name": "e5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e5_a0b51b4416",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 67.77,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e5_a0b51b4416.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e5.png",
+            "hash": "thumbnail_e5_a0b51b4416",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 6.87,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e5_a0b51b4416.png"
+          },
+          "large": {
+            "name": "large_e5.png",
+            "hash": "large_e5_a0b51b4416",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 47.7,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e5_a0b51b4416.png"
+          },
+          "medium": {
+            "name": "medium_e5.png",
+            "hash": "medium_e5_a0b51b4416",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 31.55,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e5_a0b51b4416.png"
+          },
+          "small": {
+            "name": "small_e5.png",
+            "hash": "small_e5_a0b51b4416",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 18.09,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e5_a0b51b4416.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:04.928Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22f83df4158a88851a25"
+      },
+      {
+        "_id": "612d22f93df4158a88851a27",
+        "name": "e6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e6_62ba400695",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 72.1,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e6_62ba400695.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e6.png",
+            "hash": "thumbnail_e6_62ba400695",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 7,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e6_62ba400695.png"
+          },
+          "large": {
+            "name": "large_e6.png",
+            "hash": "large_e6_62ba400695",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 52.37,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e6_62ba400695.png"
+          },
+          "medium": {
+            "name": "medium_e6.png",
+            "hash": "medium_e6_62ba400695",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 34.05,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e6_62ba400695.png"
+          },
+          "small": {
+            "name": "small_e6.png",
+            "hash": "small_e6_62ba400695",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 18.77,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e6_62ba400695.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:05.449Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22f93df4158a88851a27"
+      },
+      {
+        "_id": "612d22fb3df4158a88851a28",
+        "name": "e7.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e7_4a1b747f3d",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 141.15,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e7_4a1b747f3d.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e7.png",
+            "hash": "thumbnail_e7_4a1b747f3d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 10.75,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e7_4a1b747f3d.png"
+          },
+          "large": {
+            "name": "large_e7.png",
+            "hash": "large_e7_4a1b747f3d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 88.31,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e7_4a1b747f3d.png"
+          },
+          "medium": {
+            "name": "medium_e7.png",
+            "hash": "medium_e7_4a1b747f3d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 56.81,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e7_4a1b747f3d.png"
+          },
+          "small": {
+            "name": "small_e7.png",
+            "hash": "small_e7_4a1b747f3d",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 30.6,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e7_4a1b747f3d.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60e3d2bb5c2a46444c902388"
+        ],
+        "createdAt": "2021-08-30T18:27:07.513Z",
+        "updatedAt": "2021-08-30T18:27:32.054Z",
+        "__v": 0,
+        "id": "612d22fb3df4158a88851a28"
+      }
+    ],
+    "_id": "60e3d2bb5c2a46444c902388",
+    "title": "Coffee Trailer",
+    "description": "This app allows users to login with their credentials and place their favorite orders from a local coffee shop in Dallas, Texas. Here users will be able to browse all menu items, add items to cart, add payment information, and place an order. ",
+    "published_at": "2021-07-06T03:50:19.983Z",
+    "technologies": [
+      {
+        "_id": "60e3d2bb5c2a46444c902389",
+        "technology": "React Native",
+        "__v": 0,
+        "id": "60e3d2bb5c2a46444c902389"
+      },
+      {
+        "_id": "60e3d2bb5c2a46444c90238a",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60e3d2bb5c2a46444c90238a"
+      },
+      {
+        "_id": "60e3d2bb5c2a46444c90238b",
+        "technology": "Strapi",
+        "__v": 0,
+        "id": "60e3d2bb5c2a46444c90238b"
+      }
+    ],
+    "createdAt": "2021-07-06T03:49:15.470Z",
+    "updatedAt": "2021-08-30T18:27:32.208Z",
+    "__v": 1,
+    "cover": {
+      "_id": "60f6d30e03c84b53589a6952",
+      "name": "coffee.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "coffee_32fec04c1a",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 67.63,
+      "width": 669,
+      "height": 303,
+      "url": "https://personal-file-storage.s3.amazonaws.com/coffee_32fec04c1a.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_coffee.png",
+          "hash": "thumbnail_coffee_32fec04c1a",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 111,
+          "size": 59.86,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_coffee_32fec04c1a.png"
+        },
+        "small": {
+          "name": "small_coffee.png",
+          "hash": "small_coffee_32fec04c1a",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 226,
+          "size": 209.64,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_coffee_32fec04c1a.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60e3d2bb5c2a46444c902388"
+      ],
+      "createdAt": "2021-07-20T13:43:42.813Z",
+      "updatedAt": "2021-07-20T13:46:46.366Z",
+      "__v": 0,
+      "id": "60f6d30e03c84b53589a6952"
+    },
+    "id": "60e3d2bb5c2a46444c902388"
+  },
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "612a2b2ee4fed31f7c1dc9b7",
+        "name": "2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "2_3e6563aff0",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 205.64,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/2_3e6563aff0.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_2.png",
+            "hash": "thumbnail_2_3e6563aff0",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 15.2,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_2_3e6563aff0.png"
+          },
+          "large": {
+            "name": "large_2.png",
+            "hash": "large_2_3e6563aff0",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 108.04,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_2_3e6563aff0.png"
+          },
+          "medium": {
+            "name": "medium_2.png",
+            "hash": "medium_2_3e6563aff0",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 71.97,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_2_3e6563aff0.png"
+          },
+          "small": {
+            "name": "small_2.png",
+            "hash": "small_2_3e6563aff0",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 39.07,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_2_3e6563aff0.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:18.575Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b2ee4fed31f7c1dc9b7"
+      },
+      {
+        "_id": "612a2b2ee4fed31f7c1dc9b5",
+        "name": "3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "3_45f0f6f53f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 196.18,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/3_45f0f6f53f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_3.png",
+            "hash": "thumbnail_3_45f0f6f53f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 13.48,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_3_45f0f6f53f.png"
+          },
+          "large": {
+            "name": "large_3.png",
+            "hash": "large_3_45f0f6f53f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 103.39,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_3_45f0f6f53f.png"
+          },
+          "medium": {
+            "name": "medium_3.png",
+            "hash": "medium_3_45f0f6f53f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 68.28,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_3_45f0f6f53f.png"
+          },
+          "small": {
+            "name": "small_3.png",
+            "hash": "small_3_45f0f6f53f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 37.3,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_3_45f0f6f53f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:18.463Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b2ee4fed31f7c1dc9b5"
+      },
+      {
+        "_id": "612a2b2ee4fed31f7c1dc9b8",
+        "name": "6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "6_ba7cac23fd",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 406.72,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/6_ba7cac23fd.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_6.png",
+            "hash": "thumbnail_6_ba7cac23fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 18.68,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_6_ba7cac23fd.png"
+          },
+          "large": {
+            "name": "large_6.png",
+            "hash": "large_6_ba7cac23fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 208.22,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_6_ba7cac23fd.png"
+          },
+          "medium": {
+            "name": "medium_6.png",
+            "hash": "medium_6_ba7cac23fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 131.42,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_6_ba7cac23fd.png"
+          },
+          "small": {
+            "name": "small_6.png",
+            "hash": "small_6_ba7cac23fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 64.32,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_6_ba7cac23fd.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:18.670Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b2ee4fed31f7c1dc9b8"
+      },
+      {
+        "_id": "612a2b30e4fed31f7c1dc9b9",
+        "name": "7.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "7_c3864213e7",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 203.57,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/7_c3864213e7.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_7.png",
+            "hash": "thumbnail_7_c3864213e7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 13.9,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_7_c3864213e7.png"
+          },
+          "large": {
+            "name": "large_7.png",
+            "hash": "large_7_c3864213e7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 107.58,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_7_c3864213e7.png"
+          },
+          "medium": {
+            "name": "medium_7.png",
+            "hash": "medium_7_c3864213e7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 70.49,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_7_c3864213e7.png"
+          },
+          "small": {
+            "name": "small_7.png",
+            "hash": "small_7_c3864213e7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 38.02,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_7_c3864213e7.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:20.869Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b30e4fed31f7c1dc9b9"
+      },
+      {
+        "_id": "612a2b31e4fed31f7c1dc9ba",
+        "name": "8.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "8_3b535ab948",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 228.19,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/8_3b535ab948.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_8.png",
+            "hash": "thumbnail_8_3b535ab948",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 15.5,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_8_3b535ab948.png"
+          },
+          "large": {
+            "name": "large_8.png",
+            "hash": "large_8_3b535ab948",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 116.89,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_8_3b535ab948.png"
+          },
+          "medium": {
+            "name": "medium_8.png",
+            "hash": "medium_8_3b535ab948",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 77.06,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_8_3b535ab948.png"
+          },
+          "small": {
+            "name": "small_8.png",
+            "hash": "small_8_3b535ab948",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 41.87,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_8_3b535ab948.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:21.875Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b31e4fed31f7c1dc9ba"
+      },
+      {
+        "_id": "612a2b2ee4fed31f7c1dc9b4",
+        "name": "4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "4_0b569a86b5",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 206.44,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/4_0b569a86b5.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_4.png",
+            "hash": "thumbnail_4_0b569a86b5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 12.77,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_0b569a86b5.png"
+          },
+          "large": {
+            "name": "large_4.png",
+            "hash": "large_4_0b569a86b5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 110.79,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_4_0b569a86b5.png"
+          },
+          "medium": {
+            "name": "medium_4.png",
+            "hash": "medium_4_0b569a86b5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 72.5,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_4_0b569a86b5.png"
+          },
+          "small": {
+            "name": "small_4.png",
+            "hash": "small_4_0b569a86b5",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 38.44,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_4_0b569a86b5.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:18.304Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b2ee4fed31f7c1dc9b4"
+      },
+      {
+        "_id": "612a2b2ee4fed31f7c1dc9b3",
+        "name": "5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "5_3ccae2d187",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 148.69,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/5_3ccae2d187.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_5.png",
+            "hash": "thumbnail_5_3ccae2d187",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 12.33,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_5_3ccae2d187.png"
+          },
+          "large": {
+            "name": "large_5.png",
+            "hash": "large_5_3ccae2d187",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 89.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_5_3ccae2d187.png"
+          },
+          "medium": {
+            "name": "medium_5.png",
+            "hash": "medium_5_3ccae2d187",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 59.33,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_5_3ccae2d187.png"
+          },
+          "small": {
+            "name": "small_5.png",
+            "hash": "small_5_3ccae2d187",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 33.3,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_5_3ccae2d187.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-08-28T12:25:18.171Z",
+        "updatedAt": "2021-08-28T12:26:19.604Z",
+        "__v": 0,
+        "id": "612a2b2ee4fed31f7c1dc9b3"
+      },
+      {
+        "_id": "60f05b662f267b64d8860096",
+        "name": "1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "1_64863811ec",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 30.53,
+        "width": 862,
+        "height": 535,
+        "url": "https://personal-file-storage.s3.amazonaws.com/1_64863811ec.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_1.png",
+            "hash": "thumbnail_1_64863811ec",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 152,
+            "size": 15.44,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_1_64863811ec.png"
+          },
+          "medium": {
+            "name": "medium_1.png",
+            "hash": "medium_1_64863811ec",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 465,
+            "size": 76.17,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_1_64863811ec.png"
+          },
+          "small": {
+            "name": "small_1.png",
+            "hash": "small_1_64863811ec",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 310,
+            "size": 41.56,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_1_64863811ec.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-07-15T15:59:34.587Z",
+        "updatedAt": "2021-07-15T15:59:57.778Z",
+        "__v": 0,
+        "id": "60f05b662f267b64d8860096"
+      },
+      {
+        "_id": "60f05b662f267b64d8860095",
+        "name": "3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "3_88f58710b9",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 28.41,
+        "width": 862,
+        "height": 541,
+        "url": "https://personal-file-storage.s3.amazonaws.com/3_88f58710b9.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_3.png",
+            "hash": "thumbnail_3_88f58710b9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 154,
+            "size": 14.86,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_3_88f58710b9.png"
+          },
+          "medium": {
+            "name": "medium_3.png",
+            "hash": "medium_3_88f58710b9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 471,
+            "size": 71.29,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_3_88f58710b9.png"
+          },
+          "small": {
+            "name": "small_3.png",
+            "hash": "small_3_88f58710b9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 314,
+            "size": 38.59,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_3_88f58710b9.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-07-15T15:59:34.538Z",
+        "updatedAt": "2021-07-15T15:59:57.778Z",
+        "__v": 0,
+        "id": "60f05b662f267b64d8860095"
+      },
+      {
+        "_id": "60f05b662f267b64d886009a",
+        "name": "5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "5_3989628519",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 32.51,
+        "width": 865,
+        "height": 541,
+        "url": "https://personal-file-storage.s3.amazonaws.com/5_3989628519.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_5.png",
+            "hash": "thumbnail_5_3989628519",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 153,
+            "size": 16.09,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_5_3989628519.png"
+          },
+          "medium": {
+            "name": "medium_5.png",
+            "hash": "medium_5_3989628519",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 469,
+            "size": 80.45,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_5_3989628519.png"
+          },
+          "small": {
+            "name": "small_5.png",
+            "hash": "small_5_3989628519",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 313,
+            "size": 42.99,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_5_3989628519.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-07-15T15:59:34.721Z",
+        "updatedAt": "2021-07-15T15:59:57.778Z",
+        "__v": 0,
+        "id": "60f05b662f267b64d886009a"
+      },
+      {
+        "_id": "60f05b662f267b64d8860099",
+        "name": "6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "6_c10f6a6202",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 23.75,
+        "width": 853,
+        "height": 541,
+        "url": "https://personal-file-storage.s3.amazonaws.com/6_c10f6a6202.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_6.png",
+            "hash": "thumbnail_6_c10f6a6202",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 155,
+            "size": 11.57,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_6_c10f6a6202.png"
+          },
+          "medium": {
+            "name": "medium_6.png",
+            "hash": "medium_6_c10f6a6202",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 476,
+            "size": 59.13,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_6_c10f6a6202.png"
+          },
+          "small": {
+            "name": "small_6.png",
+            "hash": "small_6_c10f6a6202",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 317,
+            "size": 32.14,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_6_c10f6a6202.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-07-15T15:59:34.688Z",
+        "updatedAt": "2021-07-15T15:59:57.778Z",
+        "__v": 0,
+        "id": "60f05b662f267b64d8860099"
+      },
+      {
+        "_id": "60f05b662f267b64d8860097",
+        "name": "2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "2_6ca03abf40",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 17.94,
+        "width": 868,
+        "height": 541,
+        "url": "https://personal-file-storage.s3.amazonaws.com/2_6ca03abf40.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_2.png",
+            "hash": "thumbnail_2_6ca03abf40",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 153,
+            "size": 9.49,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_2_6ca03abf40.png"
+          },
+          "medium": {
+            "name": "medium_2.png",
+            "hash": "medium_2_6ca03abf40",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 467,
+            "size": 42.37,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_2_6ca03abf40.png"
+          },
+          "small": {
+            "name": "small_2.png",
+            "hash": "small_2_6ca03abf40",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 312,
+            "size": 23.91,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_2_6ca03abf40.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-07-15T15:59:34.611Z",
+        "updatedAt": "2021-07-15T15:59:57.778Z",
+        "__v": 0,
+        "id": "60f05b662f267b64d8860097"
+      },
+      {
+        "_id": "60f05b662f267b64d8860098",
+        "name": "4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "4_77c76adf7e",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 24.3,
+        "width": 859,
+        "height": 487,
+        "url": "https://personal-file-storage.s3.amazonaws.com/4_77c76adf7e.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_4.png",
+            "hash": "thumbnail_4_77c76adf7e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 139,
+            "size": 11.36,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_77c76adf7e.png"
+          },
+          "medium": {
+            "name": "medium_4.png",
+            "hash": "medium_4_77c76adf7e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 425,
+            "size": 59.51,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_4_77c76adf7e.png"
+          },
+          "small": {
+            "name": "small_4.png",
+            "hash": "small_4_77c76adf7e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 283,
+            "size": 32.15,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_4_77c76adf7e.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9a78dd478900179774b6"
+        ],
+        "createdAt": "2021-07-15T15:59:34.635Z",
+        "updatedAt": "2021-07-15T15:59:57.778Z",
+        "__v": 0,
+        "id": "60f05b662f267b64d8860098"
+      }
+    ],
+    "_id": "60ef9a78dd478900179774b6",
+    "title": "Financial Database",
+    "description": "A confidential webapp that allows approved users to get access to exclusive financial deals. It has many great features from a complex filter system, heavy security, deal managing with ease, a clever rankings system, and more. Since it's confidential, the links cannot be shared and the data shown is mock data.",
+    "published_at": "2021-07-15T02:16:38.153Z",
+    "technologies": [
+      {
+        "_id": "60ef9a78dd478900179774b7",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60ef9a78dd478900179774b7"
+      },
+      {
+        "_id": "60ef9a78dd478900179774b8",
+        "technology": "React",
+        "__v": 0,
+        "id": "60ef9a78dd478900179774b8"
+      },
+      {
+        "_id": "60ef9a78dd478900179774b9",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60ef9a78dd478900179774b9"
+      }
+    ],
+    "createdAt": "2021-07-15T02:16:24.552Z",
+    "updatedAt": "2021-08-28T12:26:19.707Z",
+    "__v": 1,
+    "cover": {
+      "_id": "60f6d30b03c84b53589a694e",
+      "name": "finacne.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "finacne_8df1213441",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 19.55,
+      "width": 494,
+      "height": 559,
+      "url": "https://personal-file-storage.s3.amazonaws.com/finacne_8df1213441.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_finacne.png",
+          "hash": "thumbnail_finacne_8df1213441",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 138,
+          "height": 156,
+          "size": 8.58,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_finacne_8df1213441.png"
+        },
+        "small": {
+          "name": "small_finacne.png",
+          "hash": "small_finacne_8df1213441",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 442,
+          "height": 500,
+          "size": 39.94,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_finacne_8df1213441.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60ef9a78dd478900179774b6"
+      ],
+      "createdAt": "2021-07-20T13:43:39.651Z",
+      "updatedAt": "2021-07-20T13:47:10.373Z",
+      "__v": 0,
+      "id": "60f6d30b03c84b53589a694e"
+    },
+    "id": "60ef9a78dd478900179774b6"
+  },
+  {
+    "type": "mobileapp",
+    "media": [
+      {
+        "_id": "612d23263df4158a88851a33",
+        "name": "e1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e1_2c810a41e9",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 71.38,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e1_2c810a41e9.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e1.png",
+            "hash": "thumbnail_e1_2c810a41e9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 9.03,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e1_2c810a41e9.png"
+          },
+          "large": {
+            "name": "large_e1.png",
+            "hash": "large_e1_2c810a41e9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 61.4,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e1_2c810a41e9.png"
+          },
+          "medium": {
+            "name": "medium_e1.png",
+            "hash": "medium_e1_2c810a41e9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 41.98,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e1_2c810a41e9.png"
+          },
+          "small": {
+            "name": "small_e1.png",
+            "hash": "small_e1_2c810a41e9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 23.61,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e1_2c810a41e9.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9b3ddd478900179774c2"
+        ],
+        "createdAt": "2021-08-30T18:27:50.620Z",
+        "updatedAt": "2021-08-30T18:27:56.159Z",
+        "__v": 0,
+        "id": "612d23263df4158a88851a33"
+      },
+      {
+        "_id": "612d23263df4158a88851a34",
+        "name": "e3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e3_d15baa270e",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 89.49,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e3_d15baa270e.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e3.png",
+            "hash": "thumbnail_e3_d15baa270e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 9.93,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e3_d15baa270e.png"
+          },
+          "large": {
+            "name": "large_e3.png",
+            "hash": "large_e3_d15baa270e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 72.19,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e3_d15baa270e.png"
+          },
+          "medium": {
+            "name": "medium_e3.png",
+            "hash": "medium_e3_d15baa270e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 47.33,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e3_d15baa270e.png"
+          },
+          "small": {
+            "name": "small_e3.png",
+            "hash": "small_e3_d15baa270e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 26.45,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e3_d15baa270e.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9b3ddd478900179774c2"
+        ],
+        "createdAt": "2021-08-30T18:27:50.700Z",
+        "updatedAt": "2021-08-30T18:27:56.159Z",
+        "__v": 0,
+        "id": "612d23263df4158a88851a34"
+      },
+      {
+        "_id": "612d23263df4158a88851a35",
+        "name": "e6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e6_88d28a2a2a",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 68.23,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e6_88d28a2a2a.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e6.png",
+            "hash": "thumbnail_e6_88d28a2a2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 7.42,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e6_88d28a2a2a.png"
+          },
+          "large": {
+            "name": "large_e6.png",
+            "hash": "large_e6_88d28a2a2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 49.29,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e6_88d28a2a2a.png"
+          },
+          "medium": {
+            "name": "medium_e6.png",
+            "hash": "medium_e6_88d28a2a2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 32.54,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e6_88d28a2a2a.png"
+          },
+          "small": {
+            "name": "small_e6.png",
+            "hash": "small_e6_88d28a2a2a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 18.77,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e6_88d28a2a2a.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9b3ddd478900179774c2"
+        ],
+        "createdAt": "2021-08-30T18:27:50.912Z",
+        "updatedAt": "2021-08-30T18:27:56.159Z",
+        "__v": 0,
+        "id": "612d23263df4158a88851a35"
+      },
+      {
+        "_id": "612d23273df4158a88851a36",
+        "name": "e5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e5_7e627fdb59",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 103.58,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e5_7e627fdb59.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e5.png",
+            "hash": "thumbnail_e5_7e627fdb59",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 10.5,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e5_7e627fdb59.png"
+          },
+          "large": {
+            "name": "large_e5.png",
+            "hash": "large_e5_7e627fdb59",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 78.58,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e5_7e627fdb59.png"
+          },
+          "medium": {
+            "name": "medium_e5.png",
+            "hash": "medium_e5_7e627fdb59",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 52.66,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e5_7e627fdb59.png"
+          },
+          "small": {
+            "name": "small_e5.png",
+            "hash": "small_e5_7e627fdb59",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 28.78,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e5_7e627fdb59.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9b3ddd478900179774c2"
+        ],
+        "createdAt": "2021-08-30T18:27:51.431Z",
+        "updatedAt": "2021-08-30T18:27:56.159Z",
+        "__v": 0,
+        "id": "612d23273df4158a88851a36"
+      },
+      {
+        "_id": "612d23273df4158a88851a37",
+        "name": "e2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e2_8ca1ba2fa2",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 76.81,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e2_8ca1ba2fa2.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e2.png",
+            "hash": "thumbnail_e2_8ca1ba2fa2",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 9,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e2_8ca1ba2fa2.png"
+          },
+          "large": {
+            "name": "large_e2.png",
+            "hash": "large_e2_8ca1ba2fa2",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 63.9,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e2_8ca1ba2fa2.png"
+          },
+          "medium": {
+            "name": "medium_e2.png",
+            "hash": "medium_e2_8ca1ba2fa2",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 42.74,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e2_8ca1ba2fa2.png"
+          },
+          "small": {
+            "name": "small_e2.png",
+            "hash": "small_e2_8ca1ba2fa2",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 24.1,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e2_8ca1ba2fa2.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9b3ddd478900179774c2"
+        ],
+        "createdAt": "2021-08-30T18:27:51.493Z",
+        "updatedAt": "2021-08-30T18:27:56.159Z",
+        "__v": 0,
+        "id": "612d23273df4158a88851a37"
+      },
+      {
+        "_id": "612d23273df4158a88851a38",
+        "name": "e4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "e4_2175a0af3f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 82.15,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/e4_2175a0af3f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_e4.png",
+            "hash": "thumbnail_e4_2175a0af3f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 9.37,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_e4_2175a0af3f.png"
+          },
+          "large": {
+            "name": "large_e4.png",
+            "hash": "large_e4_2175a0af3f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 63.6,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_e4_2175a0af3f.png"
+          },
+          "medium": {
+            "name": "medium_e4.png",
+            "hash": "medium_e4_2175a0af3f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 42.63,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_e4_2175a0af3f.png"
+          },
+          "small": {
+            "name": "small_e4.png",
+            "hash": "small_e4_2175a0af3f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 24.01,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_e4_2175a0af3f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60ef9b3ddd478900179774c2"
+        ],
+        "createdAt": "2021-08-30T18:27:51.625Z",
+        "updatedAt": "2021-08-30T18:27:56.159Z",
+        "__v": 0,
+        "id": "612d23273df4158a88851a38"
+      }
+    ],
+    "_id": "60ef9b3ddd478900179774c2",
+    "title": "Bench App",
+    "description": "A sports team management app that allows running your teams very seamless. Allows players to check in or out from the app, via e-mail, from push notifications, or through text messages. Keep track of stats, games played, drinks and even player payments. Take the headache out of managing your players.",
+    "url": "https://apps.apple.com/us/app/benchapp-sports-team-manager/id883504378",
+    "published_at": "2021-07-15T02:19:43.390Z",
+    "technologies": [
+      {
+        "_id": "60ef9b3ddd478900179774c3",
+        "technology": "React Native",
+        "__v": 0,
+        "id": "60ef9b3ddd478900179774c3"
+      },
+      {
+        "_id": "60ef9b3ddd478900179774c4",
+        "technology": "NodeJS",
+        "__v": 0,
+        "id": "60ef9b3ddd478900179774c4"
+      },
+      {
+        "_id": "60ef9b3ddd478900179774c5",
+        "technology": "StrapiJS",
+        "__v": 0,
+        "id": "60ef9b3ddd478900179774c5"
+      }
+    ],
+    "createdAt": "2021-07-15T02:19:41.717Z",
+    "updatedAt": "2021-08-30T18:27:56.294Z",
+    "__v": 1,
+    "cover": {
+      "_id": "60f6d30703c84b53589a6947",
+      "name": "Ypkfr05Q.jpg",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Ypkfr05_Q_4915edf463",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 7.24,
+      "width": 400,
+      "height": 400,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Ypkfr05_Q_4915edf463.jpg",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Ypkfr05Q.jpg",
+          "hash": "thumbnail_Ypkfr05_Q_4915edf463",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "width": 156,
+          "height": 156,
+          "size": 2.59,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Ypkfr05_Q_4915edf463.jpg"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60ef9b3ddd478900179774c2"
+      ],
+      "createdAt": "2021-07-20T13:43:35.707Z",
+      "updatedAt": "2021-07-20T13:44:13.345Z",
+      "__v": 0,
+      "id": "60f6d30703c84b53589a6947"
+    },
+    "id": "60ef9b3ddd478900179774c2"
+  },
+  {
+    "type": null,
+    "media": [
+      {
+        "_id": "60f05a532f267b64d886007e",
+        "name": "Screenshot 2021-07-15 at 9.43.32 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15_at_9_43_32_AM_3a43613578",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 110.07,
+        "width": 1427,
+        "height": 677,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15_at_9_43_32_AM_3a43613578.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15 at 9.43.32 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 116,
+            "size": 30.68,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578.png"
+          },
+          "large": {
+            "name": "large_Screenshot 2021-07-15 at 9.43.32 AM.png",
+            "hash": "large_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 474,
+            "size": 309.33,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15 at 9.43.32 AM.png",
+            "hash": "medium_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 356,
+            "size": 189.73,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15 at 9.43.32 AM.png",
+            "hash": "small_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 237,
+            "size": 95.91,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15_at_9_43_32_AM_3a43613578.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60efa7671335cf0017d0beb6"
+        ],
+        "createdAt": "2021-07-15T15:54:59.593Z",
+        "updatedAt": "2021-07-15T15:56:02.993Z",
+        "__v": 0,
+        "id": "60f05a532f267b64d886007e"
+      },
+      {
+        "_id": "60f05a532f267b64d886007d",
+        "name": "Screenshot 2021-07-15 at 9.45.31 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 27.04,
+        "width": 1427,
+        "height": 677,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15 at 9.45.31 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 116,
+            "size": 15.78,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89.png"
+          },
+          "large": {
+            "name": "large_Screenshot 2021-07-15 at 9.45.31 AM.png",
+            "hash": "large_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 474,
+            "size": 95.4,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15 at 9.45.31 AM.png",
+            "hash": "medium_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 356,
+            "size": 69.88,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15 at 9.45.31 AM.png",
+            "hash": "small_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 237,
+            "size": 33.55,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15_at_9_45_31_AM_97ab87fa89.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60efa7671335cf0017d0beb6"
+        ],
+        "createdAt": "2021-07-15T15:54:59.238Z",
+        "updatedAt": "2021-07-15T15:56:02.993Z",
+        "__v": 0,
+        "id": "60f05a532f267b64d886007d"
+      },
+      {
+        "_id": "60f05a532f267b64d886007f",
+        "name": "Screenshot 2021-07-15 at 9.45.58 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15_at_9_45_58_AM_281db11360",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 93.24,
+        "width": 1427,
+        "height": 677,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15_at_9_45_58_AM_281db11360.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15 at 9.45.58 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15_at_9_45_58_AM_281db11360",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 116,
+            "size": 27.42,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15_at_9_45_58_AM_281db11360.png"
+          },
+          "large": {
+            "name": "large_Screenshot 2021-07-15 at 9.45.58 AM.png",
+            "hash": "large_Screenshot_2021_07_15_at_9_45_58_AM_281db11360",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 474,
+            "size": 270.67,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_07_15_at_9_45_58_AM_281db11360.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15 at 9.45.58 AM.png",
+            "hash": "medium_Screenshot_2021_07_15_at_9_45_58_AM_281db11360",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 356,
+            "size": 167.81,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15_at_9_45_58_AM_281db11360.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15 at 9.45.58 AM.png",
+            "hash": "small_Screenshot_2021_07_15_at_9_45_58_AM_281db11360",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 237,
+            "size": 85.67,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15_at_9_45_58_AM_281db11360.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60efa7671335cf0017d0beb6"
+        ],
+        "createdAt": "2021-07-15T15:54:59.634Z",
+        "updatedAt": "2021-07-15T15:56:02.993Z",
+        "__v": 0,
+        "id": "60f05a532f267b64d886007f"
+      },
+      {
+        "_id": "60f05a532f267b64d886007c",
+        "name": "Screenshot 2021-07-15 at 9.45.39 AM.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 15.55,
+        "width": 1427,
+        "height": 677,
+        "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Screenshot 2021-07-15 at 9.45.39 AM.png",
+            "hash": "thumbnail_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 116,
+            "size": 7.77,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b.png"
+          },
+          "large": {
+            "name": "large_Screenshot 2021-07-15 at 9.45.39 AM.png",
+            "hash": "large_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 474,
+            "size": 52.01,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b.png"
+          },
+          "medium": {
+            "name": "medium_Screenshot 2021-07-15 at 9.45.39 AM.png",
+            "hash": "medium_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 356,
+            "size": 36.09,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b.png"
+          },
+          "small": {
+            "name": "small_Screenshot 2021-07-15 at 9.45.39 AM.png",
+            "hash": "small_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 237,
+            "size": 20.48,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_15_at_9_45_39_AM_60c018f47b.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "60efa7671335cf0017d0beb6"
+        ],
+        "createdAt": "2021-07-15T15:54:59.120Z",
+        "updatedAt": "2021-07-15T15:56:02.993Z",
+        "__v": 0,
+        "id": "60f05a532f267b64d886007c"
+      }
+    ],
+    "_id": "60efa7671335cf0017d0beb6",
+    "title": "Champions Round",
+    "description": "Landing page for the Champion Round company to promote their newly launched app.",
+    "url": "https://www.championsround.com",
+    "published_at": "2021-07-15T03:11:50.180Z",
+    "technologies": [
+      {
+        "_id": "60efa7671335cf0017d0beb7",
+        "technology": "JavaScript",
+        "__v": 0,
+        "id": "60efa7671335cf0017d0beb7"
+      },
+      {
+        "_id": "60efa7741335cf0017d0beb9",
+        "technology": "React",
+        "__v": 0,
+        "id": "60efa7741335cf0017d0beb9"
+      },
+      {
+        "_id": "60efa7741335cf0017d0beba",
+        "technology": "TailwindCSS",
+        "__v": 0,
+        "id": "60efa7741335cf0017d0beba"
+      }
+    ],
+    "createdAt": "2021-07-15T03:11:35.018Z",
+    "updatedAt": "2021-07-20T13:45:12.884Z",
+    "__v": 1,
+    "cover": {
+      "_id": "60f6d30603c84b53589a6944",
+      "name": "Screenshot 2021-07-18 114045.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "Screenshot_2021_07_18_114045_5d7b8cdd18",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 12.58,
+      "width": 753,
+      "height": 396,
+      "url": "https://personal-file-storage.s3.amazonaws.com/Screenshot_2021_07_18_114045_5d7b8cdd18.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Screenshot 2021-07-18 114045.png",
+          "hash": "thumbnail_Screenshot_2021_07_18_114045_5d7b8cdd18",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 129,
+          "size": 20.47,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_Screenshot_2021_07_18_114045_5d7b8cdd18.png"
+        },
+        "medium": {
+          "name": "medium_Screenshot 2021-07-18 114045.png",
+          "hash": "medium_Screenshot_2021_07_18_114045_5d7b8cdd18",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 750,
+          "height": 394,
+          "size": 92.4,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/medium_Screenshot_2021_07_18_114045_5d7b8cdd18.png"
+        },
+        "small": {
+          "name": "small_Screenshot 2021-07-18 114045.png",
+          "hash": "small_Screenshot_2021_07_18_114045_5d7b8cdd18",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 263,
+          "size": 52.38,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_Screenshot_2021_07_18_114045_5d7b8cdd18.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "60efa7671335cf0017d0beb6"
+      ],
+      "createdAt": "2021-07-20T13:43:34.337Z",
+      "updatedAt": "2021-07-20T13:45:12.862Z",
+      "__v": 0,
+      "id": "60f6d30603c84b53589a6944"
+    },
+    "id": "60efa7671335cf0017d0beb6"
+  },
+  {
+    "type": "website",
+    "media": [
+      {
+        "_id": "612a41d84f73446f98cb26ed",
+        "name": "4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "4_f5d81ae9d6",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 319.06,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/4_f5d81ae9d6.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_4.png",
+            "hash": "thumbnail_4_f5d81ae9d6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 29.38,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_f5d81ae9d6.png"
+          },
+          "large": {
+            "name": "large_4.png",
+            "hash": "large_4_f5d81ae9d6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 202.34,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_4_f5d81ae9d6.png"
+          },
+          "medium": {
+            "name": "medium_4.png",
+            "hash": "medium_4_f5d81ae9d6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 135.63,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_4_f5d81ae9d6.png"
+          },
+          "small": {
+            "name": "small_4.png",
+            "hash": "small_4_f5d81ae9d6",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 77.7,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_4_f5d81ae9d6.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "612a41944f73446f98cb26e4",
+          "612a41944f73446f98cb26e4"
+        ],
+        "createdAt": "2021-08-28T14:02:00.984Z",
+        "updatedAt": "2021-08-28T14:02:27.893Z",
+        "__v": 0,
+        "id": "612a41d84f73446f98cb26ed"
+      },
+      {
+        "_id": "612a41d94f73446f98cb26f0",
+        "name": "6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "6_7c4524b2be",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 192.17,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/6_7c4524b2be.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_6.png",
+            "hash": "thumbnail_6_7c4524b2be",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 18.74,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_6_7c4524b2be.png"
+          },
+          "large": {
+            "name": "large_6.png",
+            "hash": "large_6_7c4524b2be",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 121.51,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_6_7c4524b2be.png"
+          },
+          "medium": {
+            "name": "medium_6.png",
+            "hash": "medium_6_7c4524b2be",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 81.81,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_6_7c4524b2be.png"
+          },
+          "small": {
+            "name": "small_6.png",
+            "hash": "small_6_7c4524b2be",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 46.78,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_6_7c4524b2be.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "612a41944f73446f98cb26e4"
+        ],
+        "createdAt": "2021-08-28T14:02:01.133Z",
+        "updatedAt": "2021-08-28T14:02:27.892Z",
+        "__v": 0,
+        "id": "612a41d94f73446f98cb26f0"
+      },
+      {
+        "_id": "612a41d94f73446f98cb26ee",
+        "name": "3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "3_0de38fb7d8",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 352.11,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/3_0de38fb7d8.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_3.png",
+            "hash": "thumbnail_3_0de38fb7d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 26.04,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_3_0de38fb7d8.png"
+          },
+          "large": {
+            "name": "large_3.png",
+            "hash": "large_3_0de38fb7d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 221.68,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_3_0de38fb7d8.png"
+          },
+          "medium": {
+            "name": "medium_3.png",
+            "hash": "medium_3_0de38fb7d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 144.85,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_3_0de38fb7d8.png"
+          },
+          "small": {
+            "name": "small_3.png",
+            "hash": "small_3_0de38fb7d8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 78.99,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_3_0de38fb7d8.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "612a41944f73446f98cb26e4"
+        ],
+        "createdAt": "2021-08-28T14:02:01.045Z",
+        "updatedAt": "2021-08-28T14:02:27.893Z",
+        "__v": 0,
+        "id": "612a41d94f73446f98cb26ee"
+      },
+      {
+        "_id": "612a41d94f73446f98cb26ef",
+        "name": "2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "2_226ea4e232",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 242.58,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/2_226ea4e232.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_2.png",
+            "hash": "thumbnail_2_226ea4e232",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 20.25,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_2_226ea4e232.png"
+          },
+          "large": {
+            "name": "large_2.png",
+            "hash": "large_2_226ea4e232",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 159.93,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_2_226ea4e232.png"
+          },
+          "medium": {
+            "name": "medium_2.png",
+            "hash": "medium_2_226ea4e232",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 107.13,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_2_226ea4e232.png"
+          },
+          "small": {
+            "name": "small_2.png",
+            "hash": "small_2_226ea4e232",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 58.49,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_2_226ea4e232.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "612a41944f73446f98cb26e4"
+        ],
+        "createdAt": "2021-08-28T14:02:01.071Z",
+        "updatedAt": "2021-08-28T14:02:27.893Z",
+        "__v": 0,
+        "id": "612a41d94f73446f98cb26ef"
+      },
+      {
+        "_id": "612a41d94f73446f98cb26f1",
+        "name": "1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "1_f060f3d7fd",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 460,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/1_f060f3d7fd.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_1.png",
+            "hash": "thumbnail_1_f060f3d7fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 30.75,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_1_f060f3d7fd.png"
+          },
+          "large": {
+            "name": "large_1.png",
+            "hash": "large_1_f060f3d7fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 295.4,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_1_f060f3d7fd.png"
+          },
+          "medium": {
+            "name": "medium_1.png",
+            "hash": "medium_1_f060f3d7fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 185.73,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_1_f060f3d7fd.png"
+          },
+          "small": {
+            "name": "small_1.png",
+            "hash": "small_1_f060f3d7fd",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 98.05,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_1_f060f3d7fd.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "612a41944f73446f98cb26e4"
+        ],
+        "createdAt": "2021-08-28T14:02:01.257Z",
+        "updatedAt": "2021-08-28T14:02:27.893Z",
+        "__v": 0,
+        "id": "612a41d94f73446f98cb26f1"
+      },
+      {
+        "_id": "612a41d94f73446f98cb26f2",
+        "name": "5.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "5_4058b9726f",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 174.35,
+        "width": 1600,
+        "height": 900,
+        "url": "https://personal-file-storage.s3.amazonaws.com/5_4058b9726f.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_5.png",
+            "hash": "thumbnail_5_4058b9726f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 138,
+            "size": 22.96,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_5_4058b9726f.png"
+          },
+          "large": {
+            "name": "large_5.png",
+            "hash": "large_5_4058b9726f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 563,
+            "size": 189.53,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_5_4058b9726f.png"
+          },
+          "medium": {
+            "name": "medium_5.png",
+            "hash": "medium_5_4058b9726f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 422,
+            "size": 125.18,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_5_4058b9726f.png"
+          },
+          "small": {
+            "name": "small_5.png",
+            "hash": "small_5_4058b9726f",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 281,
+            "size": 65.89,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_5_4058b9726f.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "612a41944f73446f98cb26e4"
+        ],
+        "createdAt": "2021-08-28T14:02:01.276Z",
+        "updatedAt": "2021-08-28T14:02:27.893Z",
+        "__v": 0,
+        "id": "612a41d94f73446f98cb26f2"
+      }
+    ],
+    "_id": "612a41944f73446f98cb26e4",
+    "published_at": "2021-08-28T14:02:35.329Z",
+    "description": "A web app that promotes and shares important resources for graphic designers, it also allows them to keep track of resources they found most useful.",
+    "title": "Design Target",
+    "technologies": [
+      {
+        "_id": "612a41944f73446f98cb26e5",
+        "technology": "Nuxt",
+        "__v": 0,
+        "id": "612a41944f73446f98cb26e5"
+      },
+      {
+        "_id": "612a41944f73446f98cb26e6",
+        "technology": "Vue",
+        "__v": 0,
+        "id": "612a41944f73446f98cb26e6"
+      },
+      {
+        "_id": "612a419b4f73446f98cb26e9",
+        "technology": "Vuetify",
+        "__v": 0,
+        "id": "612a419b4f73446f98cb26e9"
+      },
+      {
+        "_id": "612a41f34f73446f98cb26f3",
+        "technology": "SCSS",
+        "__v": 0,
+        "id": "612a41f34f73446f98cb26f3"
+      }
+    ],
+    "createdAt": "2021-08-28T14:00:52.730Z",
+    "updatedAt": "2021-08-28T14:02:35.561Z",
+    "__v": 1,
+    "url": "https://designtarget-static.vercel.app",
+    "cover": {
+      "_id": "612a41d84f73446f98cb26ed",
+      "name": "4.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "4_f5d81ae9d6",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 319.06,
+      "width": 1600,
+      "height": 900,
+      "url": "https://personal-file-storage.s3.amazonaws.com/4_f5d81ae9d6.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_4.png",
+          "hash": "thumbnail_4_f5d81ae9d6",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 138,
+          "size": 29.38,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_4_f5d81ae9d6.png"
+        },
+        "large": {
+          "name": "large_4.png",
+          "hash": "large_4_f5d81ae9d6",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 1000,
+          "height": 563,
+          "size": 202.34,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/large_4_f5d81ae9d6.png"
+        },
+        "medium": {
+          "name": "medium_4.png",
+          "hash": "medium_4_f5d81ae9d6",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 750,
+          "height": 422,
+          "size": 135.63,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/medium_4_f5d81ae9d6.png"
+        },
+        "small": {
+          "name": "small_4.png",
+          "hash": "small_4_f5d81ae9d6",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 281,
+          "size": 77.7,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_4_f5d81ae9d6.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "612a41944f73446f98cb26e4",
+        "612a41944f73446f98cb26e4"
+      ],
+      "createdAt": "2021-08-28T14:02:00.984Z",
+      "updatedAt": "2021-08-28T14:02:27.893Z",
+      "__v": 0,
+      "id": "612a41d84f73446f98cb26ed"
+    },
+    "id": "612a41944f73446f98cb26e4"
+  },
+  {
+    "type": "website",
+    "media": [
+      {
+        "_id": "6151e8e1f5c0ea6664be97b0",
+        "name": "capture2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture2_1d321009f1",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 74.22,
+        "width": 1905,
+        "height": 892,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture2_1d321009f1.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture2.png",
+            "hash": "thumbnail_capture2_1d321009f1",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 115,
+            "size": 13.28,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture2_1d321009f1.png"
+          },
+          "large": {
+            "name": "large_capture2.png",
+            "hash": "large_capture2_1d321009f1",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 468,
+            "size": 120.56,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture2_1d321009f1.png"
+          },
+          "medium": {
+            "name": "medium_capture2.png",
+            "hash": "medium_capture2_1d321009f1",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 351,
+            "size": 75.3,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture2_1d321009f1.png"
+          },
+          "small": {
+            "name": "small_capture2.png",
+            "hash": "small_capture2_1d321009f1",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 234,
+            "size": 38.47,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture2_1d321009f1.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:05.138Z",
+        "updatedAt": "2021-09-27T15:53:45.430Z",
+        "__v": 0,
+        "id": "6151e8e1f5c0ea6664be97b0"
+      },
+      {
+        "_id": "6151e8e1f5c0ea6664be97af",
+        "name": "capture.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture_f2391b4bd8",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 49.95,
+        "width": 1916,
+        "height": 898,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture_f2391b4bd8.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture.png",
+            "hash": "thumbnail_capture_f2391b4bd8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 115,
+            "size": 13.71,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture_f2391b4bd8.png"
+          },
+          "large": {
+            "name": "large_capture.png",
+            "hash": "large_capture_f2391b4bd8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 469,
+            "size": 108.6,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture_f2391b4bd8.png"
+          },
+          "medium": {
+            "name": "medium_capture.png",
+            "hash": "medium_capture_f2391b4bd8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 352,
+            "size": 71.23,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture_f2391b4bd8.png"
+          },
+          "small": {
+            "name": "small_capture.png",
+            "hash": "small_capture_f2391b4bd8",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 234,
+            "size": 37.42,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture_f2391b4bd8.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:05.076Z",
+        "updatedAt": "2021-09-27T15:53:45.430Z",
+        "__v": 0,
+        "id": "6151e8e1f5c0ea6664be97af"
+      },
+      {
+        "_id": "6151e8e0f5c0ea6664be97ad",
+        "name": "capture3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture3_1ca0a00d19",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 42.41,
+        "width": 1898,
+        "height": 892,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture3_1ca0a00d19.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture3.png",
+            "hash": "thumbnail_capture3_1ca0a00d19",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 115,
+            "size": 13.56,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture3_1ca0a00d19.png"
+          },
+          "large": {
+            "name": "large_capture3.png",
+            "hash": "large_capture3_1ca0a00d19",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 470,
+            "size": 100.71,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture3_1ca0a00d19.png"
+          },
+          "medium": {
+            "name": "medium_capture3.png",
+            "hash": "medium_capture3_1ca0a00d19",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 352,
+            "size": 67.2,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture3_1ca0a00d19.png"
+          },
+          "small": {
+            "name": "small_capture3.png",
+            "hash": "small_capture3_1ca0a00d19",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 235,
+            "size": 38.83,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture3_1ca0a00d19.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:04.955Z",
+        "updatedAt": "2021-09-27T15:53:45.429Z",
+        "__v": 0,
+        "id": "6151e8e0f5c0ea6664be97ad"
+      },
+      {
+        "_id": "6151e8e3f5c0ea6664be97b3",
+        "name": "capture8.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture8_0d3eef11f9",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 40.22,
+        "width": 1918,
+        "height": 898,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture8_0d3eef11f9.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture8.png",
+            "hash": "thumbnail_capture8_0d3eef11f9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 115,
+            "size": 12.5,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture8_0d3eef11f9.png"
+          },
+          "large": {
+            "name": "large_capture8.png",
+            "hash": "large_capture8_0d3eef11f9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 468,
+            "size": 99.73,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture8_0d3eef11f9.png"
+          },
+          "medium": {
+            "name": "medium_capture8.png",
+            "hash": "medium_capture8_0d3eef11f9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 351,
+            "size": 66.3,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture8_0d3eef11f9.png"
+          },
+          "small": {
+            "name": "small_capture8.png",
+            "hash": "small_capture8_0d3eef11f9",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 234,
+            "size": 34.64,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture8_0d3eef11f9.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:07.325Z",
+        "updatedAt": "2021-09-27T15:53:45.431Z",
+        "__v": 0,
+        "id": "6151e8e3f5c0ea6664be97b3"
+      },
+      {
+        "_id": "6151e8e1f5c0ea6664be97b2",
+        "name": "capture4.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture4_0237064d8b",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 52.71,
+        "width": 1903,
+        "height": 870,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture4_0237064d8b.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture4.png",
+            "hash": "thumbnail_capture4_0237064d8b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 112,
+            "size": 15.23,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture4_0237064d8b.png"
+          },
+          "large": {
+            "name": "large_capture4.png",
+            "hash": "large_capture4_0237064d8b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 457,
+            "size": 112.45,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture4_0237064d8b.png"
+          },
+          "medium": {
+            "name": "medium_capture4.png",
+            "hash": "medium_capture4_0237064d8b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 343,
+            "size": 74.08,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture4_0237064d8b.png"
+          },
+          "small": {
+            "name": "small_capture4.png",
+            "hash": "small_capture4_0237064d8b",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 229,
+            "size": 40.67,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture4_0237064d8b.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:05.168Z",
+        "updatedAt": "2021-09-27T15:53:45.431Z",
+        "__v": 0,
+        "id": "6151e8e1f5c0ea6664be97b2"
+      },
+      {
+        "_id": "6151e8e1f5c0ea6664be97b1",
+        "name": "capture6.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture6_3a2d8ac1ad",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 45.32,
+        "width": 1900,
+        "height": 880,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture6_3a2d8ac1ad.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture6.png",
+            "hash": "thumbnail_capture6_3a2d8ac1ad",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 113,
+            "size": 14.54,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture6_3a2d8ac1ad.png"
+          },
+          "large": {
+            "name": "large_capture6.png",
+            "hash": "large_capture6_3a2d8ac1ad",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 463,
+            "size": 112.38,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture6_3a2d8ac1ad.png"
+          },
+          "medium": {
+            "name": "medium_capture6.png",
+            "hash": "medium_capture6_3a2d8ac1ad",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 347,
+            "size": 73.68,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture6_3a2d8ac1ad.png"
+          },
+          "small": {
+            "name": "small_capture6.png",
+            "hash": "small_capture6_3a2d8ac1ad",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 232,
+            "size": 39.58,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture6_3a2d8ac1ad.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:05.162Z",
+        "updatedAt": "2021-09-27T15:53:45.431Z",
+        "__v": 0,
+        "id": "6151e8e1f5c0ea6664be97b1"
+      },
+      {
+        "_id": "6151e8e3f5c0ea6664be97b4",
+        "name": "capture7.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "capture7_9a7713cd3e",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 44.55,
+        "width": 1908,
+        "height": 885,
+        "url": "https://personal-file-storage.s3.amazonaws.com/capture7_9a7713cd3e.png",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_capture7.png",
+            "hash": "thumbnail_capture7_9a7713cd3e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 114,
+            "size": 11.87,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture7_9a7713cd3e.png"
+          },
+          "large": {
+            "name": "large_capture7.png",
+            "hash": "large_capture7_9a7713cd3e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 464,
+            "size": 87.97,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/large_capture7_9a7713cd3e.png"
+          },
+          "medium": {
+            "name": "medium_capture7.png",
+            "hash": "medium_capture7_9a7713cd3e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 348,
+            "size": 58.29,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture7_9a7713cd3e.png"
+          },
+          "small": {
+            "name": "small_capture7.png",
+            "hash": "small_capture7_9a7713cd3e",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 232,
+            "size": 31.43,
+            "path": null,
+            "url": "https://personal-file-storage.s3.amazonaws.com/small_capture7_9a7713cd3e.png"
+          }
+        },
+        "provider": "aws-s3",
+        "related": [
+          "6151e90998362f0018874cfa",
+          "6151e90998362f0018874cfa"
+        ],
+        "createdAt": "2021-09-27T15:53:07.343Z",
+        "updatedAt": "2021-09-27T15:55:13.555Z",
+        "__v": 0,
+        "id": "6151e8e3f5c0ea6664be97b4"
+      }
+    ],
+    "_id": "6151e90998362f0018874cfa",
+    "published_at": "2021-09-27T15:55:54.543Z",
+    "technologies": [
+      {
+        "_id": "6151e96198362f0018874d02",
+        "__v": 0,
+        "technology": "JavaScript",
+        "id": "6151e96198362f0018874d02"
+      },
+      {
+        "_id": "6151e97e98362f0018874d05",
+        "technology": "ReactJS",
+        "__v": 0,
+        "id": "6151e97e98362f0018874d05"
+      },
+      {
+        "_id": "6151e97e98362f0018874d06",
+        "technology": "NextJS",
+        "__v": 0,
+        "id": "6151e97e98362f0018874d06"
+      },
+      {
+        "_id": "6151e97e98362f0018874d07",
+        "technology": "SCSS",
+        "__v": 0,
+        "id": "6151e97e98362f0018874d07"
+      },
+      {
+        "_id": "6151e97e98362f0018874d08",
+        "technology": "Python",
+        "__v": 0,
+        "id": "6151e97e98362f0018874d08"
+      },
+      {
+        "_id": "6151e97e98362f0018874d09",
+        "technology": "Django",
+        "__v": 0,
+        "id": "6151e97e98362f0018874d09"
+      }
+    ],
+    "createdAt": "2021-09-27T15:53:45.409Z",
+    "updatedAt": "2021-09-27T15:55:54.574Z",
+    "__v": 0,
+    "description": "ecommerce platform that links merchants to their clients through several channels, among them : Customizable websites and an android/Windows Point of Sales. All manageable with the admin dashboard done with ReactJS/NextJS where you can have several stores to manage.",
+    "title": "KIO Store",
+    "url": "https://kiostore.net/",
+    "cover": {
+      "_id": "6151e8e3f5c0ea6664be97b4",
+      "name": "capture7.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "capture7_9a7713cd3e",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 44.55,
+      "width": 1908,
+      "height": 885,
+      "url": "https://personal-file-storage.s3.amazonaws.com/capture7_9a7713cd3e.png",
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_capture7.png",
+          "hash": "thumbnail_capture7_9a7713cd3e",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 245,
+          "height": 114,
+          "size": 11.87,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/thumbnail_capture7_9a7713cd3e.png"
+        },
+        "large": {
+          "name": "large_capture7.png",
+          "hash": "large_capture7_9a7713cd3e",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 1000,
+          "height": 464,
+          "size": 87.97,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/large_capture7_9a7713cd3e.png"
+        },
+        "medium": {
+          "name": "medium_capture7.png",
+          "hash": "medium_capture7_9a7713cd3e",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 750,
+          "height": 348,
+          "size": 58.29,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/medium_capture7_9a7713cd3e.png"
+        },
+        "small": {
+          "name": "small_capture7.png",
+          "hash": "small_capture7_9a7713cd3e",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 232,
+          "size": 31.43,
+          "path": null,
+          "url": "https://personal-file-storage.s3.amazonaws.com/small_capture7_9a7713cd3e.png"
+        }
+      },
+      "provider": "aws-s3",
+      "related": [
+        "6151e90998362f0018874cfa",
+        "6151e90998362f0018874cfa"
+      ],
+      "createdAt": "2021-09-27T15:53:07.343Z",
+      "updatedAt": "2021-09-27T15:55:13.555Z",
+      "__v": 0,
+      "id": "6151e8e3f5c0ea6664be97b4"
+    },
+    "id": "6151e90998362f0018874cfa"
+  }
+]

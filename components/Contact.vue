@@ -71,7 +71,7 @@
             hide-errors
             @submit="submit"
           >
-            <template slot="submit">
+            <template #submit>
               <div class="flex justify-center w-full m-6">
                 <button
                   type="submit"
@@ -109,21 +109,15 @@
 </template>
 
 <script>
-import {
-  computed,
-  reactive,
-  ref,
-  useContext,
-  watch,
-} from '@nuxtjs/composition-api'
+import { computed, reactive, ref, watch } from 'vue'
 import SectionContainer from './common/SectionContainer.vue'
 import SectionTitle from './common/SectionTitle.vue'
 export default {
   components: { SectionContainer, SectionTitle },
   setup() {
-    const { store } = useContext()
+    const { $axios, $store } = useNuxtApp()
     const formComp = ref(null)
-    const contact = computed(() => store.state.contact)
+    const contact = computed(() => $store.state.contact)
     watch(
       () => contact.value,
       ({ message, reason }) => {
@@ -204,7 +198,7 @@ export default {
     ])
     async function submit(data) {
       try {
-        const res = await this.$axios.post(
+        const res = await $axios.post(
           `https://limelightdevs.herokuapp.com/email`,
           {
             to: 'limelightdevs@gmail.com',

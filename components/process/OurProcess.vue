@@ -3,7 +3,7 @@
     <!-- <div class="hidden lg:block absolute w-5/12 xl:w-4/12 right-0 top-0">
       <img
         class="w-full h-full object-contain block transform -translate-y-72 2xl:-translate-y-96"
-        src="greenblob02.png"
+        src="/greenblob02.png"
         alt=""
       />
     </div> -->
