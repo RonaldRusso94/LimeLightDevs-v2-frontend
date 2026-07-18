@@ -117,9 +117,7 @@
 </template>
 
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import VueSlickCarousel from '~/components/compat/VueSlickCarousel.vue'
 import SectionContainer from '../common/SectionContainer.vue'
 import SectionTitle from '../common/SectionTitle.vue'
 import PackagesCarousel from './PackagesCarousel.vue'
@@ -133,10 +131,13 @@ export default {
     PackagesCarousel,
     ServiceCard,
   },
-  async fetch() {
-    const { store, $axios } = this.$nuxt.context
-    const { data } = await $axios('/services')
-    store.commit('addServices', data)
+  async setup() {
+    const { $axios, $store } = useNuxtApp()
+    await useAsyncData('package-services', async () => {
+      const { data } = await $axios('/services')
+      $store.commit('addServices', data)
+      return data
+    })
   },
   data() {
     const settings = {
@@ -178,10 +179,14 @@ export default {
     },
   },
   mounted() {
-    this.$refs.carousel.pause()
+    this.$refs.carousel?.pause?.()
   },
   methods: {
     slideChange(oldIndex, currentIndex) {
+      if (!this.services?.length) {
+        return
+      }
+
       this.currentIndex = currentIndex
       this.nextIndex =
         currentIndex === this.services.length ? 0 : currentIndex + 1
@@ -190,9 +195,13 @@ export default {
     },
     selectService(item, index) {
       this.activeService = item.title
-      this.$refs.carousel.goTo(index)
+      this.$refs.carousel?.goTo?.(index)
     },
     initSlides() {
+      if (!this.services?.length) {
+        return
+      }
+
       this.currentIndex = this.services
         .map((x) => x.title)
         .indexOf(this.activeService)

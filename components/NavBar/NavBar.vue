@@ -32,7 +32,16 @@
   </div>
 </template>
 <script>
+import NavDesktop from './NavDesktop.vue'
+import NavLogo from './NavLogo.vue'
+import NavMobile from './NavMobile.vue'
+
 export default {
+  components: {
+    NavDesktop,
+    NavLogo,
+    NavMobile,
+  },
   data: () => ({
     navLinks: {
       services: {
@@ -60,7 +69,7 @@ export default {
   beforeMount() {
     window.addEventListener('scroll', this.handleScroll)
   },
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {

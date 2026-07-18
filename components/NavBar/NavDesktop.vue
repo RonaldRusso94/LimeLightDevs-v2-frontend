@@ -43,8 +43,10 @@
 <script>
 import Button from '../common/Button.vue'
 export default {
-  props: {
+  components: {
     Button,
+  },
+  props: {
     navLinks: {
       type: Object,
       default: () => {

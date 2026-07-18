@@ -10,7 +10,7 @@
   </nuxt-link>
 </template>
 <script>
-import LimeLightLogo from '~/static/LimeLightLogo.vue'
+import LimeLightLogo from './LimeLightLogo.vue'
 export default {
   components: { LimeLightLogo },
 }

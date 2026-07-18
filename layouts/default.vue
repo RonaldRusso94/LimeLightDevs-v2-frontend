@@ -2,7 +2,7 @@
   <div class="min-h-screen overflow-hidden text-white bg-app-gray-1 relative">
     <NavBar />
     <div :style="`padding-bottom:${footerHeight}px; padding-top: 100px;`">
-      <Nuxt />
+      <slot />
       <Contact />
       <!-- blob background (found in Contact) -->
       <div class="relative mt-auto">
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { onMounted, ref } from '@nuxtjs/composition-api'
+import { onMounted, ref } from 'vue'
 import Footer from '~/components/layout/Footer.vue'
 
 export default {
@@ -50,7 +50,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @font-face {
   font-family: 'Hibana';
-  src: local('Hibana'), url(~static/fonts/Hibana-SubMedium.otf);
+  src: local('Hibana'), url('/fonts/Hibana-SubMedium.otf');
 }
 html {
   font-family: 'Roboto', sans-serif;

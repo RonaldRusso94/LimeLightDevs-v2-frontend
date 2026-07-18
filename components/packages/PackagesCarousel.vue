@@ -14,11 +14,8 @@
 </template>
 
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
+import VueSlickCarousel from '~/components/compat/VueSlickCarousel.vue'
 // import SectionContainer from '../common/SectionContainer.vue'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-// optional style for arrows & dots
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import ServiceCard from './ServiceCard.vue'
 
 export default {

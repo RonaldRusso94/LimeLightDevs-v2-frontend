@@ -1,6 +1,12 @@
 module.exports = {
-  // nuxt tailwind handles this by default so no need to configure
-  purge: [],
+  content: [
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './app.vue',
+    './nuxt.config.{js,ts}',
+  ],
   theme: {
     extend: {
       width: {
